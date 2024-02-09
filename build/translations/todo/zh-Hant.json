@@ -1,0 +1,1 @@
+{"ui":{"panel":{"todo":{"assist":"助理","create_list":"新增列表","delete_list":"刪除列表","add_item":"新增項目","information":"資訊","delete_confirm_title":"移除 {name}？","delete_confirm_text":"確定要刪除此列表及其所有項目嗎？","restart_confirm":"重啟 Home Assistant 以完成此待辦事項列表移除"}}}}

@@ -1,0 +1,1 @@
+{"ui":{"panel":{"todo":{"assist":"ช่วยเหลือ","create_list":"รายการที่สร้าง","delete_list":"รายการที่ลบ","add_item":"Add item","information":"ข้อมูล","delete_confirm_title":"ต้องการลบ {name} หรือไม่?","delete_confirm_text":"คุณแน่ใจหรือไม่ว่าต้องการลบรายการนี้และรายการทั้งหมดในรายการนี้","restart_confirm":"รีสตาร์ท Home Assistant เพื่อลบรายการสิ่งที่ต้องทำนี้ให้เสร็จสิ้น"}}}}

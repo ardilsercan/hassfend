@@ -1,0 +1,1 @@
+{"ui":{"panel":{"todo":{"assist":"Assist","create_list":"Opret liste","delete_list":"Slet liste","add_item":"Tilføj element","information":"Oplysninger","delete_confirm_title":"Fjern {name}?","delete_confirm_text":"Er du sikker på, at du vil fjerne denne liste og alle dens elementer?","restart_confirm":"Genstart Home Assistant for at afslutte fjernelsen af huskelisten."}}}}

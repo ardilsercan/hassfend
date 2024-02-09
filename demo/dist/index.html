@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NDX Tech Demo</title>
+    <meta charset="utf-8" />
+<link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
+<link rel="icon" href="/static/icons/favicon.ico" />
+
+  
+    <link rel="modulepreload" href="/frontend_latest/main.js" crossorigin="use-credentials" />
+  
+
+
+    <link rel="mask-icon" href="/static/icons/mask-icon.svg" color="#03a9f4" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/static/icons/favicon-apple-180x180.png"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="msapplication-square70x70logo"
+      content="/static/icons/tile-win-70x70.png"
+    />
+    <meta
+      name="msapplication-square150x150logo"
+      content="/static/icons/tile-win-150x150.png"
+    />
+    <meta
+      name="msapplication-wide310x150logo"
+      content="/static/icons/tile-win-310x150.png"
+    />
+    <meta
+      name="msapplication-square310x310logo"
+      content="/static/icons/tile-win-310x310.png"
+    />
+    <meta name="msapplication-TileColor" content="#03a9f4ff" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="referrer" content="same-origin" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#03a9f4" />
+    <meta property="fb:app_id" content="338291289691179" />
+<meta property="og:title" content="NDX Tech Demo" />
+<meta property="og:site_name" content="NDX Tech" />
+<meta property="og:url" content="https://demo.home-assistant.io/" />
+<meta property="og:type" content="website" />
+<meta
+  property="og:description"
+  content="Open source home automation that puts local control and privacy first."
+/>
+<meta
+  property="og:image"
+  content="https://www.home-assistant.io/images/default-social.png"
+/>
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@home_assistant" />
+
+<meta name="twitter:title" content="NDX Tech" />
+<meta
+  name="twitter:description"
+  content="Open source home automation that puts local control and privacy first."
+/>
+<meta
+  name="twitter:image"
+  content="https://www.home-assistant.io/images/default-social.png"
+/>
+
+    <style>
+      html {
+        background-color: var(--primary-background-color, #fafafa);
+        color: var(--primary-text-color, #212121);
+      }
+      @media (prefers-color-scheme: dark) {
+        html {
+          background-color: var(--primary-background-color, #111111);
+          color: var(--primary-text-color, #e1e1e1);
+        }
+      }
+      body {
+        font-family: Roboto, Noto, sans-serif;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        font-weight: 400;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+      #ha-launch-screen {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #ha-launch-screen svg {
+        width: 170px;
+        flex-shrink: 0;
+      }
+      #ha-launch-screen .ha-launch-screen-spacer {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="ha-launch-screen">
+      <div class="ha-launch-screen-spacer"></div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+        <path fill="#18BCF2" d="M240 224.762a15 15 0 0 1-15 15H15a15 15 0 0 1-15-15v-90c0-8.25 4.77-19.769 10.61-25.609l98.78-98.7805c5.83-5.83 15.38-5.83 21.21 0l98.79 98.7895c5.83 5.83 10.61 17.36 10.61 25.61v90-.01Z"/>
+        <path fill="#F2F4F9" d="m107.27 239.762-40.63-40.63c-2.09.72-4.32 1.13-6.64 1.13-11.3 0-20.5-9.2-20.5-20.5s9.2-20.5 20.5-20.5 20.5 9.2 20.5 20.5c0 2.33-.41 4.56-1.13 6.65l31.63 31.63v-115.88c-6.8-3.3395-11.5-10.3195-11.5-18.3895 0-11.3 9.2-20.5 20.5-20.5s20.5 9.2 20.5 20.5c0 8.07-4.7 15.05-11.5 18.3895v81.27l31.46-31.46c-.62-1.96-.96-4.04-.96-6.2 0-11.3 9.2-20.5 20.5-20.5s20.5 9.2 20.5 20.5-9.2 20.5-20.5 20.5c-2.5 0-4.88-.47-7.09-1.29L129 208.892v30.88z"/>
+      </svg>
+      <div id="ha-launch-screen-info-box" class="ha-launch-screen-spacer"></div>
+    </div>
+    <ha-demo></ha-demo>
+    <script>
+  function _ls(src, notCustom) {
+    var script = document.createElement("script");
+    if (notCustom) {
+      script.crossOrigin = "use-credentials";
+    }
+    script.src = src;
+    return document.head.appendChild(script);
+  }
+  window.polymerSkipLoadingFontRoboto = true;
+  if (
+    !(
+      "customElements" in window &&
+      "content" in document.createElement("template")
+    )
+  ) {
+    _ls("/static/polyfills/webcomponents-bundle.js", true);
+  }
+  var isS11_12 =
+    /(?:.*(?:iPhone|iPad).*OS (?:11|12)_\d)|(?:.*Version\/(?:11|12)(?:\.\d+)*.*Safari\/)/.test(
+      navigator.userAgent
+    );
+</script>
+
+        <script>
+      if (navigator.userAgent.indexOf("Android") === -1 &&
+          navigator.userAgent.indexOf("CrOS") === -1) {
+        function _pf(src, type) {
+          var el = document.createElement("link");
+          el.rel = "preload";
+          el.as = "font";
+          el.type = "font/woff2";
+          el.href = src;
+          el.crossOrigin = "anonymous";
+          document.head.appendChild(el);
+        }
+        _pf("/static/fonts/roboto/Roboto-Regular.woff2");
+        _pf("/static/fonts/roboto/Roboto-Medium.woff2");
+      }
+    </script>
+
+    <script>
+      // Safari 12 and below does not have a compliant ES2015 implementation of template literals, so we ship ES5
+      if (!isS11_12) {
+        
+          import("/frontend_latest/main.js");
+        
+        window.latestJS = true;
+      }
+    </script>
+    <script>
+  (function() {
+    if (!window.latestJS) {
+      
+        
+          _ls("/frontend_es5/main.js", true);
+        
+      
+    }
+  })();
+</script>
+
+    <script>
+      var _gaq = [["_setAccount", "UA-57927901-5"], ["_trackPageview"]];
+      (function (d, t) {
+        var g = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        g.src =
+          ("https:" == location.protocol ? "//ssl" : "//www") +
+          ".google-analytics.com/ga.js";
+        s.parentNode.insertBefore(g, s);
+      })(document, "script");
+    </script>
+  </body>
+</html>
