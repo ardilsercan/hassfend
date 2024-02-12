@@ -1,6 +1,6 @@
-# Bundling NDX Tech Frontend
+# Bundling NDX IoT Platform Frontend
 
-The NDX Tech build pipeline contains various steps to prepare a build.
+The NDX IoT Platform build pipeline contains various steps to prepare a build.
 
 - Generating icon files to be included
 - Generating translation files to be included
@@ -13,7 +13,7 @@ The NDX Tech build pipeline contains various steps to prepare a build.
 
 ## Converting files
 
-Currently in NDX Tech we use a bundler to convert TypeScript, CSS and JSON files to JavaScript files that the browser understands.
+Currently in NDX IoT Platform we use a bundler to convert TypeScript, CSS and JSON files to JavaScript files that the browser understands.
 
 We currently rely on Webpack but also have experimental Rollup support. Both of these programs bundle the converted files in both production and development.
 

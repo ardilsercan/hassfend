@@ -127,7 +127,7 @@ const createWebpackConfig = ({
               : require.resolve(resource);
           } catch (err) {
             console.error(
-              "Error in NDX Tech ignore plugin",
+              "Error in NDX IoT Platform ignore plugin",
               resource,
               context
             );
