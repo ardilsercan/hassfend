@@ -24,11 +24,11 @@ class HcLayout extends LitElement {
         <div class="layout">
           <img
             class="hero"
-            alt="A Google Nest Hub with a NDX Tech dashboard on its screen"
+            alt="A Google Nest Hub with a NDX IoT Platform dashboard on its screen"
             src="/images/google-nest-hub.png"
           />
           <h1 class="card-header">
-            NDX Tech Cast${this.subtitle ? ` – ${this.subtitle}` : ""}
+            NDX IoT Platform Cast${this.subtitle ? ` – ${this.subtitle}` : ""}
             ${this.auth
               ? html`
                   <div class="subtitle">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>NDX Tech Cast - FAQ</title>
+    <title>NDX IoT Platform Cast - FAQ</title>
     <link rel="icon" href="/images/ha-cast-icon.png" type="image/png" />
     <%= renderTemplate("../../../src/html/_style_base.html.template") %>
     <style>
@@ -10,13 +10,13 @@
       }
     </style>
     <meta property="fb:app_id" content="338291289691179" />
-    <meta property="og:title" content="FAQ - NDX Tech Cast" />
-    <meta property="og:site_name" content="NDX Tech Cast" />
+    <meta property="og:title" content="FAQ - NDX IoT Platform Cast" />
+    <meta property="og:site_name" content="NDX IoT Platform Cast" />
     <meta property="og:url" content="https://cast.home-assistant.io/" />
     <meta property="og:type" content="website" />
     <meta
       property="og:description"
-      content="Frequently asked questions about NDX Tech Cast."
+      content="Frequently asked questions about NDX IoT Platform Cast."
     />
     <meta
       property="og:image"
@@ -24,10 +24,10 @@
     />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@home_assistant" />
-    <meta name="twitter:title" content="FAQ - NDX Tech Cast" />
+    <meta name="twitter:title" content="FAQ - NDX IoT Platform Cast" />
     <meta
       name="twitter:description"
-      content="Frequently asked questions about NDX Tech Cast."
+      content="Frequently asked questions about NDX IoT Platform Cast."
     />
     <meta
       name="twitter:image"
@@ -50,49 +50,49 @@
         }
       </style>
       <div class="card-content">
-        <p><a href="/">&laquo; Back to NDX Tech Cast</a></p>
+        <p><a href="/">&laquo; Back to NDX IoT Platform Cast</a></p>
       </div>
 
-      <div class="section-header">What is NDX Tech Cast?</div>
+      <div class="section-header">What is NDX IoT Platform Cast?</div>
       <div class="card-content">
         <p>
-          NDX Tech Cast allows you to show your NDX Tech data on a
-          Chromecast device and allows you to interact with NDX Tech on
+          NDX IoT Platform Cast allows you to show your NDX IoT Platform data on a
+          Chromecast device and allows you to interact with NDX IoT Platform on
           Google Assistant devices with a screen.
         </p>
       </div>
 
       <div class="section-header">
-        What are the NDX Tech Cast requirements?
+        What are the NDX IoT Platform Cast requirements?
       </div>
       <div class="card-content">
         <p>
-          NDX Tech Cast requires a NDX Tech installation that is
+          NDX IoT Platform Cast requires a NDX IoT Platform installation that is
           accessible via HTTPS (the url starts with "https://").
         </p>
       </div>
 
-      <div class="section-header">What is NDX Tech?</div>
+      <div class="section-header">What is NDX IoT Platform?</div>
       <div class="card-content">
         <p>
-          NDX Tech is worlds biggest open source home automation platform
+          NDX IoT Platform is worlds biggest open source home automation platform
           with a focus on privacy and local control. You can install Home
           Assistant for free.
         </p>
         <p>
           <a href="https://www.home-assistant.io" target="_blank"
-            >Visit the NDX Tech website.</a
+            >Visit the NDX IoT Platform website.</a
           >
         </p>
       </div>
 
       <div class="section-header" id="https">
-        Why does my NDX Tech needs to be served using HTTPS?
+        Why does my NDX IoT Platform needs to be served using HTTPS?
       </div>
       <div class="card-content">
         <p>
           The Chromecast only works with websites served over HTTPS. This means
-          that the NDX Tech Cast app that runs on your Chromecast is
+          that the NDX IoT Platform Cast app that runs on your Chromecast is
           served over HTTPS. Websites served over HTTPS are restricted on what
           content can be accessed on websites served over HTTP. This is called
           mixed active content (<a
@@ -102,30 +102,30 @@
           >).
         </p>
         <p>
-          The easiest way to get your NDX Tech installation served over
+          The easiest way to get your NDX IoT Platform installation served over
           HTTPS is by signing up for
           <a href="https://www.nabucasa.com" target="_blank"
-            >NDX Tech Cloud by Nabu Casa</a
+            >NDX IoT Platform Cloud by Nabu Casa</a
           >.
         </p>
       </div>
 
       <div class="section-header" id="https">
-        Why does NDX Tech Cast require me to authorize my NDX Tech
+        Why does NDX IoT Platform Cast require me to authorize my NDX IoT Platform
         instance?
       </div>
       <div class="card-content">
         <p>
-          You're currently looking at the NDX Tech Cast launcher
-          application. This is a standalone application to launch NDX Tech
+          You're currently looking at the NDX IoT Platform Cast launcher
+          application. This is a standalone application to launch NDX IoT Platform
           Cast on your Chromecast. Because Chromecasts do not allow us to log in
-          to NDX Tech, we need to supply authentication to it from the
+          to NDX IoT Platform, we need to supply authentication to it from the
           launcher. This authentication is obtained when you authorize your
           instance. Your authentication credentials will remain in your browser
           and on your Cast device.
         </p>
         <p>
-          Your authentication credentials or NDX Tech url are never sent
+          Your authentication credentials or NDX IoT Platform url are never sent
           to the Cloud. You can validate this behavior in
           <a
             href="https://github.com/home-assistant/frontend/tree/dev/cast"
@@ -135,27 +135,27 @@
         </p>
         <p>
           The launcher application exists to make it possible to use Home
-          Assistant Cast with older versions of NDX Tech.
+          Assistant Cast with older versions of NDX IoT Platform.
         </p>
         <p>
-          Starting with NDX Tech 0.97, NDX Tech Cast is also built
+          Starting with NDX IoT Platform 0.97, NDX IoT Platform Cast is also built
           into the Lovelace UI as a special entities card row. Since the
           Lovelace UI already has authentication, you will be able to start
           casting right away.
         </p>
       </div>
 
-      <div class="section-header">Wat does NDX Tech Cast do?</div>
+      <div class="section-header">Wat does NDX IoT Platform Cast do?</div>
       <div class="card-content">
         <p>
-          NDX Tech Cast is a receiver application for the Chromecast. When
-          loaded, it will make a direct connection to your NDX Tech
+          NDX IoT Platform Cast is a receiver application for the Chromecast. When
+          loaded, it will make a direct connection to your NDX IoT Platform
           instance.
         </p>
         <p>
-          NDX Tech Cast is able to render any of your Lovelace views on
-          your Chromecast. Things that work in Lovelace in NDX Tech will
-          work in NDX Tech Cast:
+          NDX IoT Platform Cast is able to render any of your Lovelace views on
+          your Chromecast. Things that work in Lovelace in NDX IoT Platform will
+          work in NDX IoT Platform Cast:
         </p>
         <ul>
           <li>Render Lovelace views, including custom cards</li>
@@ -183,12 +183,12 @@
       </div>
       <div class="card-content">
         <p>
-          NDX Tech Cast allows you to show your Lovelace view on your
+          NDX IoT Platform Cast allows you to show your Lovelace view on your
           Chromecast. So to edit what is shown, you need to edit your Lovelace
           UI.
         </p>
         <p>
-          To edit your Lovelace UI, open NDX Tech, click on the three-dot
+          To edit your Lovelace UI, open NDX IoT Platform, click on the three-dot
           menu in the top right and click on "Configure UI".
         </p>
       </div>
@@ -209,8 +209,8 @@
       <div class="section-header">Why do some custom cards not work?</div>
       <div class="card-content">
         <p>
-          NDX Tech needs to be configured to allow NDX Tech Cast to
-          load custom cards. Starting with NDX Tech 0.97, this is done
+          NDX IoT Platform needs to be configured to allow NDX IoT Platform Cast to
+          load custom cards. Starting with NDX IoT Platform 0.97, this is done
           automatically. If you are on an older version, or have manually
           configured CORS for the HTTP integration, add the following to your
           configuration.yaml file:
@@ -222,7 +222,7 @@ http:
         >
         <p>
           Some custom cards rely on things that are only available in the normal
-          NDX Tech interface. This requires an update by the custom card
+          NDX IoT Platform interface. This requires an update by the custom card
           developer.
         </p>
         <p>

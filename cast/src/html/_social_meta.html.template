@@ -1,11 +1,11 @@
 <meta property="fb:app_id" content="338291289691179" />
-<meta property="og:title" content="NDX Tech Cast" />
-<meta property="og:site_name" content="NDX Tech Cast" />
+<meta property="og:title" content="NDX IoT Platform Cast" />
+<meta property="og:site_name" content="NDX IoT Platform Cast" />
 <meta property="og:url" content="https://cast.home-assistant.io/" />
 <meta property="og:type" content="website" />
 <meta
   property="og:description"
-  content="Show NDX Tech on your Chromecast or Google Assistant devices with a screen."
+  content="Show NDX IoT Platform on your Chromecast or Google Assistant devices with a screen."
 />
 <meta
   property="og:image"
@@ -13,10 +13,10 @@
 />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@home_assistant" />
-<meta name="twitter:title" content="NDX Tech Cast" />
+<meta name="twitter:title" content="NDX IoT Platform Cast" />
 <meta
   name="twitter:description"
-  content="Show NDX Tech on your Chromecast or Google Assistant devices with a screen."
+  content="Show NDX IoT Platform on your Chromecast or Google Assistant devices with a screen."
 />
 <meta
   name="twitter:image"

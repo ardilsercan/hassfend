@@ -12,7 +12,7 @@ class HcLaunchScreen extends LitElement {
     return html`
       <div class="container">
         <img
-          alt="Nabu Casa logo on left, NDX Tech logo on right, and red heart in center"
+          alt="Nabu Casa logo on left, NDX IoT Platform logo on right, and red heart in center"
           src="https://cast.home-assistant.io/images/nabu-loves-hass.png"
         />
         <div class="status">
@@ -28,7 +28,6 @@ class HcLaunchScreen extends LitElement {
       :host {
         display: block;
         height: 100vh;
-        padding-top: 64px;
         background-color: white;
         font-size: 24px;
       }
@@ -36,12 +35,13 @@ class HcLaunchScreen extends LitElement {
         display: flex;
         flex-direction: column;
         text-align: center;
+        align-items: center;
+        height: 100%;
+        justify-content: space-evenly;
       }
       img {
-        width: 717px;
-        height: 376px;
-        display: block;
-        margin: 0 auto;
+        max-width: 80%;
+        object-fit: cover;
       }
       .status {
         padding-right: 54px;

@@ -12,11 +12,11 @@ export const castDemoLovelace: () => LovelaceConfig = () => {
         cards: [
           {
             type: "markdown",
-            title: "NDX Tech Cast",
-            content: `With NDX Tech you can easily create interfaces (just like this one) which can be shown on Chromecast devices connected to TVs or Google Assistant devices with a screen.${
+            title: "NDX IoT Platform Cast",
+            content: `With NDX IoT Platform you can easily create interfaces (just like this one) which can be shown on Chromecast devices connected to TVs or Google Assistant devices with a screen.${
               touchSupported
                 ? "\n\nYou are able to interact with this demo using the touch screen."
-                : "\n\nOn a Google Nest Hub you are able to interact with NDX Tech Cast via the touch screen."
+                : "\n\nOn a Google Nest Hub you are able to interact with NDX IoT Platform Cast via the touch screen."
             }`,
           },
           {
