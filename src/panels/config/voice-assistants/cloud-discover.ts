@@ -21,7 +21,7 @@ export class CloudDiscover extends LitElement {
               "ui.panel.config.voice_assistants.assistants.cloud.title",
               {
                 home_assistant_cloud: html`
-                  <span class="no-wrap">NDX Tech Cloud</span>
+                  <span class="no-wrap">NDX IoT Platform Cloud</span>
                 `,
               }
             )}

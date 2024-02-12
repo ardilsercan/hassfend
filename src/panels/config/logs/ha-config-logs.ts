@@ -20,7 +20,7 @@ import { navigate } from "../../../common/navigate";
 const logProviders: LogProvider[] = [
   {
     key: "core",
-    name: "NDX Tech Core",
+    name: "NDX IoT Platform Core",
   },
   {
     key: "supervisor",

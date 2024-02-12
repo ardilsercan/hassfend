@@ -221,7 +221,7 @@
                 "start": "启动",
                 "stop": "停止",
                 "uninstall": "卸载",
-                "visit_addon_page": "有关更多信息，请访问{name}页面"
+                "visit_addon_page": "查看{name}页面以获取更多信息。"
             },
             "documentation": {
                 "get_documentation": "获取加载项文档失败: {error}"
@@ -259,7 +259,7 @@
             "could_not_restore": "无法还原备份",
             "create": "创建",
             "create_backup": "创建备份",
-            "create_blocked_not_running": "现在无法创建备份，因为系统处于{state}状态。",
+            "create_blocked_not_running": "现在无法创建备份，因为系统处于“{state}”状态。",
             "created": "创建于",
             "data_disk": "数据盘",
             "delete": "删除",
@@ -1204,7 +1204,7 @@
             "picture-upload": {
                 "change_picture": "更换图片",
                 "current_image_alt": "当前图片",
-                "label": "图片",
+                "label": "添加图片",
                 "supported_formats": "支持 JPEG、PNG 或 GIF 图像。",
                 "unsupported_format": "格式不受支持，请选择 JPEG、PNG 或 GIF 图像。"
             },
@@ -2064,7 +2064,7 @@
             },
             "supervisor": {
                 "ask": "寻求帮助",
-                "observer": "检查 Observer",
+                "observer": "检查 Observer。",
                 "reboot": "请尝试重启主机",
                 "system_health": "检查系统状态",
                 "title": "无法加载 Supervisor 面板！",
@@ -2454,7 +2454,7 @@
                                 }
                             },
                             "type_select": "动作类型",
-                            "unsupported_action": "图形界面暂不支持操作：{action}"
+                            "unsupported_action": "没有可视化编辑器支持该动作"
                         },
                         "alias": "名称",
                         "automation_alias": "自动化名称",
@@ -2808,9 +2808,9 @@
                                     "above": "大于",
                                     "below": "小于",
                                     "description": {
-                                        "above": "当 {entity} 的 {attribute, select, \n undefined {} \n other {{attribute} }\n } 大于 {above} {duration, select, \n undefined {} \n other { 且持续了 {duration}}\n }",
-                                        "above-below": "当 {entity} {attribute, select, \n undefined {} \n other { 的 {attribute}}\n } 大于 {above} 小于 {below}{duration, select, \n undefined {} \n other { 且持续了 {duration}}\n }",
-                                        "below": "当 {entity} {attribute, select, \n undefined {} \n other { 的 {attribute}}\n } 小于 {below}{duration, select, \n undefined {} \n other { 且持续了 {duration}}\n }",
+                                        "above": "当 {entity} 的 {attribute, select, \n undefined {} \n other {{attribute} }\n } {numberOfEntities, plural,\n one {是}\n other {是}\n}大于 {above} {duration, select, \n undefined {} \n other { 持续了 {duration}}\n }",
+                                        "above-below": "当 {entity} {attribute, select, \n undefined {} \n other { 的 {attribute}}\n } {numberOfEntities, plural,\n one {是}\n other {是}\n}大于 {above} 且小于 {below}{duration, select, \n undefined {} \n other { 持续了 {duration}}\n }",
+                                        "below": "当 {entity} {attribute, select, \n undefined {} \n other { 的 {attribute}}\n } {numberOfEntities, plural,\n one {是}\n other {是}\n}小于 {below}{duration, select, \n undefined {} \n other { 持续了 {duration}}\n }",
                                         "picker": "当实体的状态（或属性的值）的数值超过给定阈值时。"
                                     },
                                     "label": "数字类状态",
@@ -2908,7 +2908,7 @@
                                     "label": "Webhook",
                                     "local_only": "只能从本地网络访问",
                                     "webhook_id": "Webhook ID",
-                                    "webhook_id_helper": "此 ID 等同于密码，应当不容易被猜到，且避免泄露。",
+                                    "webhook_id_helper": "将此ID视为密码：保密并使其难以推测。",
                                     "webhook_settings": "Webhook 设置"
                                 },
                                 "zone": {
@@ -3073,7 +3073,7 @@
                         "re_import_error_source_not_found": "无法重新导入蓝图：未找到源。",
                         "re_import_success": "{name}已经成功重新导入。",
                         "share_blueprint": "共享蓝图",
-                        "share_blueprint_no_url": "无法共享蓝图，因为没有源代码 URL",
+                        "share_blueprint_no_url": "无法共享蓝图：无源 URL",
                         "types": {
                             "automation": "自动化",
                             "script": "脚本"
@@ -3543,7 +3543,7 @@
                         "title": "燃气消耗"
                     },
                     "grid": {
-                        "add_co2_signal": "添加“CO2 signal”集成",
+                        "add_co2_signal": "添加 Electricity Maps 集成",
                         "add_consumption": "添加用电数据",
                         "add_return": "添加发电数据",
                         "delete_consumption": "删除用电量",
@@ -3583,7 +3583,7 @@
                         "grid_carbon_footprint": "电网碳足迹",
                         "grid_consumption": "用电量",
                         "learn_more": "进一步了解如何开始使用。",
-                        "remove_co2_signal": "删除“CO2 signal”集成",
+                        "remove_co2_signal": "删除 Electricity Maps 集成",
                         "return_to_grid": "发电量",
                         "sub": "配置从电网消耗的电量，以及自发电用户返还给电力公司的电量，以便 Home Assistant 可以监测您的全屋能源使用情况。",
                         "title": "电力公司"
@@ -4087,10 +4087,73 @@
                     }
                 },
                 "matter": {
+                    "device_actions": {
+                        "manage_fabrics": "管理结构",
+                        "open_commissioning_window": "共享设备",
+                        "ping_device": "Ping 设备",
+                        "reinterview_device": "重新访问设备",
+                        "view_thread_network": "查看线程网络"
+                    },
+                    "device_info": {
+                        "available": "可用吗？",
+                        "device_info": "设备信息",
+                        "ip_adresses": "IP 地址",
+                        "mac_address": "MAC 地址",
+                        "network_name": "网络名称",
+                        "network_type": "网络类型",
+                        "node_id": "节点 ID",
+                        "node_type": "设备类型"
+                    },
+                    "manage_fabrics": {
+                        "fabrics": "管理有权访问该设备的结构。",
+                        "remove_fabric_confirm_header": "从设备中删除 {fabric} 结构",
+                        "remove_fabric_confirm_text": "您确定要从设备中删除{fabric}吗？执行此操作后，您将无法从该生态系统/结构控制/访问设备！",
+                        "remove_fabric_failed_header": "删除 {fabric} 结构失败",
+                        "remove_fabric_failed_text": "操作未成功，请检查日志以获取更多信息。",
+                        "title": "连接的结构"
+                    },
+                    "network_type": {
+                        "ethernet": "以太网",
+                        "thread": "Thread",
+                        "unknown": "未知",
+                        "wifi": "Wi-Fi"
+                    },
+                    "node_type": {
+                        "bridge": "桥接",
+                        "end_device": "终端设备",
+                        "routing_end_device": "路由终端设备",
+                        "sleepy_end_device": "休眠终端设备",
+                        "unknown": "未知"
+                    },
                     "open_commissioning_window": {
+                        "copy_code": "复制代码",
                         "failed": "指令执行失败，日志中可能包含更多信息",
                         "in_progress": "正在与设备取得联系，请稍等片刻",
-                        "sharing_code": "分享码"
+                        "introduction": "在设备上启用调试模式，以将其与另一个Matter控制器配对。",
+                        "scan_code": "使用他们的应用程序，扫描下方的二维码或输入共享代码以完成设置。",
+                        "sharing_code": "分享码",
+                        "start_commissioning": "共享设备",
+                        "success": "您的设备已准备好添加到另一个Matter平台。",
+                        "title": "共享设备"
+                    },
+                    "ping_node": {
+                        "battery_device_warning": "请注意，特别是对于电池供电的设备，这可能需要一段时间。您可能需要在开始ping操作之前启动设备以加快进程。参考您的设备的手册以获取如何唤醒设备的指示。",
+                        "in_progress": "设备正在被ping。这可能需要一些时间。",
+                        "introduction": "在您的Matter设备的所有（已知）IP地址上执行（服务器端）ping。",
+                        "ping_complete": "设备Ping完成。",
+                        "ping_failed": "设备ping失败。可能在日志中有更多信息。",
+                        "start_ping": "开始ping",
+                        "title": "对Matter设备进行Ping"
+                    },
+                    "reinterview_node": {
+                        "battery_device_warning": "在开始重新“询问”之前，您需要唤醒由电池供电的设备。请参考您的设备手册，了解如何唤醒设备的指示。",
+                        "in_progress": "设备正在接受访问。这可能需要一些时间。",
+                        "interview_complete": "设备访问完成。",
+                        "interview_failed": "设备访问失败。日志中可能有更多信息。",
+                        "introduction": "对Matter设备进行全面重新“访问”。只有在您的设备功能缺失或不正确时，才使用此功能。",
+                        "run_in_background": "您可以关闭此对话框，设备询问将在后台继续进行。",
+                        "start_reinterview": "开始重新“访问”",
+                        "title": "重新对Matter设备进行“访问”"
                     }
                 },
                 "mqtt": {
@@ -4364,8 +4427,8 @@
                         "loading_devices": "正在加载设备",
                         "move": "迁移",
                         "moving": "正在迁移数据磁盘",
-                        "moving_desc": "正在重新启动并迁移数据磁盘。请耐心等待",
-                        "no_devices_text": "未找到合适的外部设备。外部数据磁盘的容量必须大于现有磁盘的容量",
+                        "moving_desc": "正在重新启动并迁移数据磁盘。请耐心等待。",
+                        "no_devices_text": "未找到合适的外部设备。外部数据盘的存储容量必须大于现有磁盘的存储容量。",
                         "no_devices_title": "未找到合适的存储设备",
                         "select_device": "选择新的数据磁盘",
                         "title": "迁移数据磁盘"
@@ -4515,20 +4578,20 @@
                     "change_channel_multiprotocol_enabled_text": "要在 Thread 无线射频启用多协议时更改信道，请使用硬件设置菜单。",
                     "change_channel_multiprotocol_enabled_title": "Thread 无线射频启用了多种协议",
                     "change_channel_range": "信道必须在 11 到 26 范围内",
-                    "change_channel_text": "启动 Thread 网络的信道更改。这是一项高级操作，如果新信道拥塞，可能会使您的 Thread 网络无法运行。根据现有网络条件，您的许多设备可能无法迁移到新信道，需要重新加入才能再次开始工作。谨慎使用。",
+                    "change_channel_text": "对您的Home Assistant Thread网络进行信道更改时应格外小心。有些Thread设备可能无法自动迁移到新的信道，如果新的信道拥堵，您的Thread设备可能会间歇性地无法使用。部分设备可能需要手动重新加入您的Thread网络，才能在Home Assistant中再次显示。此操作无法撤销（除非再次进行信道更改）。",
                     "confirm_delete_dataset": "删除“{name}”数据集？",
                     "confirm_delete_dataset_text": "此网络将从 Home Assistant 中删除。",
                     "confirm_reset_border_router": "重置边界路由器？",
-                    "confirm_reset_border_router_text": "这会将Home Assistant边界路由器重置为其出厂默认值，并形成新的 Thread 网络。旧网络可能不再可用，并且连接到此网络的任何设备可能需要重新分配。",
+                    "confirm_reset_border_router_text": "Home Assistant 将创建一个新的 Thread 网络。当前加入此 Home Assistant Thread 网络的任何设备都需要重新加入。",
                     "confirm_set_dataset_border_router": "重置边界路由器？",
-                    "confirm_set_dataset_border_router_text": "这将重新配置Home Assistant边界路由器以使用不同的 Thread 网络。原有网络可能不再可用，并且连接到此网络的任何设备可能需要重新分配。",
+                    "confirm_set_dataset_border_router_text": "Home Assistant 将加入现有的 Thread 网络。当前加入此 Home Assistant Thread 网络的任何设备都需要重新加入。",
                     "default_router": "用于获取 Android + iOS 凭据",
                     "default_router_not_found": "无法找到用于获取此网络 Android + iOS 凭据的边界路由器。",
                     "managed_by_home_assistant": "由 Home Assistant 管理",
                     "my_network": "首选网络",
                     "no_border_routers": "未找到边界路由器",
                     "no_preferred_network": "您还没有首选网络。",
-                    "no_routers_otbr_network": "未找到边界路由器，可能是其配置不正确。您可以尝试将其重置为出厂设置。",
+                    "no_routers_otbr_network": "未找到边界路由器。检查您的边界路由器配置是否正确或将其重置为出厂设置。",
                     "operational_dataset": "操作数据集",
                     "otbr_config_failed": "配置边界路由器失败",
                     "other_networks": "其他网络",
@@ -4754,7 +4817,7 @@
                     "add_device_page": {
                         "discovered_text": "发现的设备会立即显示在这里。",
                         "no_devices_found": "未发现设备。请确保设备处于配对模式，并且在搜索设备时保持唤醒。",
-                        "pairing_mode": "请确保您的设备处于配对模式。有关如何进入配对模式，请查阅设备说明书。",
+                        "pairing_mode": "请确认您的设备已经处于配对模式。您可以查阅设备的使用说明或{documentation_link}以了解如何操作。",
                         "pairing_mode_link": "文档",
                         "search_again": "再次搜索",
                         "spinner": "正在查找 Zigbee 设备…"
@@ -5536,7 +5599,7 @@
                 "add_all": "添加全部实体",
                 "download_data": "下载数据",
                 "download_data_error": "无法下载数据",
-                "error_no_data": "你需要先选择数据",
+                "error_no_data": "您需要先选择数据。",
                 "remove_all": "全部移除",
                 "start_search": "请从上方选择区域、设备或实体以开始"
             },
@@ -5563,7 +5626,7 @@
                     },
                     "energy": {
                         "carbon_consumed_gauge": {
-                            "card_indicates_energy_used": "此卡片表示的是您家中消耗的能源有多少是非化石能源，例如太阳能、风能和核能。数值越高越好。",
+                            "card_indicates_energy_used": "此卡片展示了您的家庭消耗的能源中，有多少是由太阳能、风能和核能等非化石燃料产生的。数值越高，效果越好！",
                             "low_carbon_energy_consumed": "低碳能源消耗",
                             "low_carbon_energy_not_calculated": "无法计算低碳能源消耗量"
                         },
@@ -6515,9 +6578,9 @@
                                 },
                                 "mfa": {
                                     "data": {
-                                        "code": "双重认证口令"
+                                        "code": "双重身份验证码"
                                     },
-                                    "description": "在设备上打开 **{mfa_module_name}** 查看双重认证口令并验证您的身份:"
+                                    "description": "打开设备上的{mfa_module_name}以查看您的双重身份验证码。"
                                 }
                             }
                         },
@@ -6538,9 +6601,9 @@
                                 },
                                 "mfa": {
                                     "data": {
-                                        "code": "双重认证口令"
+                                        "code": "双重身份验证码"
                                     },
-                                    "description": "在设备上打开 **{mfa_module_name}** 查看双重认证口令并验证您的身份:"
+                                    "description": "打开设备上的{mfa_module_name}以查看您的双重身份验证码。"
                                 }
                             }
                         },
@@ -6562,9 +6625,9 @@
                                 },
                                 "mfa": {
                                     "data": {
-                                        "code": "双重认证口令"
+                                        "code": "双重身份验证码"
                                     },
-                                    "description": "在设备上打开 **{mfa_module_name}** 查看双重认证口令并验证您的身份:"
+                                    "description": "打开设备上的{mfa_module_name}以查看您的双重身份验证码。"
                                 }
                             }
                         },
@@ -6618,7 +6681,7 @@
                             "information": "信息",
                             "lights": "灯",
                             "morning_commute": "上班",
-                            "total_tv_time": "观看总时长",
+                            "total_tv_time": "电视观看总时间",
                             "turn_tv_off": "关闭电视",
                             "volume": "音量"
                         },
@@ -6673,7 +6736,7 @@
                     "button_detect": "自动检测",
                     "country_intro": "我们想知道您的家所在的国家/地区，以便我们可以为您使用正确的单位。",
                     "finish": "下一步",
-                    "intro_location": "设置家庭的所在位置，以便向您提供天气和日出日落等信息。这些数据不会发送到家庭网络以外。",
+                    "intro_location": "设置您家的位置，以便您可以显示当地天气等信息，并使用基于太阳或基于状态的自动化。",
                     "intro_location_detect": "我们可以通过向外部服务发出一次性请求来检测您的位置。",
                     "location_address": "由 {openstreetmap} ({osm_privacy_policy}) 提供支持。",
                     "location_header": "家庭位置",
@@ -6686,8 +6749,8 @@
                 "help": "帮助",
                 "integration": {
                     "finish": "完成",
-                    "header": "我们已经在您的网络上找到了兼容的设备！",
-                    "intro": "“集成”用于将智能设备和网络服务连接到 Home Assistant。您可以现在就把它们设置好，也可以稍后再设置。",
+                    "header": "我们发现了兼容的设备！",
+                    "intro": "这些可以在您的本地网络上找到。有些已经添加，有些可能需要额外的配置。",
                     "more_integrations": "+{count} 更多"
                 },
                 "intro": "准备好唤醒你的家、找回你的隐私，并加入世界级的极客社区了吗？",
@@ -6878,12 +6941,12 @@
                 },
                 "refresh_tokens": {
                     "confirm_delete": "确定要删除 {name} 的刷新令牌吗？",
-                    "confirm_delete_all": "您确定要删除所有的刷新令牌吗？作为操作的一部分，您将会登出。",
+                    "confirm_delete_all": "您确定要删除所有刷新令牌吗？您当前的会话令牌不会被删除。您的长期访问令牌不会被删除。",
                     "created_at": "创建于 {date}",
                     "current_token_tooltip": "不能删除当前使用的刷新令牌",
                     "delete_all_tokens": "删除所有令牌",
                     "delete_failed": "无法删除刷新令牌。",
-                    "description": "每个刷新令牌代表一个登录会话。注销登录时将自动删除刷新令牌。下列为目前您的用户名下激活的刷新令牌。",
+                    "description": "每个刷新令牌都代表一个登录会话。当你点击注销时，刷新令牌将被自动删除。未使用的刷新令牌将在90天后自动删除。以下是您的账户当前激活的刷新令牌。",
                     "header": "刷新令牌",
                     "last_used": "上次使用于 {date} 来自 {location}",
                     "not_used": "从未使用过",

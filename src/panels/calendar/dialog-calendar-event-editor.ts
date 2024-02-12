@@ -69,8 +69,8 @@ class DialogCalendarEventEditor extends LitElement {
   @state() private _submitting = false;
 
   // Dates are displayed in the timezone according to the user's profile
-  // which may be different from the NDX Tech timezone. When
-  // events are persisted, they are relative to the NDX Tech
+  // which may be different from the NDX IoT Platform timezone. When
+  // events are persisted, they are relative to the NDX IoT Platform
   // timezone, but floating without a timezone.
   private _timeZone?: string;
 

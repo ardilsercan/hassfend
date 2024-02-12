@@ -138,7 +138,7 @@ export class HomeAssistantAppEl extends QuickBarMixin(HassElement) {
     });
 
     // Render launch screen info box (loading data / error message)
-    // if NDX Tech is not loaded yet.
+    // if NDX IoT Platform is not loaded yet.
     if (this.render !== this.renderHass) {
       this._renderInitInfo(false);
     }
@@ -265,7 +265,7 @@ export class HomeAssistantAppEl extends QuickBarMixin(HassElement) {
       })
     );
     if (this.hass!.suspendWhenHidden !== false) {
-      // We close the connection to NDX Tech after being hidden for 5 minutes
+      // We close the connection to NDX IoT Platform after being hidden for 5 minutes
       this._hiddenTimeout = window.setTimeout(() => {
         this._hiddenTimeout = undefined;
         // setTimeout can be delayed in the background and only fire

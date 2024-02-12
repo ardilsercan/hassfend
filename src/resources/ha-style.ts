@@ -8,7 +8,7 @@ import {
 
 const mainStyles = css`
   /*
-    NDX Tech default styles.
+    NDX IoT Platform default styles.
 
     In Polymer 2.0, default styles should to be set on the html selector.
     (Setting all default styles only on body breaks shadyCSS polyfill.)

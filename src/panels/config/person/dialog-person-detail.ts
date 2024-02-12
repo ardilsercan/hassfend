@@ -342,7 +342,7 @@ class DialogPersonDetail extends LitElement {
     );
     if (!credential) {
       showAlertDialog(this, {
-        title: "No NDX Tech credentials found.",
+        title: "No NDX IoT Platform credentials found.",
       });
       return;
     }

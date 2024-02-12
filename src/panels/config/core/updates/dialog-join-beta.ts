@@ -51,9 +51,9 @@ export class DialogJoinBeta
           ${this.hass.localize("ui.dialogs.join_beta_channel.release_items")}
         </p>
         <ul>
-          <li>NDX Tech Core</li>
-          <li>NDX Tech Supervisor</li>
-          <li>NDX Tech Operating System</li>
+          <li>NDX IoT Platform Core</li>
+          <li>NDX IoT Platform Supervisor</li>
+          <li>NDX IoT Platform Operating System</li>
         </ul>
         <a
           href=${documentationUrl(this.hass!, "/faq/release/")}

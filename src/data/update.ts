@@ -66,22 +66,22 @@ export const filterUpdateEntities = (
       (entity) => computeStateDomain(entity) === "update"
     ) as UpdateEntity[]
   ).sort((a, b) => {
-    if (a.attributes.title === "NDX Tech Core") {
+    if (a.attributes.title === "NDX IoT Platform Core") {
       return -3;
     }
-    if (b.attributes.title === "NDX Tech Core") {
+    if (b.attributes.title === "NDX IoT Platform Core") {
       return 3;
     }
-    if (a.attributes.title === "NDX Tech Operating System") {
+    if (a.attributes.title === "NDX IoT Platform Operating System") {
       return -2;
     }
-    if (b.attributes.title === "NDX Tech Operating System") {
+    if (b.attributes.title === "NDX IoT Platform Operating System") {
       return 2;
     }
-    if (a.attributes.title === "NDX Tech Supervisor") {
+    if (a.attributes.title === "NDX IoT Platform Supervisor") {
       return -1;
     }
-    if (b.attributes.title === "NDX Tech Supervisor") {
+    if (b.attributes.title === "NDX IoT Platform Supervisor") {
       return 1;
     }
     return caseInsensitiveStringCompare(

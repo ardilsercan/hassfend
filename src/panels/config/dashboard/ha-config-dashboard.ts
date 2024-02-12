@@ -135,7 +135,7 @@ class HaConfigDashboard extends SubscribeMixin(LitElement) {
       pages.push({
         component: "cloud",
         path: "/config/cloud",
-        name: "NDX Tech Cloud",
+        name: "NDX IoT Platform Cloud",
         info: cloudStatus,
         iconPath: mdiCloudLock,
         iconColor: "#3B808E",

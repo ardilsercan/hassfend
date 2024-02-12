@@ -126,7 +126,7 @@ class HaConfigInfo extends LitElement {
               >
               </ha-logo-svg>
             </a>
-            <p>NDX Tech</p>
+            <p>NDX IoT Platform</p>
             <ul class="versions">
               <li>
                 <span class="version-label">Core</span>

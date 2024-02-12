@@ -20,7 +20,7 @@ import type { HaSelect } from "./ha-select";
 const NONE = "__NONE_OPTION__";
 
 const NAME_MAP = {
-  cloud: "NDX Tech Cloud",
+  cloud: "NDX IoT Platform Cloud",
   google_translate: "Google Translate",
 };
 

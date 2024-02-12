@@ -1,6 +1,6 @@
 import { BaseCastMessage } from "./types";
 
-// Messages to be processed inside the NDX Tech UI
+// Messages to be processed inside the NDX IoT Platform UI
 
 export interface ReceiverStatusMessage extends BaseCastMessage {
   type: "receiver_status";

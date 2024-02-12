@@ -2839,7 +2839,7 @@
                                     "any_state_ignore_attributes": "Qualquer estado (ignorando alterações de atributo)",
                                     "attribute": "Atributo (Opcional)",
                                     "description": {
-                                        "full": "Quando{hasAttribute, select, \n true { {attribute} de} \n other {}\n} {hasEntity, select, \n true {{entity}} \n other {algo}\n} alterações{fromChoice, select, \n fromUsed {de {fromString}}\n null {de qualquer estado} \n other {}\n}{toChoice, select, \n toUsed { para {toString}} \n null {para qualquer estado} \n special {estado ou qualquer atributo} \n other {}\n}{hasDuration, select, \n true {para {duration}} \n other {}\n}",
+                                        "full": "Quando{hasAttribute, select, \n true { {attribute} de} \n other {}\n} {hasEntity, select, \n true {{entity}} \n other {algo}\n} alterar{fromChoice, select, \n fromUsed { de {fromString}}\n null { de qualquer estado} \n other {}\n}{toChoice, select, \n toUsed { para {toString}} \n null { para qualquer estado} \n special { estado ou qualquer atributo} \n other {}\n}{hasDuration, select, \n true { por {duration}} \n other {}\n}",
                                         "picker": "Quando o estado de uma entidade (ou atributo) muda."
                                     },
                                     "for": "Por",

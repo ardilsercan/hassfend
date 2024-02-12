@@ -443,7 +443,7 @@ export const cleanupMediaTitle = (title?: string): string | undefined => {
 
 /**
  * Set volume of a media player entity.
- * @param hass NDX Tech object
+ * @param hass NDX IoT Platform object
  * @param entity_id entity ID of media player
  * @param volume_level number between 0..1
  * @returns

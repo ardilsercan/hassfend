@@ -1,4 +1,4 @@
-"""Frontend for NDX Tech."""
+"""Frontend for NDX IoT Platform."""
 from pathlib import Path
 
 

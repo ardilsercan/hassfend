@@ -49,11 +49,11 @@ export class CloudLogin extends LitElement {
       <hass-subpage
         .hass=${this.hass}
         .narrow=${this.narrow}
-        header="NDX Tech Cloud"
+        header="NDX IoT Platform Cloud"
       >
         <div class="content">
           <ha-config-section .isWide=${this.isWide}>
-            <span slot="header">NDX Tech Cloud</span>
+            <span slot="header">NDX IoT Platform Cloud</span>
             <div slot="introduction">
               <p>
                 ${this.hass.localize(
@@ -144,15 +144,6 @@ export class CloudLogin extends LitElement {
                     "ui.panel.config.cloud.login.password_error_msg"
                   )}
                 ></ha-textfield>
-                <button
-                  class="link pwd-forgot-link"
-                  .disabled=${this._requestInProgress}
-                  @click=${this._handleForgotPassword}
-                >
-                  ${this.hass.localize(
-                    "ui.panel.config.cloud.login.forgot_password"
-                  )}
-                </button>
               </div>
               <div class="card-actions">
                 <ha-progress-button
@@ -162,6 +153,15 @@ export class CloudLogin extends LitElement {
                     "ui.panel.config.cloud.login.sign_in"
                   )}</ha-progress-button
                 >
+                <button
+                  class="link pwd-forgot-link"
+                  .disabled=${this._requestInProgress}
+                  @click=${this._handleForgotPassword}
+                >
+                  ${this.hass.localize(
+                    "ui.panel.config.cloud.login.forgot_password"
+                  )}
+                </button>
               </div>
             </ha-card>
 
@@ -310,11 +310,6 @@ export class CloudLogin extends LitElement {
         .login-form {
           display: flex;
           flex-direction: column;
-        }
-        .pwd-forgot-link {
-          color: var(--secondary-text-color) !important;
-          text-align: right !important;
-          align-self: flex-end;
         }
       `,
     ];

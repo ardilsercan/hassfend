@@ -113,7 +113,7 @@ const tryDescribeTrigger = (
     );
   }
 
-  // NDX Tech Trigger
+  // NDX IoT Platform Trigger
   if (trigger.platform === "homeassistant" && trigger.event) {
     return hass.localize(
       trigger.event === "start"

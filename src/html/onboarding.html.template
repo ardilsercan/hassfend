@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>NDX Tech</title>
+    <title>NDX IoT Platform</title>
     <%= renderTemplate("_header.html.template") %>
     <%= renderTemplate("_style_base.html.template") %>
     <style>
@@ -42,7 +42,7 @@
   <body id="particles">
     <div class="content">
       <div class="header">
-        <img src="/static/icons/favicon-192x192.png" alt="NDX Tech" />
+        <img src="/static/icons/favicon-192x192.png" alt="NDX IoT Platform" />
       </div>
       <ha-onboarding></ha-onboarding>
     </div>

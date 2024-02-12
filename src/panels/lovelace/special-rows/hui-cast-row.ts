@@ -31,7 +31,7 @@ class HuiCastRow extends LitElement implements LovelaceRow {
   public setConfig(config: CastConfig): void {
     this._config = {
       icon: "mdi:television",
-      name: "NDX Tech Cast",
+      name: "NDX IoT Platform Cast",
       view: 0,
       ...config,
     };

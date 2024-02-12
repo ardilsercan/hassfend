@@ -52,7 +52,7 @@ export class HaThemePicker extends LitElement {
         ${this.includeDefault
           ? html`
               <mwc-list-item .value=${DEFAULT_THEME}>
-                NDX Tech
+                NDX IoT Platform
               </mwc-list-item>
             `
           : nothing}

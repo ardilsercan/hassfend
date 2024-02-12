@@ -2242,7 +2242,7 @@
                                     "label": "Ostatní akce"
                                 }
                             },
-                            "header": "Pak udělat",
+                            "header": "Pak provést",
                             "invalid_action": "Neplatná akce",
                             "learn_more": "Další informace o akcích",
                             "name": "Akce",

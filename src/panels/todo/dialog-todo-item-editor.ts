@@ -46,8 +46,8 @@ class DialogTodoItemEditor extends LitElement {
   @state() private _submitting = false;
 
   // Dates are manipulated and displayed in the browser timezone
-  // which may be different from the NDX Tech timezone. When
-  // events are persisted, they are relative to the NDX Tech
+  // which may be different from the NDX IoT Platform timezone. When
+  // events are persisted, they are relative to the NDX IoT Platform
   // timezone, but floating without a timezone.
   private _timeZone?: string;
 

@@ -37,7 +37,7 @@ export default <T extends Constructor<HassBaseEl>>(superClass: T) =>
           showToast(this, {
             message:
               this.hass!.localize("ui.notification_toast.starting") ||
-              "NDX Tech is starting, not everything will be available until it is finished.",
+              "NDX IoT Platform is starting, not everything will be available until it is finished.",
             duration: 0,
             dismissable: false,
             action: {
@@ -75,7 +75,7 @@ export default <T extends Constructor<HassBaseEl>>(superClass: T) =>
                 "Safe mode",
               text:
                 this.hass!.localize("ui.dialogs.safe_mode.text") ||
-                "NDX Tech is running in safe mode, custom integrations and modules are not available. Restart NDX Tech to exit safe mode.",
+                "NDX IoT Platform is running in safe mode, custom integrations and modules are not available. Restart NDX IoT Platform to exit safe mode.",
             });
           }
         );

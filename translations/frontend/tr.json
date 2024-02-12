@@ -2242,7 +2242,7 @@
                                     "label": "Diğer eylemler"
                                 }
                             },
-                            "header": "Bunu yap",
+                            "header": "Şunu yap",
                             "invalid_action": "Geçersiz eylem",
                             "learn_more": "İşlemler hakkında daha fazla bilgi edinin",
                             "name": "Eylemler",
@@ -2283,7 +2283,7 @@
                                     "label": "Seç",
                                     "no_conditions": "Koşul yok",
                                     "option": "Seçenek {number}",
-                                    "option_description_additional": " {numberOfAdditionalConditions, plural,\n one {ve 1  daha koşul}\n other {ve {numberOfAdditionalConditions} daha fazla koşul}}",
+                                    "option_description_additional": "{numberOfAdditionalConditions, plural,\n one {ve 1  daha koşul}\n other {ve {numberOfAdditionalConditions} daha fazla koşul}}",
                                     "remove_option": "Seçeneği kaldır",
                                     "sequence": "Aksiyonlar"
                                 },
@@ -2543,9 +2543,9 @@
                                     "above": "Üzerinde",
                                     "below": "Altında",
                                     "description": {
-                                        "above": "When {attribute, select, \n undefined {} \n other {{attribute} from }\n }{entity} is above {above}",
-                                        "above-below": "When {attribute, select, \n undefined {} \n other {{attribute} from }\n }{entity} is above {above} and below {below}",
-                                        "below": "When {attribute, select, \n undefined {} \n other {{attribute} from }\n }{entity} is below {below}",
+                                        "above": "İken {attribute, select, \n undefined {} \n other {{attribute} bundan }\n }{entity} üstünde {above}",
+                                        "above-below": "İken {attribute, select, \n undefined {} \n other {{attribute} bundan }\n }{entity} üstünde {above} ve altında {below}",
+                                        "below": "İken {attribute, select, \n undefined {} \n other {{attribute} bundan }\n }{entity} altında {below}",
                                         "picker": "Bir varlığın durumunun (veya özniteliğin değerinin) sayısal değeri belirli bir eşiğin üstünde veya altındaysa."
                                     },
                                     "label": "Sayısal durum",
@@ -2565,7 +2565,7 @@
                                 },
                                 "state": {
                                     "description": {
-                                        "full": "Onayla{hasAttribute, select, \n true { {attribute} of}\n other {}\n} {numberOfEntities, plural,\n zero {varlık}\n one {{entities} is}\n other {{entities} are}\n} {numberOfStates, plural,\n zero {durum}\n other {{states}}\n}{hasDuration, select, \n true { için {duration}} \n other {}\n }",
+                                        "full": "Onayla{hasAttribute, select, \n true { {attribute} için}\n other {}\n} {numberOfEntities, plural,\n zero {varlık}\n one {{entities} is}\n other {{entities} are}\n} {numberOfStates, plural,\n zero {durum}\n other {{states}}\n}{hasDuration, select, \n true { için {duration}} \n other {}\n }",
                                         "no_entity": "Durumu onayla",
                                         "picker": "Bir varlığın (veya niteliğin) belirli bir durumda olup olmadığı."
                                     },
@@ -2578,7 +2578,7 @@
                                     "before": "Önce",
                                     "before_offset": "Ofsetten önce (isteğe bağlı)",
                                     "description": {
-                                        "full": "Confirm sun{afterChoice, select, \n sunrise { gün doğumundan sonra}\n sunset { gün batımından sonra}\n other {}\n}{afterOffsetChoice, select, \n offset { offset by {afterOffset}}\n other {}\n}{beforeChoice, select, \n sunrise { gün doğumundan önce}\n sunset { gün batımından önce}\n other {}\n}{beforeOffsetChoice, select, \n offset { offset by {beforeOffset}}\n other {}\n}",
+                                        "full": "Güneşi onayla{afterChoice, select, \n sunrise { gün doğumundan sonra}\n sunset { gün batımından sonra}\n other {}\n}{afterOffsetChoice, select, \n offset { tarafından {afterOffset}}\n other {}\n}{beforeChoice, select, \n sunrise { gün doğumundan önce}\n sunset { gün batımından önce}\n other {}\n}{beforeOffsetChoice, select, \n offset { tarafından {beforeOffset}}\n other {}\n}",
                                         "picker": "Güneş ufkun üstünde veya altındaysa."
                                     },
                                     "label": "Güneş",
@@ -2808,9 +2808,9 @@
                                     "above": "Üzerinde",
                                     "below": "Altında",
                                     "description": {
-                                        "above": "Zaman {attribute, select, \n undefined {} \n other {{attribute} den }\n }{entity} {numberOfEntities, plural,\n one {is}\n other {are}\n} üstünde {above}{duration, select, \n undefined {} \n other { için {duration}}\n }",
-                                        "above-below": "Zaman {attribute, select, \n undefined {} \n other {{attribute} den }\n }{entity} {numberOfEntities, plural,\n one {is}\n other {are}\n} üstünde {above} ve altında {below}{duration, select, \n undefined {} \n other { için {duration}}\n }",
-                                        "below": "Zaman {attribute, select, \n undefined {} \n other {{attribute} den }\n }{entity} {numberOfEntities, plural,\n one {is}\n other {are}\n} altında {below}{duration, select, \n undefined {} \n other { için {duration}}\n }",
+                                        "above": "İken {attribute, select, \n undefined {} \n other {{attribute} den }\n }{entity} {numberOfEntities, plural,\n one {is}\n other {are}\n} üstünde {above}{duration, select, \n undefined {} \n other { için {duration}}\n }",
+                                        "above-below": "İken {attribute, select, \n undefined {} \n other {{attribute} den }\n }{entity} {numberOfEntities, plural,\n one {is}\n other {are}\n} üstünde {above} ve altında {below}{duration, select, \n undefined {} \n other { için {duration}}\n }",
+                                        "below": "İken {attribute, select, \n undefined {} \n other {{attribute} den }\n }{entity} {numberOfEntities, plural,\n one {is}\n other {are}\n} altında {below}{duration, select, \n undefined {} \n other { için {duration}}\n }",
                                         "picker": "Bir varlığın durumunun (veya özniteliğin değerinin) sayısal değeri belirli bir eşiği geçtiğinde."
                                     },
                                     "label": "Sayısal durum",
@@ -2839,7 +2839,7 @@
                                     "any_state_ignore_attributes": "Herhangi bir durum (öznitelik değişiklikleri yoksayılır)",
                                     "attribute": "Öznitelik (İsteğe bağlı)",
                                     "description": {
-                                        "full": "When{hasAttribute, select, \n true { {attribute} of} \n other {}\n} {hasEntity, select, \n true {{entity}} \n other {something}\n} changes{fromChoice, select, \n fromUsed { from {fromString}}\n null { from any state} \n other {}\n}{toChoice, select, \n toUsed { to {toString}} \n null { to any state} \n special { state or any attributes} \n other {}\n}{hasDuration, select, \n true { for {duration}} \n other {}\n}",
+                                        "full": "İken{hasAttribute, select, \n true { {attribute} için} \n other {}\n} {hasEntity, select, \n true {{entity}} \n other {bir şey}\n} değişiklikler{fromChoice, select, \n fromUsed { bundan {fromString}}\n null { herhangi bir durumdan} \n other {}\n}{toChoice, select, \n toUsed { buna {toString}} \n null { herhangi bir duruma} \n special { duruma veya herhangi bir niteliğe} \n other {}\n}{hasDuration, select, \n true { için {duration}} \n other {}\n}",
                                         "picker": "Bir varlığın (veya niteliğin) durumu değiştiğinde."
                                     },
                                     "for": "Süre",
@@ -2903,7 +2903,7 @@
                                     "copy_url": "URL'yi panoya kopyala",
                                     "description": {
                                         "full": "Bir Webhook verisi alındığında",
-                                        "picker": "Ev Asistanı webhook uç noktasına bir web isteği aldığında."
+                                        "picker": "Home Assistant webhook uç noktasına bir web isteği aldığında."
                                     },
                                     "label": "Webhook",
                                     "local_only": "Yalnızca yerel ağdan erişilebilir",
@@ -4095,7 +4095,7 @@
                         "view_thread_network": "Konu ağını görüntüle"
                     },
                     "device_info": {
-                        "available": "Mevcut?",
+                        "available": "Erişelebilir?",
                         "device_info": "Cihaz bilgisi",
                         "ip_adresses": "IP Adres(ler)i",
                         "mac_address": "MAC adresi",

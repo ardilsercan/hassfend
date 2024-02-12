@@ -2177,6 +2177,7 @@
                         "configured_aliases": "{count} configurato {count, plural,\n  one {alias}\n  other {alias}\n}",
                         "create_area": "Crea area",
                         "delete": "Elimina",
+                        "icon": "Icona",
                         "linked_entities_caption": "Entità",
                         "name": "Nome",
                         "name_required": "Il nome è obbligatorio",
@@ -4084,6 +4085,51 @@
                         "unavailable_safe_mode": "Le risorse non sono disponibili in modalità provvisoria"
                     }
                 },
+                "matter": {
+                    "device_actions": {
+                        "manage_fabrics": "Gestisci le infrastrutture",
+                        "open_commissioning_window": "Condividi dispositivo",
+                        "view_thread_network": "Visualizza la rete Thread"
+                    },
+                    "manage_fabrics": {
+                        "fabrics": "Gestisci le infrastrutture che hanno accesso a questo dispositivo.",
+                        "remove_fabric_confirm_header": "Rimuovi {fabric} dal dispositivo",
+                        "remove_fabric_confirm_text": "Sei sicuro di voler rimuovere {fabric} dal dispositivo? Non sarai in grado di controllare/accedere al dispositivo da quell'ecosistema/infrastruttura dopo questa azione!",
+                        "remove_fabric_failed_header": "Rimozione dell'infrastruttura {fabric} non riuscita",
+                        "remove_fabric_failed_text": "L'azione non è riuscita, controllare i registri per ulteriori informazioni.",
+                        "title": "Infrastrutture connesse"
+                    },
+                    "open_commissioning_window": {
+                        "copy_code": "Copia il codice",
+                        "failed": "Il comando non è riuscito. Ulteriori informazioni potrebbero essere disponibili nei registri.",
+                        "in_progress": "Stiamo comunicando con il dispositivo. L'operazione potrebbe richiedere del tempo.",
+                        "introduction": "Abilita la modalità di messa in servizio sul dispositivo per associarlo a un altro controller Matter.",
+                        "scan_code": "Con la loro app, scansiona il codice QR o inserisci il codice di condivisione di seguito per completare la configurazione.",
+                        "sharing_code": "Codice di condivisione",
+                        "start_commissioning": "Condividi dispositivo",
+                        "success": "Il tuo dispositivo è pronto per essere aggiunto a un'altra piattaforma Matter.",
+                        "title": "Condividi dispositivo"
+                    },
+                    "ping_node": {
+                        "battery_device_warning": "Tieni presente che, soprattutto per i dispositivi alimentati a batteria, l'operazione può richiedere del tempo. Potrebbe essere necessario accendere i dispositivi prima di avviare il ping per accelerare il processo. Fare riferimento al manuale del dispositivo per istruzioni su come riattivare il dispositivo.",
+                        "in_progress": "È in corso il ping del dispositivo. L'operazione potrebbe richiedere del tempo.",
+                        "introduction": "Esegui un ping (lato server) sul tuo dispositivo Matter su tutti i suoi indirizzi IP (noti).",
+                        "ping_complete": "Ping dispositivo completato.",
+                        "ping_failed": "Il ping del dispositivo non è riuscito. Ulteriori informazioni potrebbero essere disponibili nei registri.",
+                        "start_ping": "Avvia ping",
+                        "title": "Ping di un dispositivo Matter"
+                    },
+                    "reinterview_node": {
+                        "battery_device_warning": "Dovrai riattivare i dispositivi alimentati a batteria prima di iniziare il nuovo colloquio. Fare riferimento al manuale del dispositivo per istruzioni su come riattivare il dispositivo.",
+                        "in_progress": "Il dispositivo è in fase di colloquio. Questa operazione potrebbe richiedere del tempo.",
+                        "interview_complete": "Interrogazione del dispositivo completata.",
+                        "interview_failed": "Il colloquio con il dispositivo non è riuscito. Ulteriori informazioni possono essere disponibili nei registri.",
+                        "introduction": "Esegui una nuova intervista completa di un dispositivo Matter. Utilizzare questa funzione solo se il dispositivo presenta funzionalità mancanti o errate.",
+                        "run_in_background": "È possibile chiudere questa finestra di dialogo e il colloquio continuerà in background.",
+                        "start_reinterview": "Inizia un nuovo colloquio",
+                        "title": "Interrogare nuovamente un dispositivo Matter"
+                    }
+                },
                 "mqtt": {
                     "allow_template": "Consenti modello",
                     "description_listen": "Ascolta un argomento",
@@ -4355,7 +4401,7 @@
                         "loading_devices": "Caricamento dispositivi",
                         "move": "Sposta",
                         "moving": "Spostamento del disco dati",
-                        "moving_desc": "Riavvio e spostamento del disco dati. Attendere con pazienza",
+                        "moving_desc": "Riavvio e spostamento del disco dati. Si prega di avere pazienza.",
                         "no_devices_text": "Non è stato trovato alcun dispositivo esterno adatto. La capacità di archiviazione del disco dati esterno deve essere maggiore della capacità di archiviazione del disco esistente.",
                         "no_devices_title": "Nessuno spazio di archiviazione adatto trovato",
                         "select_device": "Selezionare il nuovo disco dati",
@@ -5525,6 +5571,8 @@
             "history": {
                 "add_all": "Aggiungi tutte le entità",
                 "download_data": "Scarica i dati",
+                "download_data_error": "Impossibile scaricare i dati",
+                "error_no_data": "È necessario prima selezionare i dati.",
                 "remove_all": "Rimuovi tutte le selezioni",
                 "start_search": "Inizia selezionando un'area, un dispositivo o un'entità qui sopra"
             },

@@ -19,7 +19,7 @@ import type { HaSelect } from "./ha-select";
 
 const NONE = "__NONE_OPTION__";
 
-const NAME_MAP = { cloud: "NDX Tech Cloud" };
+const NAME_MAP = { cloud: "NDX IoT Platform Cloud" };
 
 @customElement("ha-stt-picker")
 export class HaSTTPicker extends LitElement {

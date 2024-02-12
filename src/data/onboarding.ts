@@ -3,10 +3,10 @@ import { handleFetchPromise } from "../util/hass-call-api";
 
 export interface InstallationType {
   installation_type:
-    | "NDX Tech Operating System"
-    | "NDX Tech Container"
-    | "NDX Tech Supervised"
-    | "NDX Tech Core"
+    | "NDX IoT Platform Operating System"
+    | "NDX IoT Platform Container"
+    | "NDX IoT Platform Supervised"
+    | "NDX IoT Platform Core"
     | "Unknown";
 }
 

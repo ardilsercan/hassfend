@@ -41,11 +41,11 @@ export class CloudAccount extends SubscribeMixin(LitElement) {
       <hass-subpage
         .hass=${this.hass}
         .narrow=${this.narrow}
-        header="NDX Tech Cloud"
+        header="NDX IoT Platform Cloud"
       >
         <div class="content">
           <ha-config-section .isWide=${this.isWide}>
-            <span slot="header">NDX Tech Cloud</span>
+            <span slot="header">NDX IoT Platform Cloud</span>
             <div slot="introduction">
               <p>
                 ${this.hass.localize(

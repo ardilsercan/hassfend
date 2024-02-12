@@ -56,8 +56,8 @@ const triggerPhrases = {
   event: "triggered_by_event", // event trigger
   time: "triggered_by_time", // time trigger
   "time pattern": "triggered_by_time_pattern", // time trigger
-  "NDX Tech stopping": "triggered_by_homeassistant_stopping", // stop event
-  "NDX Tech starting": "triggered_by_homeassistant_starting", // start event
+  "NDX IoT Platform stopping": "triggered_by_homeassistant_stopping", // stop event
+  "NDX IoT Platform starting": "triggered_by_homeassistant_starting", // start event
 };
 
 export const getLogbookDataForContext = async (

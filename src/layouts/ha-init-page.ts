@@ -15,7 +15,7 @@ class HaInitPage extends LitElement {
   protected render() {
     return this.error
       ? html`
-          <p>Unable to connect to NDX Tech.</p>
+          <p>Unable to connect to NDX IoT Platform.</p>
           <p class="retry-text">
             Retrying in ${this._retryInSeconds} seconds...
           </p>
@@ -24,7 +24,7 @@ class HaInitPage extends LitElement {
             ? html`
                 <p>
                   It is possible that you are seeing this screen because your
-                  NDX Tech is not currently connected. You can ask it to
+                  NDX IoT Platform is not currently connected. You can ask it to
                   come online from your
                   <a href="https://account.nabucasa.com/"
                     >Nabu Casa account page</a

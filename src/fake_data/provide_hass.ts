@@ -171,7 +171,7 @@ export const provideHass = (
   const noop = () => undefined;
 
   const hassObj: MockHomeAssistant = {
-    // NDX Tech properties
+    // NDX IoT Platform properties
     auth: {
       data: {
         hassUrl: "",

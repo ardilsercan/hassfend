@@ -32,11 +32,11 @@ export const demoServices: HassServices = {
         },
       },
     },
-    stop: { description: "Stop the NDX Tech service.", fields: {} },
-    restart: { description: "Restart the NDX Tech service.", fields: {} },
+    stop: { description: "Stop the NDX IoT Platform service.", fields: {} },
+    restart: { description: "Restart the NDX IoT Platform service.", fields: {} },
     check_config: {
       description:
-        "Check the NDX Tech configuration files for errors. Errors will be displayed in the NDX Tech log.",
+        "Check the NDX IoT Platform configuration files for errors. Errors will be displayed in the NDX IoT Platform log.",
       fields: {},
     },
     update_entity: {
