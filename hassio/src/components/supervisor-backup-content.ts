@@ -186,7 +186,7 @@ export class SupervisorBackupContent extends LitElement {
             ${!this.backup || this.backup.homeassistant
               ? html`<ha-formfield
                   .label=${html`<supervisor-formfield-label
-                    label="NDX Tech"
+                    label="NDX IoT Platform"
                     .iconPath=${mdiHomeAssistant}
                     .version=${this.backup
                       ? this.backup.homeassistant

@@ -53,7 +53,7 @@ export class HassioUpdate extends LitElement {
         </h1>
         <div class="card-group">
           ${this._renderUpdateCard(
-            "NDX Tech Core",
+            "NDX IoT Platform Core",
             "core",
             this.supervisor.core
           )}

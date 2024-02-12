@@ -121,10 +121,10 @@ class HassioCoreInfo extends LitElement {
 
     const confirmed = await showConfirmationDialog(this, {
       title: this.supervisor.localize("confirm.restart.title", {
-        name: "NDX Tech Core",
+        name: "NDX IoT Platform Core",
       }),
       text: this.supervisor.localize("confirm.restart.text", {
-        name: "NDX Tech Core",
+        name: "NDX IoT Platform Core",
       }),
       confirmText: this.supervisor.localize("common.restart"),
       dismissText: this.supervisor.localize("common.cancel"),
@@ -141,7 +141,7 @@ class HassioCoreInfo extends LitElement {
       if (this.hass.connection.connected) {
         showAlertDialog(this, {
           title: this.supervisor.localize("common.failed_to_restart_name", {
-            name: "NDX Tech Core",
+            name: "NDX IoT Platform Core",
           }),
           text: extractApiErrorMessage(err),
         });

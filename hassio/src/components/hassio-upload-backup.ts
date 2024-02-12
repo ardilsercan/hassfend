@@ -43,7 +43,7 @@ export class HassioUploadBackup extends LitElement {
     if (!["application/x-tar"].includes(file.type)) {
       showAlertDialog(this, {
         title: "Unsupported file format",
-        text: "Please choose a NDX Tech backup file (.tar)",
+        text: "Please choose a NDX IoT Platform backup file (.tar)",
         confirmText: "ok",
       });
       return;

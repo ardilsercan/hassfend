@@ -52,9 +52,9 @@ declare global {
 }
 
 const SUPERVISOR_UPDATE_NAMES = {
-  core: "NDX Tech Core",
-  os: "NDX Tech Operating System",
-  supervisor: "NDX Tech Supervisor",
+  core: "NDX IoT Platform Core",
+  os: "NDX IoT Platform Operating System",
+  supervisor: "NDX IoT Platform Supervisor",
 };
 
 type updateType = "os" | "supervisor" | "core" | "addon";

@@ -92,7 +92,7 @@ export class HassioBackups extends LitElement {
     }
     const content: string[] = [];
     if (backup.content.homeassistant) {
-      content.push("NDX Tech");
+      content.push("NDX IoT Platform");
     }
     if (backup.content.folders.length !== 0) {
       for (const folder of backup.content.folders) {
