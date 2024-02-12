@@ -46,7 +46,7 @@ const SCHEMAS: { name: string; triggers: Trigger[] }[] = [
   },
 
   {
-    name: "NDX Tech",
+    name: "NDX IoT Platform",
     triggers: [{ platform: "homeassistant", ...HaHassTrigger.defaultConfig }],
   },
 

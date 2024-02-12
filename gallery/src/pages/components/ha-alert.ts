@@ -99,7 +99,7 @@ const alerts: {
     type: "warning",
     iconSlot: html`<span slot="icon" class="image"
       ><img
-        alt="NDX Tech logo"
+        alt="NDX IoT Platform logo"
         src="https://www.home-assistant.io/images/home-assistant-logo.svg"
     /></span>`,
   },

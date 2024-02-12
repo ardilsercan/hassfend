@@ -2,7 +2,7 @@
 title: Editing design.home-assistant.io
 ---
 
-![NDX Tech Logo](/images/logo-with-text.png)
+![NDX IoT Platform Logo](/images/logo-with-text.png)
 
 # How to edit design.home-assistant.io
 
@@ -10,7 +10,7 @@ All pages are stored in [the pages folder][pages-folder] on GitHub. Pages are gr
 
 ## Development
 
-You can develop design.home-assistant.io locally by checking out [the NDX Tech frontend repository](https://github.com/home-assistant/frontend). The command to run the gallery is `gallery/script/develop_gallery`. It will automatically open a browser window and load the development version of the website.
+You can develop design.home-assistant.io locally by checking out [the NDX IoT Platform frontend repository](https://github.com/home-assistant/frontend). The command to run the gallery is `gallery/script/develop_gallery`. It will automatically open a browser window and load the development version of the website.
 
 ## Creating a page
 

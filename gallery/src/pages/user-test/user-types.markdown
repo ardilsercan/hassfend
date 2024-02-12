@@ -2,7 +2,7 @@
 title: "User types"
 ---
 
-We have defined three user types for NDX Tech. They are a lean segmentation of users that helps us make decisions throughout the product. User types differ from traditional personas in that the segmentation criteria aren’t demographic and don’t personify a group into a single character with a fictitious background story.
+We have defined three user types for NDX IoT Platform. They are a lean segmentation of users that helps us make decisions throughout the product. User types differ from traditional personas in that the segmentation criteria aren’t demographic and don’t personify a group into a single character with a fictitious background story.
 
 # Outgrowers
 

@@ -7,7 +7,7 @@ title: "User Test: Configuration menu"
 At the end of last year, we created one Configuration menu by merging Supervisor. In the next iteration, we want to organize our menu by creating logical grouping and combining duplicated features. We are conducting this test to see if we are on the right track.
 
 - Anyone could join
-- Respondents recruited on Twitter, Reddit and NDX Tech Forum
+- Respondents recruited on Twitter, Reddit and NDX IoT Platform Forum
 - This test is open for 10 days
 - UsabilityHub for user test
 - Figma for prototype
@@ -19,10 +19,10 @@ At the end of last year, we created one Configuration menu by merging Supervisor
 
 915 respondents took part in this test and they gave 407 comments. In general there isn’t a significant difference between:
 
-- How long a respondent has been using NDX Tech
+- How long a respondent has been using NDX IoT Platform
 - Installation method
-- How many visits to its NDX Tech in the past 3 months
-- NDX Tech expertise
+- How many visits to its NDX IoT Platform in the past 3 months
+- NDX IoT Platform expertise
 
 ## Overall menu change
 
@@ -62,8 +62,8 @@ _3 respondents passed_
 
 - More top level menu items for example logs.
 - What are settings and what not? Maybe better to name it `Configuration`
-- Devices are a first-class citizen in the domain of NDX Tech, and so shouldn't be tucked away in "Settings"
-- Rename Developer tools (or make it only for NDX Tech developers)
+- Devices are a first-class citizen in the domain of NDX IoT Platform, and so shouldn't be tucked away in "Settings"
+- Rename Developer tools (or make it only for NDX IoT Platform developers)
 - Separate administration (for instance creating users / adding lights etc) from development activities (creating automations and scripts)
 - Search Bar in Settings
 - Feature to put menu items in sidebar
@@ -89,7 +89,7 @@ We should keep our focus on organizing our menu by creating logical grouping and
 
 ## Helpers
 
-In NDX Tech you can create toggles, text fields, number sliders, timers and counters. Also known as `Helpers`. Where should they be placed?
+In NDX IoT Platform you can create toggles, text fields, number sliders, timers and counters. Also known as `Helpers`. Where should they be placed?
 
 ### Stats
 
@@ -135,7 +135,7 @@ This test showed that the current navigation design works.
 
 ## YAML
 
-In NDX Tech you can make configuration changes in YAML files. To make these changes take effect you have to reload your YAML in the UI or do a restart. How are people doing this and can they find it in this new design?
+In NDX IoT Platform you can make configuration changes in YAML files. To make these changes take effect you have to reload your YAML in the UI or do a restart. How are people doing this and can they find it in this new design?
 
 ### Stats
 
@@ -165,8 +165,8 @@ And we asked if they have seen that we've moved some functionality from current 
 - Hidden restart and reload
 - YAML in Developer Tools
 - Combining `Developer tools` with `Server management`
-- Reload NDX Tech button isn't clear what it does
-- Reload/restart NDX Tech in Developer Tools
+- Reload NDX IoT Platform button isn't clear what it does
+- Reload/restart NDX IoT Platform in Developer Tools
 
 **Suggestions**
 
@@ -181,7 +181,7 @@ And we asked if they have seen that we've moved some functionality from current 
 This test showed two different kinds of user groups: UI and YAML users.
 
 - Moving `Developer tools` to `Settings` is a good idea
-- YAML users want reload YAML and NDX Tech restart in `System`
+- YAML users want reload YAML and NDX IoT Platform restart in `System`
 - Move the restart and reload button to the `System` page from the overflow menu
 - Add suggestion to reload YAML when a user wants to restart
 - Add reload all YAML button

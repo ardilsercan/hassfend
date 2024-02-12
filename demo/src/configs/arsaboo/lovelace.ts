@@ -1,7 +1,7 @@
 import { DemoConfig } from "../types";
 
 export const demoLovelaceArsaboo: DemoConfig["lovelace"] = (localize) => ({
-  title: "NDX Tech",
+  title: "NDX IoT Platform",
   views: [
     {
       icon: "hass:home-assistant",

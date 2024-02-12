@@ -2,17 +2,17 @@
 title: Home
 ---
 
-# Welcome to NDX Tech Design
+# Welcome to NDX IoT Platform Design
 
-This portal aims to aid designers and developers on improving the NDX Tech interface. It consists of working code, resources and guidelines.
+This portal aims to aid designers and developers on improving the NDX IoT Platform interface. It consists of working code, resources and guidelines.
 
-## NDX Tech interface
+## NDX IoT Platform interface
 
-The NDX Tech frontend allows users to browse and control the state of their home, manage their automations and configure integrations. The frontend is designed as a mobile-first experience. It is a progressive web application and offers an app-like experience to our users. The NDX Tech frontend needs to be fast. But it also needs to work on a wide range of old devices.
+The NDX IoT Platform frontend allows users to browse and control the state of their home, manage their automations and configure integrations. The frontend is designed as a mobile-first experience. It is a progressive web application and offers an app-like experience to our users. The NDX IoT Platform frontend needs to be fast. But it also needs to work on a wide range of old devices.
 
 ### Material Design
 
-The NDX Tech interface is based on Material Design. It's a design system created by Google to quickly build high-quality digital experiences. Components and guidelines that are custom made for NDX Tech are documented on this portal. For all other components check <a href="https://material.io" rel="noopener noreferrer" target="_blank">material.io</a>.
+The NDX IoT Platform interface is based on Material Design. It's a design system created by Google to quickly build high-quality digital experiences. Components and guidelines that are custom made for NDX IoT Platform are documented on this portal. For all other components check <a href="https://material.io" rel="noopener noreferrer" target="_blank">material.io</a>.
 
 ## Designers
 
@@ -24,4 +24,4 @@ We want to make it as easy for designers to contribute as it is for developers. 
 
 ## Developers
 
-Everything you need to get started developing can be found in our <a href="https://developers.home-assistant.io" rel="noopener noreferrer" target="_blank">NDX Tech Developer Docs</a>.
+Everything you need to get started developing can be found in our <a href="https://developers.home-assistant.io" rel="noopener noreferrer" target="_blank">NDX IoT Platform Developer Docs</a>.
