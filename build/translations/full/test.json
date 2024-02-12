@@ -4663,7 +4663,8 @@
 						"in_progress": "TRANSLATED",
 						"failed": "TRANSLATED",
 						"success": "TRANSLATED",
-						"sharing_code": "TRANSLATED"
+						"scan_code": "TRANSLATED",
+						"copy_code": "TRANSLATED"
 					}
 				},
 				"tips": {

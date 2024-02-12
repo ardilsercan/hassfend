@@ -4681,9 +4681,9 @@
 						"in_progress": "Suhtleme seadmega. See võib veidi aega võtta.",
 						"failed": "Käsu edastamine nurjus. Lisateavet võib leida logidest.",
 						"success": "Seade on valmis lisamiseks teisele Matteri platvormile.",
-						"sharing_code": "Jagamiskood",
+						"scan_code": "Seadistamise lõpetamiseks skanni rakendusega QR-kood või sisesta allolev jagamiskood.",
 						"copy_code": "Kopeeri kood",
-						"scan_code": "Seadistamise lõpetamiseks skanni rakendusega QR-kood või sisesta allolev jagamiskood."
+						"sharing_code": "Jagamiskood"
 					}
 				},
 				"tips": {

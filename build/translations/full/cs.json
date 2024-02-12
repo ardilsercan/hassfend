@@ -2894,7 +2894,7 @@
 						},
 						"actions": {
 							"name": "Akce",
-							"header": "Pak udělat",
+							"header": "Pak provést",
 							"description": "Tento seznam akcí bude proveden postupně, když automatizace běží. Akce obvykle ovládá jednu z vašich oblastí, zařízení nebo entit, například: \"Zapnout světla\". Pomocí stavebních bloků můžete vytvářet složitější sekvence akcí.",
 							"learn_more": "Další informace o akcích",
 							"add": "Přidat akci",
@@ -4681,9 +4681,9 @@
 						"in_progress": "Komunikujeme se zařízením. To může chvíli trvat.",
 						"failed": "Příkaz selhal. Další informace mohou být k dispozici v protokolech.",
 						"success": "Vaše zařízení je připraveno k přidání do jiné platformy Matter.",
-						"sharing_code": "Kód pro sdílení",
+						"scan_code": "S aplikací pro Matter naskenujte QR kód nebo zadejte kód pro sdílení níže a dokončete nastavení.",
 						"copy_code": "Kopírovat kód",
-						"scan_code": "S aplikací pro Matter naskenujte QR kód nebo zadejte kód pro sdílení níže a dokončete nastavení."
+						"sharing_code": "Kód pro sdílení"
 					}
 				},
 				"tips": {

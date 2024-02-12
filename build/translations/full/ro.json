@@ -2408,7 +2408,7 @@
 							"state": "Status"
 						},
 						"empty_header": "Start automating",
-						"empty_text_1": "Automations make NDX Tech automatically respond to things happening in and around your home.",
+						"empty_text_1": "Automations make NDX IoT Platform automatically respond to things happening in and around your home.",
 						"empty_text_2": "Automations connect triggers to actions in a ''when trigger then action'' fashion with optional conditions. For example: ''When the sun sets and if {user} is home, then turn on the lights''."
 					},
 					"dialog_new": {
@@ -2550,7 +2550,7 @@
 									"context_user_picked": "Eveniment declanșat de utilizator",
 									"context_user_pick": "Selectează utilizator",
 									"description": {
-										"picker": "When an event is being received (event is an advanced concept in NDX Tech).",
+										"picker": "When an event is being received (event is an advanced concept in NDX IoT Platform).",
 										"full": "La declanșarea unui eveniment {eventTypes}"
 									}
 								},
@@ -2584,7 +2584,7 @@
 									"start": "Pornire",
 									"shutdown": "Oprire",
 									"description": {
-										"picker": "When NDX Tech starts up or shuts down.",
+										"picker": "When NDX IoT Platform starts up or shuts down.",
 										"started": "La pornirea Home Assistant",
 										"shutdown": "La oprirea Home Assistant"
 									}
@@ -2701,7 +2701,7 @@
 									"webhook_id_helper": "Tratează acest ID ca pe o parolă: păstrează-l secret și fă-l greu de ghicit.",
 									"webhook_settings": "Setări webhook",
 									"description": {
-										"picker": "When NDX Tech receives a web request to the webhook endpoint.",
+										"picker": "When NDX IoT Platform receives a web request to the webhook endpoint.",
 										"full": "La primirea unor date pe un webhook"
 									}
 								},
@@ -2999,7 +2999,7 @@
 									"event": "Tip de eveniment",
 									"event_data": "Date eveniment",
 									"description": {
-										"picker": "Fire an event manually (event is an advanced concept in NDX Tech).",
+										"picker": "Fire an event manually (event is an advanced concept in NDX IoT Platform).",
 										"full": "Declanșează manual evenimentul {name}",
 										"template": "pe baza unui șablon"
 									}
@@ -4677,8 +4677,9 @@
 						"start_commissioning": "Share device",
 						"in_progress": "We're communicating with the device. This may take some time.",
 						"failed": "The command failed. Additional information may be available in the logs.",
-						"success": "Your device can now be added to another Matter controller, scan the QR code below or enter the sharing code in the app of the controller you want to add your device to.",
-						"sharing_code": "Sharing code"
+						"success": "Your device is ready to be added to another Matter platform.",
+						"scan_code": "With their app, scan the QR code or enter the sharing code below to finish set up.",
+						"copy_code": "Copy code"
 					}
 				},
 				"tips": {

@@ -2575,7 +2575,7 @@
 									"any_state_ignore_attributes": "Qualquer estado (ignorando alterações de atributo)",
 									"description": {
 										"picker": "Quando o estado de uma entidade (ou atributo) muda.",
-										"full": "Quando{hasAttribute, select, \n true { {attribute} de} \n other {}\n} {hasEntity, select, \n true {{entity}} \n other {algo}\n} alterações{fromChoice, select, \n fromUsed {de {fromString}}\n null {de qualquer estado} \n other {}\n}{toChoice, select, \n toUsed { para {toString}} \n null {para qualquer estado} \n special {estado ou qualquer atributo} \n other {}\n}{hasDuration, select, \n true {para {duration}} \n other {}\n}"
+										"full": "Quando{hasAttribute, select, \n true { {attribute} de} \n other {}\n} {hasEntity, select, \n true {{entity}} \n other {algo}\n} alterar{fromChoice, select, \n fromUsed { de {fromString}}\n null { de qualquer estado} \n other {}\n}{toChoice, select, \n toUsed { para {toString}} \n null { para qualquer estado} \n special { estado ou qualquer atributo} \n other {}\n}{hasDuration, select, \n true { por {duration}} \n other {}\n}"
 									}
 								},
 								"homeassistant": {
@@ -4681,9 +4681,9 @@
 						"in_progress": "Estamos nos comunicando com o dispositivo. Isto pode tomar algum tempo.",
 						"failed": "O comando falhou. Informações adicionais podem estar disponíveis nos logs.",
 						"success": "Seu dispositivo está pronto para ser adicionado a outra plataforma Matter.",
-						"sharing_code": "Compartilhando código",
+						"scan_code": "Com o aplicativo, escaneie o código QR ou insira o código de compartilhamento abaixo para finalizar a configuração.",
 						"copy_code": "Copiar código",
-						"scan_code": "Com o aplicativo, escaneie o código QR ou insira o código de compartilhamento abaixo para finalizar a configuração."
+						"sharing_code": "Compartilhando código"
 					}
 				},
 				"tips": {

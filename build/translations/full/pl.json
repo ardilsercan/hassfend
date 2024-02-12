@@ -4680,7 +4680,8 @@
 						"in_progress": "We're communicating with the device. This may take some time.",
 						"failed": "The command failed. Additional information may be available in the logs.",
 						"success": "Urządzenie można teraz dodać do innego kontrolera Matter, skanując poniższy kod QR lub wprowadzając kod udostępniania w aplikacji kontrolera, do którego chcesz dodać urządzenie.",
-						"sharing_code": "Sharing code"
+						"scan_code": "With their app, scan the QR code or enter the sharing code below to finish set up.",
+						"copy_code": "Copy code"
 					}
 				},
 				"tips": {

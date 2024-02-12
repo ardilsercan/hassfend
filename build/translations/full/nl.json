@@ -4681,9 +4681,9 @@
 						"in_progress": "We communiceren met het apparaat. Dit kan wat tijd innemen.",
 						"failed": "De opdracht is mislukt. Mogelijk is er aanvullende informatie beschikbaar in de logboeken.",
 						"success": "Uw apparaat is klaar om te worden toegevoegd aan een ander Matter-platform.",
-						"sharing_code": "Deelcode",
+						"scan_code": "Scan met hun app de QR-code of voer de onderstaande deelcode in om het instellen te voltooien.",
 						"copy_code": "Kopieer code",
-						"scan_code": "Scan met hun app de QR-code of voer de onderstaande deelcode in om het instellen te voltooien."
+						"sharing_code": "Deelcode"
 					}
 				},
 				"tips": {

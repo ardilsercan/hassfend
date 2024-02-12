@@ -727,7 +727,7 @@
 					"confirm_delete": "{count} {count, plural,\n  one {ഫയൽ}\n  other {ഫയലുകൾ}\n} നീക്കം ചെയ്യാനാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നോ?",
 					"delete": "{count} ഇല്ലാതാക്കുക",
 					"deleting": "{count} ഇല്ലാതാക്കുന്നു",
-					"tip_media_storage": "You can add network storage to your NDX Tech instance in the {storage} panel.",
+					"tip_media_storage": "You can add network storage to your NDX IoT Platform instance in the {storage} panel.",
 					"tip_storage_panel": "സംഭരണം"
 				},
 				"class": {
@@ -995,7 +995,7 @@
 				"send_text": "വാചകം അയയ്ക്കുക",
 				"start_listening": "കേൾക്കാൻ തുടങ്ങുക",
 				"manage_assistants": "Manage assistants",
-				"not_supported_microphone_browser": "Your connection to NDX Tech is not secured using HTTPS. This causes browsers to block NDX Tech from accessing the microphone.",
+				"not_supported_microphone_browser": "Your connection to NDX IoT Platform is not secured using HTTPS. This causes browsers to block NDX IoT Platform from accessing the microphone.",
 				"not_supported_microphone_documentation": "Visit {documentation_link} to learn how to use a secure URL",
 				"not_supported_microphone_documentation_link": "the documentation"
 			},
@@ -1261,7 +1261,7 @@
 					"service_heading": "Service",
 					"service": "service"
 				},
-				"enabled_description": "Disabled devices will not be shown and entities belonging to the device will be disabled and not added to NDX Tech.",
+				"enabled_description": "Disabled devices will not be shown and entities belonging to the device will be disabled and not added to NDX IoT Platform.",
 				"update": "Update",
 				"unknown_error": "അറിയപ്പെടാത്ത പിശക്"
 			},
@@ -1293,7 +1293,7 @@
 					"failed": "ഹോം അസിസ്റ്റന്റ് റീസ്റ്റാർട്ട് ചെയ്യുന്നത് പരാജയപ്പെട്ടു"
 				},
 				"stop": {
-					"confirm_title": "Stop NDX Tech?",
+					"confirm_title": "Stop NDX IoT Platform?",
 					"confirm_description": "This will interrupt all running automations and scripts.",
 					"confirm_action": "Stop"
 				},
@@ -1316,12 +1316,12 @@
 					"failed": "സിസ്റ്റം ഷട്ട്ഡൗൺ ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
 				},
 				"restart-safe-mode": {
-					"title": "Restart NDX Tech in safe mode",
+					"title": "Restart NDX IoT Platform in safe mode",
 					"description": "ഇഷ്ടാനുസൃത സംയോജനങ്ങളും മുന്നറ്റ മൊഡ്യൂളുകളും ലോഡുചെയ്യാതെ ഹോം അസിസ്റ്റന്റ് വീണ്ടും തുടങ്ങുന്നു.",
-					"confirm_title": "Restart NDX Tech in safe mode?",
+					"confirm_title": "Restart NDX IoT Platform in safe mode?",
 					"confirm_description": "ഇത് ഇഷ്ടാനുസൃത സംയോജനങ്ങളോ മുന്നറ്റ മൊഡ്യൂളുകളോ ലോഡുചെയ്യാതെ ഹോം അസിസ്റ്റന്റ് പുനരാരംഭിപ്പിക്കും.",
 					"confirm_action": "Restart",
-					"failed": "Failed to restart NDX Tech"
+					"failed": "Failed to restart NDX IoT Platform"
 				}
 			},
 			"aliases": {
@@ -1633,7 +1633,7 @@
 				"not_supported": "ഈ റീഡയറക്‌ടിനെ നിങ്ങളുടെ ഹോം അസിസ്റ്റന്റ് ഇൻസ്റ്റൻസ് പിന്തുണയ്‌ക്കുന്നില്ല. പിന്തുണയ്‌ക്കുന്ന റീഡയറക്‌ടുകൾക്കും അവ അവതരിപ്പിച്ച പതിപ്പിനും {link} പരിശോധിക്കുക.",
 				"component_not_loaded": "ഈ റീഡയറക്‌ടിനെ നിങ്ങളുടെ ഹോം അസിസ്റ്റന്റ് ഇൻസ്റ്റൻസ് പിന്തുണയ്‌ക്കുന്നില്ല. ഈ റീഡയറക്‌ട് ഉപയോഗിക്കുന്നതിന് നിങ്ങൾക്ക് {integration} എന്ന ഇന്റഗ്രേഷൻ ആവശ്യമാണ്.",
 				"no_supervisor": "ഈ റീഡയറക്‌ടിനെ നിങ്ങളുടെ ഹോം അസിസ്റ്റന്റ് ഇൻസ്റ്റാളേഷൻ പിന്തുണയ്‌ക്കുന്നില്ല. ഇതിന് ഹോം അസിസ്റ്റന്റ് ഓപ്പറേറ്റിംഗ് സിസ്റ്റം അല്ലെങ്കിൽ ഹോം അസിസ്റ്റന്റ് സൂപ്പർവൈസ്ഡ് ഇൻസ്റ്റാളേഷൻ രീതി ആവശ്യമാണ്. കൂടുതൽ വിവരങ്ങൾക്ക്, {docs_link} കാണുക.",
-				"not_app": "This redirect only works from a mobile device that has the NDX Tech Companion app installed. {link}.",
+				"not_app": "This redirect only works from a mobile device that has the NDX IoT Platform Companion app installed. {link}.",
 				"documentation": "ഡോക്യുമെന്റേഷൻ",
 				"download_app": "ആപ്പ് ഡൗൺലോഡ് ചെയ്യാൻ ഇവിടെ ക്ലിക്ക് ചെയ്യുക",
 				"faq_link": "എന്റെ ഹോം അസിസ്റ്റന്റ് പതിവ് ചോദ്യങ്ങൾ",
@@ -2334,7 +2334,7 @@
 							"features": {
 								"assistants": {
 									"title": "Google Assistant and Amazon Alexa",
-									"text": "Control all your NDX Tech devices via any Google Assistant-enabled or Alexa-enabled device."
+									"text": "Control all your NDX IoT Platform devices via any Google Assistant-enabled or Alexa-enabled device."
 								},
 								"speech": {
 									"title": "Amazing speech options for Assist",
@@ -2408,7 +2408,7 @@
 							"state": "നില"
 						},
 						"empty_header": "Start automating",
-						"empty_text_1": "Automations make NDX Tech automatically respond to things happening in and around your home.",
+						"empty_text_1": "Automations make NDX IoT Platform automatically respond to things happening in and around your home.",
 						"empty_text_2": "Automations connect triggers to actions in a ''when trigger then action'' fashion with optional conditions. For example: ''When the sun sets and if {user} is home, then turn on the lights''."
 					},
 					"dialog_new": {
@@ -2550,7 +2550,7 @@
 									"context_user_picked": "ഉപയോക്താവിന്റെ കത്തിച്ചുവിട്ട സംഭവം",
 									"context_user_pick": "ഉപയോക്താവിനെ തിരഞ്ഞെടുക്കുക",
 									"description": {
-										"picker": "When an event is being received (event is an advanced concept in NDX Tech).",
+										"picker": "When an event is being received (event is an advanced concept in NDX IoT Platform).",
 										"full": "When {eventTypes} event is fired"
 									}
 								},
@@ -2584,9 +2584,9 @@
 									"start": "തുടക്കത്തിൽ",
 									"shutdown": "ഷട്ട് ഡൗണിൽ",
 									"description": {
-										"picker": "When NDX Tech starts up or shuts down.",
-										"started": "When NDX Tech is started",
-										"shutdown": "When NDX Tech is shutdown"
+										"picker": "When NDX IoT Platform starts up or shuts down.",
+										"started": "When NDX IoT Platform is started",
+										"shutdown": "When NDX IoT Platform is shutdown"
 									}
 								},
 								"mqtt": {
@@ -2701,7 +2701,7 @@
 									"webhook_id_helper": "ഈ ഐഡിയെ ഒരു പാസ്‌വേഡ് പോലെ പരിഗണിക്കുക: രഹസ്യമായി സൂക്ഷിക്കുക, ഊഹിക്കാൻ പ്രയാസമുള്ളതാക്കുക.",
 									"webhook_settings": "Webhook ക്രമീകരണങ്ങൾ",
 									"description": {
-										"picker": "When NDX Tech receives a web request to the webhook endpoint.",
+										"picker": "When NDX IoT Platform receives a web request to the webhook endpoint.",
 										"full": "When a Webhook payload has been received"
 									}
 								},
@@ -2999,7 +2999,7 @@
 									"event": "സംഭവ തരം",
 									"event_data": "സംഭവ ഡാറ്റ",
 									"description": {
-										"picker": "Fire an event manually (event is an advanced concept in NDX Tech).",
+										"picker": "Fire an event manually (event is an advanced concept in NDX IoT Platform).",
 										"full": "കൈമുറയായി സംഭവം കൊളുത്തുക {name}",
 										"template": "ഒരു ടെംപ്ലേറ്റിനെ അടിസ്ഥാനമാക്കി"
 									}
@@ -3272,7 +3272,7 @@
 							"author": "By {author}",
 							"local": "By you",
 							"community": "കൂട്ടായ്മ മൂലം",
-							"homeassistant": "By NDX Tech"
+							"homeassistant": "By NDX IoT Platform"
 						},
 						"discover_blueprint_tip": "Discover more community blueprints"
 					},
@@ -3411,8 +3411,8 @@
 						"trial_info": "പേയ്മെന്റ് വിവരങ്ങൾ ആവശ്യമില്ല",
 						"alert_password_change_required": "ലോഗിൻ ചെയ്യുന്നതിന് മുമ്പ് നിങ്ങളുടെ പാസ്‌വേഡ് മാറ്റേണ്ടതുണ്ട്.",
 						"alert_email_confirm_necessary": "ലോഗിൻ ചെയ്യുന്നതിന് മുമ്പ് നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിക്കേണ്ടതുണ്ട്.",
-						"cloud_pipeline_title": "Want to use NDX Tech Cloud for your voice assistant?",
-						"cloud_pipeline_text": "We created a new assistant for you, using the superior text-to-speech and speech-to-text engines from NDX Tech Cloud. Would you like to set this assistant as the preferred assistant?"
+						"cloud_pipeline_title": "Want to use NDX IoT Platform Cloud for your voice assistant?",
+						"cloud_pipeline_text": "We created a new assistant for you, using the superior text-to-speech and speech-to-text engines from NDX IoT Platform Cloud. Would you like to set this assistant as the preferred assistant?"
 					},
 					"forgot_password": {
 						"title": "പാസ്വേഡ് മറന്നോ",
@@ -4141,7 +4141,7 @@
 					"change_channel_multiprotocol_enabled_title": "The Thread radio has multiprotocol enabled",
 					"change_channel_multiprotocol_enabled_text": "To change channel when the Thread radio has multiprotocol enabled, please use the hardware settings menu.",
 					"change_channel_range": "Channel must be in the range 11 to 26",
-					"change_channel_text": "Initiating a channel change for your NDX Tech Thread network should be performed with caution. Some Thread devices may not migrate to the new channel automatically and, if the new channel is congested, your Thread devices may become intermittently unavailable. Some devices may need to be manually re-joined to your Thread network before they show in NDX Tech again. This action cannot be reversed (without performing another channel change)."
+					"change_channel_text": "Initiating a channel change for your NDX IoT Platform Thread network should be performed with caution. Some Thread devices may not migrate to the new channel automatically and, if the new channel is congested, your Thread devices may become intermittently unavailable. Some devices may need to be manually re-joined to your Thread network before they show in NDX IoT Platform again. This action cannot be reversed (without performing another channel change)."
 				},
 				"zha": {
 					"common": {
@@ -4353,7 +4353,7 @@
 					"hard_reset_controller": {
 						"NotStarted": {
 							"title": "Reset Controller to Factory Settings",
-							"body": "If you decide to move forward, you will reset your controller to factory settings. As a result, the controller will forget all devices it is paired with and all Z-Wave devices for this network will be removed from NDX Tech. If there are any devices still paired with the controller when it is reset, they will have to go through the exclusion process before they can be re-paired. Would you like to continue?"
+							"body": "If you decide to move forward, you will reset your controller to factory settings. As a result, the controller will forget all devices it is paired with and all Z-Wave devices for this network will be removed from NDX IoT Platform. If there are any devices still paired with the controller when it is reset, they will have to go through the exclusion process before they can be re-paired. Would you like to continue?"
 						},
 						"InProgress": {
 							"title": "Resetting Controller",
@@ -4677,8 +4677,9 @@
 						"start_commissioning": "Share device",
 						"in_progress": "We're communicating with the device. This may take some time.",
 						"failed": "The command failed. Additional information may be available in the logs.",
-						"success": "Your device can now be added to another Matter controller, scan the QR code below or enter the sharing code in the app of the controller you want to add your device to.",
-						"sharing_code": "Sharing code"
+						"success": "Your device is ready to be added to another Matter platform.",
+						"scan_code": "With their app, scan the QR code or enter the sharing code below to finish set up.",
+						"copy_code": "Copy code"
 					}
 				},
 				"tips": {
@@ -4909,7 +4910,7 @@
 					},
 					"recovery-mode": {
 						"header": "Recovery mode activated",
-						"description": "NDX Tech ran into trouble while loading your configuration and is now running in recovery mode. Take a look at the error log to see what went wrong."
+						"description": "NDX IoT Platform ran into trouble while loading your configuration and is now running in recovery mode. Take a look at the error log to see what went wrong."
 					},
 					"starting": {
 						"description": "ഹോം അസിസ്റ്റന്റ് തുടങ്ങുന്നു, കാത്തിരിക്കൂ..."
@@ -5976,12 +5977,12 @@
 				"information": "Information",
 				"delete_confirm_title": "Remove {name}?",
 				"delete_confirm_text": "Are you sure you want to remove this list and all of its items?",
-				"restart_confirm": "Restart NDX Tech to finish removing this to-do list"
+				"restart_confirm": "Restart NDX IoT Platform to finish removing this to-do list"
 			},
 			"page-authorize": {
 				"initializing": "തുടങ്ങുന്നു",
 				"authorizing": "നിങ്ങളുടെ ഹോം അസിസ്റ്റന്റ് ഇൻസ്റ്റൻസിലേക്ക് ലോഗിൻ ചെയ്യുക",
-				"authorizing_app": "You're about to give the NDX Tech Companion app for {app} access to your NDX Tech instance.",
+				"authorizing_app": "You're about to give the NDX IoT Platform Companion app for {app} access to your NDX IoT Platform instance.",
 				"authorizing_client": "നിങ്ങളുടെ ഹോം അസിസ്റ്റന്റ് പതിപ്പിലേക്ക് നിങ്ങൾ {clientId} -ക്ക് പ്രവേശനം നൽകാൻ പോകുകയാണ്.",
 				"pick_auth_provider": "അല്ലെങ്കിൽ ഇതിൽ ലോഗിൻ ചെയ്യുക",
 				"abort_intro": "ലോഗിൻ റദ്ദാക്കി",
@@ -6445,7 +6446,7 @@
 						},
 						"usage": {
 							"title": "Usage",
-							"description": "Details of what you use with NDX Tech"
+							"description": "Details of what you use with NDX IoT Platform"
 						},
 						"statistics": {
 							"title": "Statistical data",
@@ -6933,7 +6934,7 @@
 			"download": "ഡൗൺലോഡ്",
 			"more_actions": "കൂടുതൽ പ്രവർത്തനങ്ങൾ",
 			"remote_download_title": "സാധ്യമായും വേഗം കുറഞ്ഞ ഡൗൺലോഡ്",
-			"remote_download_text": "You are accessing NDX Tech via remote access. Downloading backups over the Nabu Casa URL will take some time. If you are at home, cancel this dialog and enter your local URL, such as 'http://homeassistant.local:8123'"
+			"remote_download_text": "You are accessing NDX IoT Platform via remote access. Downloading backups over the Nabu Casa URL will take some time. If you are at home, cancel this dialog and enter your local URL, such as 'http://homeassistant.local:8123'"
 		},
 		"dialog": {
 			"network": {

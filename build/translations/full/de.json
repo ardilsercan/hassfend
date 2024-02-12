@@ -4681,9 +4681,9 @@
 						"in_progress": "Wir kommunizieren mit dem Gerät. Das kann ein bisschen dauern.",
 						"failed": "Der Befehl ist fehlgeschlagen. Weitere Informationen sind möglicherweise in den Protokollen verfügbar.",
 						"success": "Dein Gerät ist bereit, zu einer anderen Matter-Plattform hinzugefügt zu werden.",
-						"sharing_code": "Code teilen",
+						"scan_code": "Scanne mit deren App den QR-Code oder gib den Freigabecode unten ein, um die Einrichtung abzuschließen.",
 						"copy_code": "Code kopieren",
-						"scan_code": "Scanne mit deren App den QR-Code oder gib den Freigabecode unten ein, um die Einrichtung abzuschließen."
+						"sharing_code": "Code teilen"
 					}
 				},
 				"tips": {

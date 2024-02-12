@@ -896,7 +896,7 @@
 		"dialogs": {
 			"safe_mode": {
 				"title": "Safe mode",
-				"text": "NDX Tech is running in safe mode, custom integrations and frontend modules are not available. Restart NDX Tech to exit safe mode."
+				"text": "NDX IoT Platform is running in safe mode, custom integrations and frontend modules are not available. Restart NDX IoT Platform to exit safe mode."
 			},
 			"quick-bar": {
 				"commands": {
@@ -2408,7 +2408,7 @@
 							"state": "Stāvoklis"
 						},
 						"empty_header": "Start automating",
-						"empty_text_1": "Automations make NDX Tech automatically respond to things happening in and around your home.",
+						"empty_text_1": "Automations make NDX IoT Platform automatically respond to things happening in and around your home.",
 						"empty_text_2": "Automations connect triggers to actions in a ''when trigger then action'' fashion with optional conditions. For example: ''When the sun sets and if {user} is home, then turn on the lights''."
 					},
 					"dialog_new": {
@@ -2550,7 +2550,7 @@
 									"context_user_picked": "Lietotāja aktivizēšanas notikums",
 									"context_user_pick": "Izvēlieties lietotāju",
 									"description": {
-										"picker": "When an event is being received (event is an advanced concept in NDX Tech).",
+										"picker": "When an event is being received (event is an advanced concept in NDX IoT Platform).",
 										"full": "When {eventTypes} event is fired"
 									}
 								},
@@ -2584,9 +2584,9 @@
 									"start": "Sākt",
 									"shutdown": "Izslēgt",
 									"description": {
-										"picker": "When NDX Tech starts up or shuts down.",
-										"started": "When NDX Tech is started",
-										"shutdown": "When NDX Tech is shutdown"
+										"picker": "When NDX IoT Platform starts up or shuts down.",
+										"started": "When NDX IoT Platform is started",
+										"shutdown": "When NDX IoT Platform is shutdown"
 									}
 								},
 								"mqtt": {
@@ -2701,7 +2701,7 @@
 									"webhook_id_helper": "Izturieties pret šo ID tāpat kā pret paroli: saglabājiet to slepenībā un izveidojiet to grūti uzminamu.",
 									"webhook_settings": "Webhook iestatījumi",
 									"description": {
-										"picker": "When NDX Tech receives a web request to the webhook endpoint.",
+										"picker": "When NDX IoT Platform receives a web request to the webhook endpoint.",
 										"full": "When a Webhook payload has been received"
 									}
 								},
@@ -2999,7 +2999,7 @@
 									"event": "Notikuma tips",
 									"event_data": "Notikuma dati",
 									"description": {
-										"picker": "Fire an event manually (event is an advanced concept in NDX Tech).",
+										"picker": "Fire an event manually (event is an advanced concept in NDX IoT Platform).",
 										"full": "Ugunsgrēka notikums {name}",
 										"template": "pamatojoties uz veidni"
 									}
@@ -3272,7 +3272,7 @@
 							"author": "No {author}",
 							"local": "By you",
 							"community": "By the community",
-							"homeassistant": "By NDX Tech"
+							"homeassistant": "By NDX IoT Platform"
 						},
 						"discover_blueprint_tip": "Discover more community blueprints"
 					},
@@ -3395,11 +3395,11 @@
 					"description_features": "Kontrolējiet esot prom no mājām, integrējieties ar Alexa un Google Assistant.",
 					"login": {
 						"title": "Mākoņa pieteikšanās",
-						"introduction": "NDX Tech Cloud provides you with a secure remote connection to your instance while away from home. It also allows you to connect with cloud-only services: Amazon Alexa and Google Assistant.",
+						"introduction": "NDX IoT Platform Cloud provides you with a secure remote connection to your instance while away from home. It also allows you to connect with cloud-only services: Amazon Alexa and Google Assistant.",
 						"introduction2": "This service is run by our partner ",
 						"introduction2a": ", uzņēmums, ko dibināja Home Assistant dibinātāji.",
-						"introduction3": "NDX Tech Cloud is a subscription service with a free one month trial. No payment information necessary.",
-						"learn_more_link": "Learn more about NDX Tech Cloud",
+						"introduction3": "NDX IoT Platform Cloud is a subscription service with a free one month trial. No payment information necessary.",
+						"learn_more_link": "Learn more about NDX IoT Platform Cloud",
 						"dismiss": "Aizvērt",
 						"sign_in": "Pierakstīties",
 						"email": "E-pasts",
@@ -3454,7 +3454,7 @@
 						"sign_out": "Izrakstīties",
 						"sign_out_confirm": "Vai esat pārliecināts, ka vēlaties iziet no sistēmas?",
 						"integrations": "Integrācijas",
-						"integrations_introduction": "Integrations for NDX Tech Cloud allow you to connect with services in the cloud without having to expose your NDX Tech instance publicly on the internet.",
+						"integrations_introduction": "Integrations for NDX IoT Platform Cloud allow you to connect with services in the cloud without having to expose your NDX IoT Platform instance publicly on the internet.",
 						"integrations_introduction2": "Check the website for ",
 						"integrations_link_all_features": " all available features",
 						"tip_moved_voice_assistants": "Vai meklējat Google palīga un Amazon Alexa iestatījumus? Tie ir pārvietoti uz jauno balss palīgu lapu.",
@@ -3486,7 +3486,7 @@
 							"cerificate_loading": "Jūsu sertifikāts tiek ielādēts.",
 							"cerificate_loaded": "Jūsu sertifikāts ir ielādēts, gaida apstiprināšanu.",
 							"cerificate_error": "Ģenerējot sertifikātu, radās kļūda. Pārbaudiet savus žurnāl failus.",
-							"info": "NDX Tech Cloud provides a secure remote connection to your instance while away from home.",
+							"info": "NDX IoT Platform Cloud provides a secure remote connection to your instance while away from home.",
 							"instance_is_available": "Jūsu instance ir pieejama",
 							"instance_will_be_available": "Jūsu instance būs pieejama",
 							"link_learn_how_it_works": "Uzziniet, kā tas darbojas",
@@ -3495,11 +3495,11 @@
 						},
 						"alexa": {
 							"title": "Alexa",
-							"info": "With the Alexa integration for NDX Tech Cloud you'll be able to control all your NDX Tech devices via any Alexa-enabled device.",
-							"enable_ha_skill": "Enable the NDX Tech skill for Alexa",
+							"info": "With the Alexa integration for NDX IoT Platform Cloud you'll be able to control all your NDX IoT Platform devices via any Alexa-enabled device.",
+							"enable_ha_skill": "Enable the NDX IoT Platform skill for Alexa",
 							"config_documentation": "Konfigurācijas dokumentācija",
 							"enable_state_reporting": "Iespējot Statusa Ziņošanu",
-							"info_state_reporting": "If you enable state reporting, NDX Tech will send all state changes of exposed entities to Amazon. This allows you to always see the latest states in the Alexa app and use the state changes to create routines.",
+							"info_state_reporting": "If you enable state reporting, NDX IoT Platform will send all state changes of exposed entities to Amazon. This allows you to always see the latest states in the Alexa app and use the state changes to create routines.",
 							"state_reporting_error": "Unable to {enable_disable} report state.",
 							"show_entities": "Rādīt vienības",
 							"exposed_entities": "{number} {number, plural,\n  one {vienība}\n  other {vienības}\n} atklāta(-s)",
@@ -3537,7 +3537,7 @@
 						},
 						"webhooks": {
 							"title": "Webhooks",
-							"info": "Anything that is configured to be triggered by a webhook can be given a publicly accessible URL to allow you to send data back to NDX Tech from anywhere, without exposing your instance to the internet.",
+							"info": "Anything that is configured to be triggered by a webhook can be given a publicly accessible URL to allow you to send data back to NDX IoT Platform from anywhere, without exposing your instance to the internet.",
 							"no_hooks_yet": "Looks like you have no webhooks yet. Get started by configuring a ",
 							"no_hooks_yet_link_integration": "webhook-based integration",
 							"no_hooks_yet2": " vai izveidojot ",
@@ -4353,7 +4353,7 @@
 					"hard_reset_controller": {
 						"NotStarted": {
 							"title": "Reset Controller to Factory Settings",
-							"body": "If you decide to move forward, you will reset your controller to factory settings. As a result, the controller will forget all devices it is paired with and all Z-Wave devices for this network will be removed from NDX Tech. If there are any devices still paired with the controller when it is reset, they will have to go through the exclusion process before they can be re-paired. Would you like to continue?"
+							"body": "If you decide to move forward, you will reset your controller to factory settings. As a result, the controller will forget all devices it is paired with and all Z-Wave devices for this network will be removed from NDX IoT Platform. If there are any devices still paired with the controller when it is reset, they will have to go through the exclusion process before they can be re-paired. Would you like to continue?"
 						},
 						"InProgress": {
 							"title": "Resetting Controller",
@@ -4677,8 +4677,9 @@
 						"start_commissioning": "Share device",
 						"in_progress": "We're communicating with the device. This may take some time.",
 						"failed": "The command failed. Additional information may be available in the logs.",
-						"success": "Your device can now be added to another Matter controller, scan the QR code below or enter the sharing code in the app of the controller you want to add your device to.",
-						"sharing_code": "Sharing code"
+						"success": "Your device is ready to be added to another Matter platform.",
+						"scan_code": "With their app, scan the QR code or enter the sharing code below to finish set up.",
+						"copy_code": "Copy code"
 					}
 				},
 				"tips": {
@@ -4909,7 +4910,7 @@
 					},
 					"recovery-mode": {
 						"header": "Recovery mode activated",
-						"description": "NDX Tech ran into trouble while loading your configuration and is now running in recovery mode. Take a look at the error log to see what went wrong."
+						"description": "NDX IoT Platform ran into trouble while loading your configuration and is now running in recovery mode. Take a look at the error log to see what went wrong."
 					},
 					"starting": {
 						"description": "Tiek startēts Home Assistant, lūdzu uzgaidiet…"
@@ -5976,7 +5977,7 @@
 				"information": "Information",
 				"delete_confirm_title": "Remove {name}?",
 				"delete_confirm_text": "Are you sure you want to remove this list and all of its items?",
-				"restart_confirm": "Restart NDX Tech to finish removing this to-do list"
+				"restart_confirm": "Restart NDX IoT Platform to finish removing this to-do list"
 			},
 			"page-authorize": {
 				"initializing": "Inicializēšana",
@@ -6172,7 +6173,7 @@
 					},
 					"services": {
 						"title": "Servisi",
-						"description": "The service dev tool allows you to call any available service in NDX Tech.",
+						"description": "The service dev tool allows you to call any available service in NDX IoT Platform.",
 						"call_service": "Izsaukt servisu",
 						"response": "Atbilde",
 						"column_parameter": "Parametrs",
@@ -6933,7 +6934,7 @@
 			"download": "Download",
 			"more_actions": "More actions",
 			"remote_download_title": "Potentially slow download",
-			"remote_download_text": "You are accessing NDX Tech via remote access. Downloading backups over the Nabu Casa URL will take some time. If you are at home, cancel this dialog and enter your local URL, such as 'http://homeassistant.local:8123'"
+			"remote_download_text": "You are accessing NDX IoT Platform via remote access. Downloading backups over the Nabu Casa URL will take some time. If you are at home, cancel this dialog and enter your local URL, such as 'http://homeassistant.local:8123'"
 		},
 		"dialog": {
 			"network": {

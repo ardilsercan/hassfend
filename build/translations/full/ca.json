@@ -4681,9 +4681,9 @@
 						"in_progress": "S'està comunicant amb el dispositiu. Això pot tardar una estona.",
 						"failed": "La comanda ha fallat. Pots trobar informació addicional als registres.",
 						"success": "El teu dispositiu està llest per afegir-se a una altra plataforma Matter.",
-						"sharing_code": "Codi de compartició",
+						"scan_code": "Amb la seva aplicació, escaneja el codi QR o introdueix el codi de compartició a continuació per finalitzar la configuració.",
 						"copy_code": "Copia el codi",
-						"scan_code": "Amb la seva aplicació, escaneja el codi QR o introdueix el codi de compartició a continuació per finalitzar la configuració."
+						"sharing_code": "Codi de compartició"
 					}
 				},
 				"tips": {

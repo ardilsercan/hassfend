@@ -4681,9 +4681,9 @@
 						"in_progress": "Komunikujeme so zariadením. Môže to chvíľu trvať.",
 						"failed": "Príkaz zlyhal. Ďalšie informácie môžu byť dostupné v denníkoch.",
 						"success": "Vaše zariadenie je pripravené na pridanie do inej platformy Matter.",
-						"sharing_code": "Zdieľanie kódu",
+						"scan_code": "Pomocou ich aplikácie naskenujte QR kód alebo zadajte nižšie uvedený kód na zdieľanie a dokončite nastavenie.",
 						"copy_code": "Kopírovať kód",
-						"scan_code": "Pomocou ich aplikácie naskenujte QR kód alebo zadajte nižšie uvedený kód na zdieľanie a dokončite nastavenie."
+						"sharing_code": "Zdieľanie kódu"
 					}
 				},
 				"tips": {

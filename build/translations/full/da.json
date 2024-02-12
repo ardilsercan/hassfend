@@ -4681,9 +4681,9 @@
 						"in_progress": "Vi kommunikerer med enheden. Det kan tage lidt tid.",
 						"failed": "Kommandoen mislykkedes. Yderligere oplysninger kan være tilgængelige i logfilerne.",
 						"success": "Din enhed er klar til at blive tilføjet til en anden Matter-platform.",
-						"sharing_code": "Delingskode",
+						"scan_code": "Scan QR-koden med deres app, eller indtast delingskoden nedenfor for at afslutte opsætningen.",
 						"copy_code": "Kopiér kode",
-						"scan_code": "Scan QR-koden med deres app, eller indtast delingskoden nedenfor for at afslutte opsætningen."
+						"sharing_code": "Delingskode"
 					}
 				},
 				"tips": {

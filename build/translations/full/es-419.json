@@ -4681,9 +4681,9 @@
 						"in_progress": "Nos estamos comunicando con el dispositivo. Esto puede llevar algo de tiempo.",
 						"failed": "El comando falló. Es posible que haya información adicional disponible en los registros.",
 						"success": "Tu dispositivo está listo para añadirse a otra plataforma Matter.",
-						"sharing_code": "Código para compartir",
+						"scan_code": "Con su aplicación, escanea el código QR o introduce el código para compartir a continuación para finalizar la configuración.",
 						"copy_code": "Copiar código",
-						"scan_code": "Con su aplicación, escanea el código QR o introduce el código para compartir a continuación para finalizar la configuración."
+						"sharing_code": "Código para compartir"
 					}
 				},
 				"tips": {

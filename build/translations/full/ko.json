@@ -4680,6 +4680,8 @@
 						"in_progress": "장비와 통신하고 있습니다. 시간이 조금 걸릴 수 있습니다.",
 						"failed": "명령이 동작하지 않습니다. 로그를 확인하면 추가적인 정보를 확인할 수도 있습니다.",
 						"success": "이제 다른 메타 컨트롤러에 장비를 추가할 수 있습니다.  아래 QR 코드를 스캔하거나 장비를 추가하려는 컨트롤러의 앱에 공유 코드를 입력합니다. ",
+						"scan_code": "With their app, scan the QR code or enter the sharing code below to finish set up.",
+						"copy_code": "Copy code",
 						"sharing_code": "공유 코드"
 					}
 				},

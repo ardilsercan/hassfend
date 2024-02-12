@@ -727,7 +727,7 @@
 					"confirm_delete": "Vilt þú eyða {count} {count, plural,\n  one {skrá}\n  other {skrám}\n}?",
 					"delete": "Eyða {count}",
 					"deleting": "Eyði {count}",
-					"tip_media_storage": "You can add network storage to your NDX Tech instance in the {storage} panel.",
+					"tip_media_storage": "You can add network storage to your NDX IoT Platform instance in the {storage} panel.",
 					"tip_storage_panel": "Geymsla"
 				},
 				"class": {
@@ -896,7 +896,7 @@
 		"dialogs": {
 			"safe_mode": {
 				"title": "Safe mode",
-				"text": "NDX Tech is running in safe mode, custom integrations and frontend modules are not available. Restart NDX Tech to exit safe mode."
+				"text": "NDX IoT Platform is running in safe mode, custom integrations and frontend modules are not available. Restart NDX IoT Platform to exit safe mode."
 			},
 			"quick-bar": {
 				"commands": {
@@ -986,7 +986,7 @@
 			},
 			"voice_command": {
 				"title": "Assist",
-				"did_not_hear": "NDX Tech did not hear anything",
+				"did_not_hear": "NDX IoT Platform did not hear anything",
 				"did_not_understand": "Didn't quite get that",
 				"found": "Ég fann eftirfarandi fyrir þig:",
 				"error": "Úbbs, villa kom upp",
@@ -995,7 +995,7 @@
 				"send_text": "Senda texta",
 				"start_listening": "Start listening",
 				"manage_assistants": "Manage assistants",
-				"not_supported_microphone_browser": "Your connection to NDX Tech is not secured using HTTPS. This causes browsers to block NDX Tech from accessing the microphone.",
+				"not_supported_microphone_browser": "Your connection to NDX IoT Platform is not secured using HTTPS. This causes browsers to block NDX IoT Platform from accessing the microphone.",
 				"not_supported_microphone_documentation": "Visit {documentation_link} to learn how to use a secure URL",
 				"not_supported_microphone_documentation_link": "the documentation"
 			},
@@ -1220,9 +1220,9 @@
 					"switch_as_x_confirm": "This switch will be hidden and a new {domain} will be added. Your existing configurations using the switch will continue to work.",
 					"switch_as_x_remove_confirm": "This {domain} will be removed and the original switch will be visible again. Your existing configurations using the {domain} will no longer work!",
 					"switch_as_x_change_confirm": "This {domain_1} will be removed and will be replaced by a new {domain_2}. Your existing configurations using the {domain_1} will no longer work!",
-					"enabled_description": "Disabled entities will not be added to NDX Tech.",
-					"enabled_delay_confirm": "The enabled entities will be added to NDX Tech in {delay} seconds",
-					"enabled_restart_confirm": "Restart NDX Tech to finish enabling the entities",
+					"enabled_description": "Disabled entities will not be added to NDX IoT Platform.",
+					"enabled_delay_confirm": "The enabled entities will be added to NDX IoT Platform in {delay} seconds",
+					"enabled_restart_confirm": "Restart NDX IoT Platform to finish enabling the entities",
 					"hidden_description": "Hidden entities will not be shown on your dashboard or included when indirectly referenced (ie via an area or device). Their history is still tracked and you can still interact with them with services.",
 					"delete": "Eyða",
 					"confirm_delete": "Ertu viss um að þú viljir eyða þessari einingu?",
@@ -1261,7 +1261,7 @@
 					"service_heading": "Þjónusta",
 					"service": "Þjónusta"
 				},
-				"enabled_description": "Disabled devices will not be shown and entities belonging to the device will be disabled and not added to NDX Tech.",
+				"enabled_description": "Disabled devices will not be shown and entities belonging to the device will be disabled and not added to NDX IoT Platform.",
 				"update": "Uppfæra",
 				"unknown_error": "Óþekkt villa"
 			},
@@ -1290,10 +1290,10 @@
 					"confirm_title": "Endurræsa Home Assistant?",
 					"confirm_description": "This will interrupt all running automations and scripts.",
 					"confirm_action": "Endurræsa",
-					"failed": "Failed to restart NDX Tech"
+					"failed": "Failed to restart NDX IoT Platform"
 				},
 				"stop": {
-					"confirm_title": "Stop NDX Tech?",
+					"confirm_title": "Stop NDX IoT Platform?",
 					"confirm_description": "This will interrupt all running automations and scripts.",
 					"confirm_action": "Stop"
 				},
@@ -1310,18 +1310,18 @@
 					"title": "Slökkva á vél",
 					"description": "Slökkva á vélinni sem keyrir Home Assistant og allar viðbætur",
 					"confirm_title": "Slökkva á vél?",
-					"confirm_description": "This will shut down the complete system which includes NDX Tech and all add-ons.",
+					"confirm_description": "This will shut down the complete system which includes NDX IoT Platform and all add-ons.",
 					"confirm_action": "Slökkva á vél",
 					"shutting_down": "Shutting down system",
 					"failed": "Failed to shut down system"
 				},
 				"restart-safe-mode": {
-					"title": "Restart NDX Tech in safe mode",
-					"description": "Restarts NDX Tech without loading any custom integrations and frontend modules.",
-					"confirm_title": "Restart NDX Tech in safe mode?",
-					"confirm_description": "This will restart NDX Tech without loading any custom integrations and frontend modules.",
+					"title": "Restart NDX IoT Platform in safe mode",
+					"description": "Restarts NDX IoT Platform without loading any custom integrations and frontend modules.",
+					"confirm_title": "Restart NDX IoT Platform in safe mode?",
+					"confirm_description": "This will restart NDX IoT Platform without loading any custom integrations and frontend modules.",
 					"confirm_action": "Restart",
-					"failed": "Failed to restart NDX Tech"
+					"failed": "Failed to restart NDX IoT Platform"
 				}
 			},
 			"aliases": {
@@ -1377,7 +1377,7 @@
 					"minimum": "Lágmarksgildi",
 					"maximum": "Hámarksgildi",
 					"initial": "Upphafsgildi",
-					"restore": "Restore the last known value when NDX Tech starts",
+					"restore": "Restore the last known value when NDX IoT Platform starts",
 					"step": "Þrepastærð"
 				},
 				"timer": {
@@ -1426,7 +1426,7 @@
 				"enable_new_entities_label": "Virkja einingar sem nýlega var bætt við",
 				"enable_new_entities_description": "If newly discovered devices for {integration} should be automatically added.",
 				"enable_polling_label": "Enable polling for updates.",
-				"enable_polling_description": "If NDX Tech should automatically poll {integration} entities for updates.",
+				"enable_polling_description": "If NDX IoT Platform should automatically poll {integration} entities for updates.",
 				"restart_home_assistant": "Þú þarft að endurræsa Home Assistant til að breytingarnar taki gildi.",
 				"update": "Uppfæra"
 			},
@@ -1627,13 +1627,13 @@
 		},
 		"panel": {
 			"my": {
-				"not_supported": "This redirect is not supported by your NDX Tech instance. Check the {link} for the supported redirects and the version they where introduced.",
-				"component_not_loaded": "This redirect is not supported by your NDX Tech instance. You need the integration {integration} to use this redirect.",
-				"no_supervisor": "This redirect is not supported by your NDX Tech installation. It needs either the NDX Tech Operating System or NDX Tech Supervised installation method. For more information, see the {docs_link}.",
+				"not_supported": "This redirect is not supported by your NDX IoT Platform instance. Check the {link} for the supported redirects and the version they where introduced.",
+				"component_not_loaded": "This redirect is not supported by your NDX IoT Platform instance. You need the integration {integration} to use this redirect.",
+				"no_supervisor": "This redirect is not supported by your NDX IoT Platform installation. It needs either the NDX IoT Platform Operating System or NDX IoT Platform Supervised installation method. For more information, see the {docs_link}.",
 				"not_app": "Þessi tilvísun virkar aðeins úr farsíma sem hefur Home Assistant Companion appið uppsett. {link} .",
 				"documentation": "skjölun",
 				"download_app": "Smelltu hér til að sækja appið",
-				"faq_link": "My NDX Tech FAQ",
+				"faq_link": "My NDX IoT Platform FAQ",
 				"error": "Óþekkt villa átti sér stað"
 			},
 			"config": {
@@ -1649,7 +1649,7 @@
 					},
 					"backup": {
 						"main": "Afritun",
-						"secondary": "Generate backups of your NDX Tech configuration"
+						"secondary": "Generate backups of your NDX IoT Platform configuration"
 					},
 					"supervisor": {
 						"main": "Viðbætur",
@@ -1791,7 +1791,7 @@
 				"backup": {
 					"caption": "Afrit",
 					"description": "Seinasta afrit {relative_time}",
-					"description_no_backup": "Manage backups and restore NDX Tech to a previous state",
+					"description_no_backup": "Manage backups and restore NDX IoT Platform to a previous state",
 					"create_backup": "Búa til öryggisafrit",
 					"creating_backup": "Backup is currently being created",
 					"download_backup": "Download backup",
@@ -1857,7 +1857,7 @@
 					"delete_integration": "Are you sure you want to delete this integration? It will remove the entities it provides",
 					"grid": {
 						"title": "Raforkukerfi",
-						"sub": "Configure the amount of energy that you consume from the grid and, if you produce energy, give back to the grid. This allows NDX Tech to track your whole home energy usage.",
+						"sub": "Configure the amount of energy that you consume from the grid and, if you produce energy, give back to the grid. This allows NDX IoT Platform to track your whole home energy usage.",
 						"learn_more": "Nánari upplýsingar um hvernig á að byrja.",
 						"grid_consumption": "Grid consumption",
 						"edit_consumption": "Edit consumption",
@@ -1876,7 +1876,7 @@
 								"paragraph": "Grid consumption is the energy that flows from the energy grid to your home.",
 								"entity_para": "Pick a sensor which measures grid consumption in either of {unit}.",
 								"energy_stat": "Orkuneysla (kWh)",
-								"cost_para": "Select how NDX Tech should keep track of the costs of the consumed energy.",
+								"cost_para": "Select how NDX IoT Platform should keep track of the costs of the consumed energy.",
 								"no_cost": "Ekki fylgjast með kostnaði",
 								"cost_stat": "Use an entity tracking the total costs",
 								"cost_stat_input": "Eining heildarkostnaðar",
@@ -1903,7 +1903,7 @@
 					},
 					"solar": {
 						"title": "Sólarsellur",
-						"sub": "Let NDX Tech monitor your solar panels and give you insight on their performance.",
+						"sub": "Let NDX IoT Platform monitor your solar panels and give you insight on their performance.",
 						"learn_more": "Nánari upplýsingar um hvernig á að byrja.",
 						"solar_production": "Sólarframleiðsla",
 						"edit_solar_production": "Edit solar production",
@@ -1951,7 +1951,7 @@
 							"paragraph": "Gas consumption is measured either as the volume of gas that flows to your home or as the amount of energy contained in the gas.",
 							"entity_para": "Pick a sensor which measures gas consumption in either of {unit}.",
 							"note_para": "Note: It is not possible to add both sensors measuring a volume of gas and sensors measuring the amount of energy contained in the gas.",
-							"cost_para": "Select how NDX Tech should keep track of the costs of the consumed gas.",
+							"cost_para": "Select how NDX IoT Platform should keep track of the costs of the consumed gas.",
 							"no_cost": "Ekki fylgjast með kostnaði",
 							"cost_stat": "Use an entity tracking the total costs",
 							"cost_stat_input": "Eining heildarkostnaðar",
@@ -2071,17 +2071,17 @@
 				},
 				"url": {
 					"caption": "Home Assistant slóð",
-					"description": "Configure what website addresses NDX Tech should share with other devices when they need to fetch data from NDX Tech (eg. to play text-to-speech or other hosted media).",
+					"description": "Configure what website addresses NDX IoT Platform should share with other devices when they need to fetch data from NDX IoT Platform (eg. to play text-to-speech or other hosted media).",
 					"internal_url_label": "Staðarnet",
 					"external_url_label": "Internet",
 					"external_use_ha_cloud": "Nota Home Assistant skýið",
-					"manage_ha_cloud": "Manage NDX Tech Cloud",
+					"manage_ha_cloud": "Manage NDX IoT Platform Cloud",
 					"external_get_ha_cloud": "Access from anywhere, add Google & Alexa easily",
-					"ha_cloud_remote_not_enabled": "Your NDX Tech Cloud remote connection is currently not enabled.",
+					"ha_cloud_remote_not_enabled": "Your NDX IoT Platform Cloud remote connection is currently not enabled.",
 					"enable_remote": "Virkja",
 					"internal_url_automatic": "Sjálfvirkt",
 					"internal_url_https_error_title": "Invalid local network URL",
-					"internal_url_https_error_description": "You have configured an HTTPS certificate in NDX Tech. This means that your internal URL needs to be set to a domain covered by the certficate."
+					"internal_url_https_error_description": "You have configured an HTTPS certificate in NDX IoT Platform. This means that your internal URL needs to be set to a domain covered by the certficate."
 				},
 				"hardware": {
 					"caption": "Vélbúnaður",
@@ -2331,7 +2331,7 @@
 							"features": {
 								"assistants": {
 									"title": "Google Assistant and Amazon Alexa",
-									"text": "Control all your NDX Tech devices via any Google Assistant-enabled or Alexa-enabled device."
+									"text": "Control all your NDX IoT Platform devices via any Google Assistant-enabled or Alexa-enabled device."
 								},
 								"speech": {
 									"title": "Amazing speech options for Assist",
@@ -2380,7 +2380,7 @@
 					"description": "Stofna og breyta sjálfvirkni",
 					"picker": {
 						"header": "Sjálfvirkniritill",
-						"introduction": "The automation editor allows you to create and edit automations. Please follow the link below to read the instructions to make sure that you have configured NDX Tech correctly.",
+						"introduction": "The automation editor allows you to create and edit automations. Please follow the link below to read the instructions to make sure that you have configured NDX IoT Platform correctly.",
 						"learn_more": "Læra meira um sjálfvirkni",
 						"pick_automation": "Veldu sjálfvirkni sem á að breyta",
 						"no_automations": "Við fundum ekki neinar sjálfvirkni-skilgreiningar sem hægt er að breyta",
@@ -2405,7 +2405,7 @@
 							"state": "Staða"
 						},
 						"empty_header": "Start automating",
-						"empty_text_1": "Automations make NDX Tech automatically respond to things happening in and around your home.",
+						"empty_text_1": "Automations make NDX IoT Platform automatically respond to things happening in and around your home.",
 						"empty_text_2": "Automations connect triggers to actions in a ''when trigger then action'' fashion with optional conditions. For example: ''When the sun sets and if {user} is home, then turn on the lights''."
 					},
 					"dialog_new": {
@@ -2547,7 +2547,7 @@
 									"context_user_picked": "User firing event",
 									"context_user_pick": "Veldu notanda",
 									"description": {
-										"picker": "When an event is being received (event is an advanced concept in NDX Tech).",
+										"picker": "When an event is being received (event is an advanced concept in NDX IoT Platform).",
 										"full": "When {eventTypes} event is fired"
 									}
 								},
@@ -2581,7 +2581,7 @@
 									"start": "Ræsing",
 									"shutdown": "Lokun",
 									"description": {
-										"picker": "When NDX Tech starts up or shuts down.",
+										"picker": "When NDX IoT Platform starts up or shuts down.",
 										"started": "Þegar Home Assistant er í gangi",
 										"shutdown": "Þegar slökkt er á Home Assistant"
 									}
@@ -2698,7 +2698,7 @@
 									"webhook_id_helper": "Treat this ID like a password: keep it secret and make it hard to guess.",
 									"webhook_settings": "Webhook settings",
 									"description": {
-										"picker": "When NDX Tech receives a web request to the webhook endpoint.",
+										"picker": "When NDX IoT Platform receives a web request to the webhook endpoint.",
 										"full": "When a Webhook payload has been received"
 									}
 								},
@@ -2996,7 +2996,7 @@
 									"event": "Gerð viðburðar",
 									"event_data": "Event data",
 									"description": {
-										"picker": "Fire an event manually (event is an advanced concept in NDX Tech).",
+										"picker": "Fire an event manually (event is an advanced concept in NDX IoT Platform).",
 										"full": "Manually fire event {name}",
 										"template": "byggt á sniðmáti"
 									}
@@ -3237,7 +3237,7 @@
 					"description": "Búa til og breyta skriftum",
 					"picker": {
 						"header": "Script Editor",
-						"introduction": "The script editor allows you to create and edit scripts. Please follow the link below to read the instructions to make sure that you have configured NDX Tech correctly.",
+						"introduction": "The script editor allows you to create and edit scripts. Please follow the link below to read the instructions to make sure that you have configured NDX IoT Platform correctly.",
 						"learn_more": "Læra meira um skriftur",
 						"no_scripts": "We couldn't find any scripts",
 						"add_script": "Bæta við skriftu",
@@ -3265,7 +3265,7 @@
 							"author": "By {author}",
 							"local": "By you",
 							"community": "By the community",
-							"homeassistant": "By NDX Tech"
+							"homeassistant": "By NDX IoT Platform"
 						},
 						"discover_blueprint_tip": "Discover more community blueprints"
 					},
@@ -3334,7 +3334,7 @@
 					"activated": "Virkjuð sena {name}.",
 					"picker": {
 						"header": "Senuritill",
-						"introduction": "The scene editor allows you to create and edit scenes. Please follow the link below to read the instructions to make sure that you have configured NDX Tech correctly.",
+						"introduction": "The scene editor allows you to create and edit scenes. Please follow the link below to read the instructions to make sure that you have configured NDX IoT Platform correctly.",
 						"learn_more": "Læra meira um senur",
 						"pick_scene": "Veldu senu til að breyta",
 						"no_scenes": "We couldn't find any scenes",
@@ -3388,7 +3388,7 @@
 					"description_features": "Stjórna heimili að heiman með Alexa og Google Assistant.",
 					"login": {
 						"title": "Skýja innskráning",
-						"introduction": "NDX Tech Cloud provides you with a secure remote connection to your instance while away from home. It also allows you to connect with cloud-only services: Amazon Alexa and Google Assistant.",
+						"introduction": "NDX IoT Platform Cloud provides you with a secure remote connection to your instance while away from home. It also allows you to connect with cloud-only services: Amazon Alexa and Google Assistant.",
 						"introduction2": "Þessi þjónusta er rekin af samstarfsaðila okkar",
 						"introduction2a": ", fyrirtæki stofnað af stofnendum Home Assistant.",
 						"introduction3": "Home Assistant skýið er áskriftarþjónusta með mánaðar prufuáskrift. Engar greiðsluupplýsingar nauðsynlegar.",
@@ -3405,7 +3405,7 @@
 						"alert_password_change_required": "Þú verður að breyta lykilorðinu þínu áður en þú skráir þig inn.",
 						"alert_email_confirm_necessary": "Þú þarft að staðfesta tölvupóstinn þinn áður en þú skráir þig inn.",
 						"cloud_pipeline_title": "Viltu nota Home Assistant Cloud fyrir raddaðstoð?",
-						"cloud_pipeline_text": "We created a new assistant for you, using the superior text-to-speech and speech-to-text engines from NDX Tech Cloud. Would you like to set this assistant as the preferred assistant?"
+						"cloud_pipeline_text": "We created a new assistant for you, using the superior text-to-speech and speech-to-text engines from NDX IoT Platform Cloud. Would you like to set this assistant as the preferred assistant?"
 					},
 					"forgot_password": {
 						"title": "Gleymt lykilorð",
@@ -3419,8 +3419,8 @@
 					"register": {
 						"title": "Register Account",
 						"headline": "Start your free trial",
-						"information": "Create an account to start your free one month trial with NDX Tech Cloud. No payment information necessary.",
-						"information2": "The trial will give you access to all the benefits of NDX Tech Cloud, including:",
+						"information": "Create an account to start your free one month trial with NDX IoT Platform Cloud. No payment information necessary.",
+						"information2": "The trial will give you access to all the benefits of NDX IoT Platform Cloud, including:",
 						"feature_remote_control": "Stjórna Home Assistant að heiman",
 						"feature_google_home": "Samþætting við Google Assistant",
 						"feature_amazon_alexa": "Samþætting við Amazon Alexa",
@@ -3440,14 +3440,14 @@
 						"account_created": "Account created! Check your email for instructions on how to activate your account."
 					},
 					"account": {
-						"thank_you_note": "Thank you for being part of NDX Tech Cloud. It's because of people like you that we are able to make a great home automation experience for everyone. Thank you!",
+						"thank_you_note": "Thank you for being part of NDX IoT Platform Cloud. It's because of people like you that we are able to make a great home automation experience for everyone. Thank you!",
 						"nabu_casa_account": "Nabu Casa aðgangur",
 						"connection_status": "Staða tengingar við skýið",
 						"manage_account": "Manage account",
 						"sign_out": "Skrá út",
 						"sign_out_confirm": "Ertu viss um að þú viljir skrá þig út?",
 						"integrations": "Samþættingar",
-						"integrations_introduction": "Integrations for NDX Tech Cloud allow you to connect with services in the cloud without having to expose your NDX Tech instance publicly on the internet.",
+						"integrations_introduction": "Integrations for NDX IoT Platform Cloud allow you to connect with services in the cloud without having to expose your NDX IoT Platform instance publicly on the internet.",
 						"integrations_introduction2": "Check the website for ",
 						"integrations_link_all_features": " all available features",
 						"tip_moved_voice_assistants": "Ertu að leita að Google Assistant og Amazon Alexa stillingum? Þau eru flutt á nýju síðuna fyrir raddaðstoð.",
@@ -3479,7 +3479,7 @@
 							"cerificate_loading": "Your certificate is loading.",
 							"cerificate_loaded": "Your certificate is loaded, waiting for validation.",
 							"cerificate_error": "There was an error generating the certificate, check your logs.",
-							"info": "NDX Tech Cloud provides a secure remote connection to your instance while away from home.",
+							"info": "NDX IoT Platform Cloud provides a secure remote connection to your instance while away from home.",
 							"instance_is_available": "Your instance is available at your",
 							"instance_will_be_available": "Your instance will be available at your",
 							"link_learn_how_it_works": "Læra hvernig þetta virkar",
@@ -3488,11 +3488,11 @@
 						},
 						"alexa": {
 							"title": "Alexa",
-							"info": "With the Alexa integration for NDX Tech Cloud you'll be able to control all your NDX Tech devices via any Alexa-enabled device.",
-							"enable_ha_skill": "Enable the NDX Tech skill for Alexa",
+							"info": "With the Alexa integration for NDX IoT Platform Cloud you'll be able to control all your NDX IoT Platform devices via any Alexa-enabled device.",
+							"enable_ha_skill": "Enable the NDX IoT Platform skill for Alexa",
 							"config_documentation": "Configuration documentation",
 							"enable_state_reporting": "Virkja tilkynningu um stöðubreytingar",
-							"info_state_reporting": "If you enable state reporting, NDX Tech will send all state changes of exposed entities to Amazon. This allows you to always see the latest states in the Alexa app and use the state changes to create routines.",
+							"info_state_reporting": "If you enable state reporting, NDX IoT Platform will send all state changes of exposed entities to Amazon. This allows you to always see the latest states in the Alexa app and use the state changes to create routines.",
 							"state_reporting_error": "Unable to {enable_disable} report state.",
 							"show_entities": "Show entities",
 							"exposed_entities": "{number} {number, plural,\n  one {entity}\n  other {entities}\n} exposed",
@@ -3500,20 +3500,20 @@
 							"enable": "virkja",
 							"disable": "afvirkja",
 							"not_configured_title": "Alexa er ekki virkjuð",
-							"not_configured_text": "Before you can use Alexa, you need to activate the NDX Tech skill for Alexa in the Alexa app.",
+							"not_configured_text": "Before you can use Alexa, you need to activate the NDX IoT Platform skill for Alexa in the Alexa app.",
 							"link_learn_how_it_works": "Læra hvernig þetta virkar",
 							"expose_new_entities": "Expose new entities",
 							"expose_new_entities_info": "Should new entities be exposed to Alexa automatically? Exposes supported devices that are not classified as security devices."
 						},
 						"google": {
 							"title": "Google Assistant",
-							"info": "With the Google Assistant integration for NDX Tech Cloud, you'll be able to control all your NDX Tech devices via any Google Assistant-enabled device.",
+							"info": "With the Google Assistant integration for NDX IoT Platform Cloud, you'll be able to control all your NDX IoT Platform devices via any Google Assistant-enabled device.",
 							"http_use_ssl_warning_title": "Staðbundin samskipti ekki tiltæk",
-							"http_use_ssl_warning_text": "Google devices will not be able to talk locally with NDX Tech, because you have configured an SSL certificate for your HTTP integration.",
-							"enable_ha_skill": "Activate the NDX Tech Cloud skill for Google Assistant",
+							"http_use_ssl_warning_text": "Google devices will not be able to talk locally with NDX IoT Platform, because you have configured an SSL certificate for your HTTP integration.",
+							"enable_ha_skill": "Activate the NDX IoT Platform Cloud skill for Google Assistant",
 							"config_documentation": "Configuration documentation",
 							"enable_state_reporting": "Enable state reporting",
-							"info_state_reporting": "If you enable state reporting, NDX Tech will send all state changes of exposed entities to Google. This speeds up voice commands and allows you to always see the latest states in the Google app.",
+							"info_state_reporting": "If you enable state reporting, NDX IoT Platform will send all state changes of exposed entities to Google. This speeds up voice commands and allows you to always see the latest states in the Google app.",
 							"security_devices": "Öryggistæki",
 							"enter_pin_info": "Please enter a PIN to interact with security devices. Security devices are doors, garage doors, and locks. You will be asked to say/enter this PIN when interacting with security devices via Google Assistant.",
 							"devices_pin": "PIN kóði öryggistækja",
@@ -3523,14 +3523,14 @@
 							"manual_config": "Editing which entities are exposed via the UI is disabled because you have configured entity filters in configuration.yaml.",
 							"enter_pin_error": "Ekki tókst að vista pin kóða:",
 							"not_configured_title": "Google Assistant hefur ekki verið virkjaður",
-							"not_configured_text": "Before you can use Google Assistant, you need to activate the NDX Tech Cloud skill for Google Assistant in the Google Home app.",
+							"not_configured_text": "Before you can use Google Assistant, you need to activate the NDX IoT Platform Cloud skill for Google Assistant in the Google Home app.",
 							"link_learn_how_it_works": "Læra hvernig þetta virkar",
 							"expose_new_entities": "Expose new entities",
 							"expose_new_entities_info": "Should new entities be exposed to Google Assistant automatically? Exposes supported devices that are not classified as security devices."
 						},
 						"webhooks": {
 							"title": "Webhooks",
-							"info": "Anything that is configured to be triggered by a webhook can be given a publicly accessible URL to allow you to send data back to NDX Tech from anywhere, without exposing your instance to the internet.",
+							"info": "Anything that is configured to be triggered by a webhook can be given a publicly accessible URL to allow you to send data back to NDX IoT Platform from anywhere, without exposing your instance to the internet.",
 							"no_hooks_yet": "Looks like you have no webhooks yet. Get started by configuring a ",
 							"no_hooks_yet_link_integration": "webhook-based integration",
 							"no_hooks_yet2": " eða með því að stofna ",
@@ -3685,7 +3685,7 @@
 					"picker": {
 						"header": "Einingarskrá",
 						"introduction": "Home Assistant heldur bókhald utanum allar einingar sem verið greindar. Hver þessara eininga hafa einingar-auðkenni (ID) sem er frátekið bara fyrir þessa tilteknu einingu.",
-						"introduction2": "Use the entity registry to override the name, change the entity ID or remove the entry from NDX Tech.",
+						"introduction2": "Use the entity registry to override the name, change the entity ID or remove the entry from NDX IoT Platform.",
 						"search": "Leita í einingum",
 						"unnamed_entity": "Unnamed entity",
 						"filter": {
@@ -3718,19 +3718,19 @@
 						"enable_selected": {
 							"button": "Virkja val",
 							"confirm_title": "Viltu virkja {number} {number, plural,\n  one {einingu}\n  other {einingar}\n}?",
-							"confirm_text": "This will make them available in NDX Tech again if they are now disabled."
+							"confirm_text": "This will make them available in NDX IoT Platform again if they are now disabled."
 						},
 						"disable_selected": {
 							"button": "Afvirkja val",
 							"confirm_title": "Viltu afvirkja {number} {number, plural,\n  one {einingu}\n  other {einingar}\n}?",
-							"confirm_text": "Disabled entities will not be added to NDX Tech."
+							"confirm_text": "Disabled entities will not be added to NDX IoT Platform."
 						},
 						"remove_selected": {
 							"button": "Fjarlægja val",
 							"confirm_title": "Viltu fjarlægja {number} einingar?",
 							"confirm_partly_title": "Einungis er hægt að fjarlægja {number} {number, plural,\n  one {valda einingu}\n  other {valdar einingar}\n}.",
 							"confirm_text": "You should remove them from your dashboard config and automations if they contain these entities.",
-							"confirm_partly_text": "You can only remove {removable} of the selected {selected} entities. Entities can only be removed when the integration is no longer providing the entities. Sometimes you have to restart NDX Tech before you can remove the entities of a removed integration. Are you sure you want to remove the removable entities?"
+							"confirm_partly_text": "You can only remove {removable} of the selected {selected} entities. Entities can only be removed when the integration is no longer providing the entities. Sometimes you have to restart NDX IoT Platform before you can remove the entities of a removed integration. Are you sure you want to remove the removable entities?"
 						},
 						"hide_selected": {
 							"button": "Fela valið",
@@ -3905,9 +3905,9 @@
 						"reload": "Endurhlaða",
 						"restart_confirm": "Endurræsa Home Assitant til að klára að fjarlægja þessa samþættingu",
 						"reload_confirm": "The integration was reloaded",
-						"reload_restart_confirm": "Restart NDX Tech to finish reloading this integration",
-						"disable_restart_confirm": "Restart NDX Tech to finish disabling this integration",
-						"enable_restart_confirm": "Restart NDX Tech to finish enabling this integration",
+						"reload_restart_confirm": "Restart NDX IoT Platform to finish reloading this integration",
+						"disable_restart_confirm": "Restart NDX IoT Platform to finish disabling this integration",
+						"enable_restart_confirm": "Restart NDX IoT Platform to finish enabling this integration",
 						"disable_confirm_title": "Afvirkja {title}?",
 						"disable_confirm_text": "Its devices and entities will be disabled.",
 						"disable_error": "Enabling or disabling of the integration failed",
@@ -3962,7 +3962,7 @@
 						"yaml_only_title": "Þessu tæki er ekki hægt að bæta við í grafíska viðmótinu",
 						"yaml_only": "You can add this device by adding it to your ''configuration.yaml''. See the documentation for more information.",
 						"open_documentation": "Skoða skjölun",
-						"no_config_flow": "This integration does not support configuration via the UI. If you followed this link from the NDX Tech website, make sure you run the latest version of NDX Tech.",
+						"no_config_flow": "This integration does not support configuration via the UI. If you followed this link from the NDX IoT Platform website, make sure you run the latest version of NDX IoT Platform.",
 						"not_all_required_fields": "Not all required fields are filled in.",
 						"error_saving_area": "Error saving area: {error}",
 						"created_config": "Created configuration for {name}.",
@@ -3977,12 +3977,12 @@
 						},
 						"error": "Villa",
 						"could_not_load": "Config flow could not be loaded",
-						"not_loaded": "The integration could not be loaded, try to restart NDX Tech.",
+						"not_loaded": "The integration could not be loaded, try to restart NDX IoT Platform.",
 						"supported_brand_flow": "Support for {supported_brand} devices is provided by {flow_domain_name}. Do you want to continue?",
 						"missing_zwave_zigbee_title": "{integration} er ekki uppsett",
 						"missing_zwave_zigbee": "To add a {brand} device, you first need {supported_hardware_link} and the {integration} integration set up. If you already have the hardware then you can proceed with the setup of {integration}.",
 						"missing_matter": "To add a {brand} device, you first need the {integration} integration and {supported_hardware_link}. Do you want to proceed with the setup of {integration}?",
-						"matter_mobile_app": "You need to use the NDX Tech Companion app on your mobile phone to commission Matter devices.",
+						"matter_mobile_app": "You need to use the NDX IoT Platform Companion app on your mobile phone to commission Matter devices.",
 						"supported_hardware": "studdur vélbúnaður",
 						"proceed": "Halda áfram"
 					}
@@ -4052,7 +4052,7 @@
 					"description": "Manage the OAuth application credentials used by Integrations",
 					"editor": {
 						"caption": "Add credentials",
-						"description": "OAuth is used to grant NDX Tech access to information on other websites without giving a passwords. This mechanism is used by companies such as Spotify, Google, Withings, Microsoft, and Twitter.",
+						"description": "OAuth is used to grant NDX IoT Platform access to information on other websites without giving a passwords. This mechanism is used by companies such as Spotify, Google, Withings, Microsoft, and Twitter.",
 						"missing_credentials": "Setting up {integration} requires configuring application credentials.",
 						"missing_credentials_domain_link": "Skoða skjölun fyrir {integration}",
 						"view_documentation": "View application credentials documentation",
@@ -4116,12 +4116,12 @@
 					"add_dataset_label": "Operational dataset TLV",
 					"add_dataset_button": "Add dataset",
 					"confirm_reset_border_router": "Reset border router?",
-					"confirm_reset_border_router_text": "NDX Tech will create a new Thread network. Any devices that are currently joined on this NDX Tech Thread network will need to be re-joined.",
+					"confirm_reset_border_router_text": "NDX IoT Platform will create a new Thread network. Any devices that are currently joined on this NDX IoT Platform Thread network will need to be re-joined.",
 					"confirm_set_dataset_border_router": "Reconfigure border router?",
-					"confirm_set_dataset_border_router_text": "NDX Tech will join an existing Thread network. Any devices that are currently joined on this NDX Tech Thread network will need to be re-joined.",
+					"confirm_set_dataset_border_router_text": "NDX IoT Platform will join an existing Thread network. Any devices that are currently joined on this NDX IoT Platform Thread network will need to be re-joined.",
 					"otbr_config_failed": "Failed to configure the border router",
 					"confirm_delete_dataset": "Delete {name} dataset?",
-					"confirm_delete_dataset_text": "This network will be removed from NDX Tech.",
+					"confirm_delete_dataset_text": "This network will be removed from NDX IoT Platform.",
 					"no_border_routers": "No border routers found",
 					"border_routers": "{count} border {count, plural,\n  one {router}\n  other {routers}\n}",
 					"managed_by_home_assistant": "Stjórnað af Home Assistant",
@@ -4344,7 +4344,7 @@
 					"hard_reset_controller": {
 						"NotStarted": {
 							"title": "Reset Controller to Factory Settings",
-							"body": "If you decide to move forward, you will reset your controller to factory settings. As a result, the controller will forget all devices it is paired with and all Z-Wave devices for this network will be removed from NDX Tech. If there are any devices still paired with the controller when it is reset, they will have to go through the exclusion process before they can be re-paired. Would you like to continue?"
+							"body": "If you decide to move forward, you will reset your controller to factory settings. As a result, the controller will forget all devices it is paired with and all Z-Wave devices for this network will be removed from NDX IoT Platform. If there are any devices still paired with the controller when it is reset, they will have to go through the exclusion process before they can be re-paired. Would you like to continue?"
 						},
 						"InProgress": {
 							"title": "Resetting Controller",
@@ -4478,7 +4478,7 @@
 						"included": "Innifalið",
 						"not_included": "Ekki innifalið",
 						"confirm_unprovision_title": "Are you sure you want to unprovision the device?",
-						"confirm_unprovision_text": "If you unprovision the device it will not be added to NDX Tech when it is powered on. If it is already added to NDX Tech, removing the provisioned device will not remove it from NDX Tech."
+						"confirm_unprovision_text": "If you unprovision the device it will not be added to NDX IoT Platform when it is powered on. If it is already added to NDX IoT Platform, removing the provisioned device will not remove it from NDX IoT Platform."
 					},
 					"security_classes": {
 						"None": {
@@ -4554,8 +4554,8 @@
 					},
 					"update_firmware": {
 						"title": "Uppfæra fastbúnað tækis",
-						"warning": "WARNING: Firmware updates can brick your device if you do not correctly follow the manufacturer's guidance. The NDX Tech and Z-Wave JS teams do not take any responsibility for any damages to your device as a result of the firmware update and will not be able to help you if you brick your device. Would you still like to continue?",
-						"warning_controller": "WARNING: Firmware updates can brick your controller if you do not use the right firmware files, or if you attempt to stop the firmware update before it completes. The NDX Tech and Z-Wave JS teams do not take any responsibility for any damages to your controller as a result of the firmware update and will not be able to help you if you brick your controller. Would you still like to continue?",
+						"warning": "WARNING: Firmware updates can brick your device if you do not correctly follow the manufacturer's guidance. The NDX IoT Platform and Z-Wave JS teams do not take any responsibility for any damages to your device as a result of the firmware update and will not be able to help you if you brick your device. Would you still like to continue?",
+						"warning_controller": "WARNING: Firmware updates can brick your controller if you do not use the right firmware files, or if you attempt to stop the firmware update before it completes. The NDX IoT Platform and Z-Wave JS teams do not take any responsibility for any damages to your controller as a result of the firmware update and will not be able to help you if you brick your controller. Would you still like to continue?",
 						"introduction": "Select the firmware file you would like to use to update {device}.",
 						"introduction_controller": "Select the firmware file you would like to use to update {device}. Note that once you start a firmware update, you MUST wait for the update to complete.",
 						"firmware_target_intro": "Select the firmware target (0 for the Z-Wave chip, ≥1 for other chips if they exist) for this update.",
@@ -4668,14 +4668,15 @@
 						"start_commissioning": "Share device",
 						"in_progress": "We're communicating with the device. This may take some time.",
 						"failed": "The command failed. Additional information may be available in the logs.",
-						"success": "Your device can now be added to another Matter controller, scan the QR code below or enter the sharing code in the app of the controller you want to add your device to.",
-						"sharing_code": "Sharing code"
+						"success": "Your device is ready to be added to another Matter platform.",
+						"scan_code": "With their app, scan the QR code or enter the sharing code below to finish set up.",
+						"copy_code": "Copy code"
 					}
 				},
 				"tips": {
 					"tip": "Ábending!",
 					"join": "Vertu með í samfélaginu okkar á {forums}, {twitter} , {discord} , {blog} eða {newsletter}",
-					"media_storage": "You can add network storage to your NDX Tech instance in the {storage} panel."
+					"media_storage": "You can add network storage to your NDX IoT Platform instance in the {storage} panel."
 				},
 				"analytics": {
 					"caption": "Greining",
@@ -4687,7 +4688,7 @@
 						},
 						"usage": {
 							"title": "Notkun",
-							"description": "Details of what you use with NDX Tech"
+							"description": "Details of what you use with NDX IoT Platform"
 						},
 						"statistics": {
 							"title": "Tölfræðileg gögn",
@@ -4700,7 +4701,7 @@
 					},
 					"need_base_enabled": "You need to enable basic analytics for this option to be available",
 					"learn_more": "How we process your data",
-					"intro": "Share anonymized information from your installation to help make NDX Tech better and help us convince manufacturers to add local control and privacy-focused features."
+					"intro": "Share anonymized information from your installation to help make NDX IoT Platform better and help us convince manufacturers to add local control and privacy-focused features."
 				},
 				"network": {
 					"caption": "Net",
@@ -4744,7 +4745,7 @@
 					"disk_metrics": "Disk metrics",
 					"datadisk": {
 						"title": "Move data disk",
-						"description": "You are currently using ''{current_path}'' as data disk. Moving the data disk will reboot your device and it's estimated to take {time} minutes. Your NDX Tech installation will not be accessible during this period. Do not disconnect the power during the move!",
+						"description": "You are currently using ''{current_path}'' as data disk. Moving the data disk will reboot your device and it's estimated to take {time} minutes. Your NDX IoT Platform installation will not be accessible during this period. Do not disconnect the power during the move!",
 						"extra_information": "Stærð: {size}, Raðnúmer: {serial}",
 						"select_device": "Select new data disk",
 						"no_devices_title": "Engin samhæfð gagnageymsla fannst",
@@ -4765,7 +4766,7 @@
 						"not_supported": {
 							"title": "The operating system does not support network storage",
 							"supervised": "Network storage is not supported on this host",
-							"os": "To use network storage you need to run at least NDX Tech Operating System {version}",
+							"os": "To use network storage you need to run at least NDX IoT Platform Operating System {version}",
 							"navigate_to_updates": "Go to updates"
 						},
 						"mount_usage": {
@@ -4896,14 +4897,14 @@
 						"more_info": "Sýna frekari upplýsingar: {name}"
 					},
 					"iframe": {
-						"error_secure_context": "Unable to load iframes pointing at websites using {target_protocol} if NDX Tech is served over {context_protocol}."
+						"error_secure_context": "Unable to load iframes pointing at websites using {target_protocol} if NDX IoT Platform is served over {context_protocol}."
 					},
 					"recovery-mode": {
 						"header": "Recovery mode activated",
-						"description": "NDX Tech ran into trouble while loading your configuration and is now running in recovery mode. Take a look at the error log to see what went wrong."
+						"description": "NDX IoT Platform ran into trouble while loading your configuration and is now running in recovery mode. Take a look at the error log to see what went wrong."
 					},
 					"starting": {
-						"description": "NDX Tech is starting, please wait…"
+						"description": "NDX IoT Platform is starting, please wait…"
 					},
 					"map": {
 						"reset_focus": "Endursetja fókus"
@@ -5149,7 +5150,7 @@
 					"migrate": {
 						"header": "Ósamhæfðar stillingar",
 						"para_no_id": "This element doesn't have an ID. Please add an ID to this element in 'ui-lovelace.yaml'.",
-						"para_migrate": "NDX Tech can add IDs to all your cards and views automatically for you by pressing the 'Migrate configuration' button.",
+						"para_migrate": "NDX IoT Platform can add IDs to all your cards and views automatically for you by pressing the 'Migrate configuration' button.",
 						"migrate": "Uppfæra stillingar"
 					},
 					"action-editor": {
@@ -5740,7 +5741,7 @@
 					"entity_not_found": "Eining ekki tiltæk: {entity}",
 					"entity_non_numeric": "Entity is non-numeric: {entity}",
 					"entity_unavailable": "{entity} er ekki tiltæk eins og er",
-					"starting": "NDX Tech is starting, not everything may be available yet"
+					"starting": "NDX IoT Platform is starting, not everything may be available yet"
 				},
 				"changed_toast": {
 					"message": "Lovelace stillingum hefur verið breytt, viltu endurnýja?"
@@ -5967,12 +5968,12 @@
 				"information": "Information",
 				"delete_confirm_title": "Remove {name}?",
 				"delete_confirm_text": "Are you sure you want to remove this list and all of its items?",
-				"restart_confirm": "Restart NDX Tech to finish removing this to-do list"
+				"restart_confirm": "Restart NDX IoT Platform to finish removing this to-do list"
 			},
 			"page-authorize": {
 				"initializing": "Frumstilli",
-				"authorizing": "Log in to your NDX Tech instance",
-				"authorizing_app": "You're about to give the NDX Tech Companion app for {app} access to your NDX Tech instance.",
+				"authorizing": "Log in to your NDX IoT Platform instance",
+				"authorizing_app": "You're about to give the NDX IoT Platform Companion app for {app} access to your NDX IoT Platform instance.",
 				"authorizing_client": "Þú ert að fara að veita {clientId} aðgang að Home Assistant uppsetningunni.",
 				"pick_auth_provider": "Eða skráðu þig inn með",
 				"abort_intro": "Hætt var við innskráningu",
@@ -6085,7 +6086,7 @@
 					"demo": {
 						"demo_by": "eftir {name}",
 						"next_demo": "Næsta sýnidæmi",
-						"introduction": "Welcome home! You've reached the NDX Tech demo where we showcase the best UIs created by our community.",
+						"introduction": "Welcome home! You've reached the NDX IoT Platform demo where we showcase the best UIs created by our community.",
 						"learn_more": "Læra meira um Home Assistant"
 					}
 				},
@@ -6128,7 +6129,7 @@
 				"tabs": {
 					"assist": {
 						"title": "Sentences parser",
-						"description": "Enter sentences and see how they will be parsed by NDX Tech. Each line will be processed as an individual sentence. Intents will not be executed on your instance.",
+						"description": "Enter sentences and see how they will be parsed by NDX IoT Platform. Each line will be processed as an individual sentence. Intents will not be executed on your instance.",
 						"parse_sentences": "Parse sentences",
 						"sentences": "Setningar",
 						"download_results": "Download results",
@@ -6193,7 +6194,7 @@
 					},
 					"states": {
 						"title": "Stöður",
-						"description1": "Set the current state representation of an entity within NDX Tech.",
+						"description1": "Set the current state representation of an entity within NDX IoT Platform.",
 						"description2": "If the entity belongs to a device, there will be no actual communication with that device.",
 						"entity": "Eining",
 						"state": "Staða",
@@ -6213,14 +6214,14 @@
 					},
 					"templates": {
 						"title": "Skapalón",
-						"description": "Templates are rendered using the Jinja2 template engine with some NDX Tech specific extensions.",
+						"description": "Templates are rendered using the Jinja2 template engine with some NDX IoT Platform specific extensions.",
 						"editor": "Template editor",
 						"reset": "Reset to demo template",
 						"confirm_reset": "Do you want to reset your current template back to the demo template?",
 						"confirm_clear": "Do you want to clear your current template?",
 						"result_type": "Result type",
 						"jinja_documentation": "Jinja2 template documentation",
-						"template_extensions": "NDX Tech template extensions",
+						"template_extensions": "NDX IoT Platform template extensions",
 						"unknown_error_template": "Unknown error rendering template",
 						"time": "This template updates at the start of each minute.",
 						"all_listeners": "This template listens for all state changed events.",
@@ -6382,7 +6383,7 @@
 					"vision": "Read our vision",
 					"community": "Join our community",
 					"download_app": "Download our app",
-					"forums": "NDX Tech forums",
+					"forums": "NDX IoT Platform forums",
 					"open_home_newsletter": "Building the Open Home newsletter",
 					"discord": "Discord-spjall",
 					"twitter": "Twitter"
@@ -6435,7 +6436,7 @@
 						},
 						"usage": {
 							"title": "Usage",
-							"description": "Details of what you use with NDX Tech"
+							"description": "Details of what you use with NDX IoT Platform"
 						},
 						"statistics": {
 							"title": "Statistical data",
@@ -6448,7 +6449,7 @@
 					},
 					"need_base_enabled": "You need to enable basic analytics for this option to be available",
 					"learn_more": "How we process your data",
-					"intro": "Share anonymized information from your installation to help make NDX Tech better and help us convince manufacturers to add local control and privacy-focused features."
+					"intro": "Share anonymized information from your installation to help make NDX IoT Platform better and help us convince manufacturers to add local control and privacy-focused features."
 				},
 				"restore": {
 					"header": "Restore a backup",
@@ -6478,7 +6479,7 @@
 			"custom": {
 				"external_panel": {
 					"question_trust": "Do you trust the external panel {name} at {link}?",
-					"complete_access": "It will have access to all data in NDX Tech.",
+					"complete_access": "It will have access to all data in NDX IoT Platform.",
 					"hide_message": "Check docs for the panel_custom component to hide this message"
 				}
 			},
@@ -6568,7 +6569,7 @@
 				"hostname": "Vélarheiti",
 				"new_update_available": "{name} {version} er í boði",
 				"not_available_arch": "This add-on is not compatible with the processor of your device or the operating system you have installed on your device.",
-				"not_available_version": "You are running NDX Tech {core_version_installed}, to update to this version of the add-on you need at least version {core_version_needed} of NDX Tech",
+				"not_available_version": "You are running NDX IoT Platform {core_version_installed}, to update to this version of the add-on you need at least version {core_version_needed} of NDX IoT Platform",
 				"visit_addon_page": "Visit the {name} page for more details.",
 				"restart": "endurræsa",
 				"start": "byrja",
@@ -6589,7 +6590,7 @@
 					},
 					"rating": {
 						"title": "Add-on security rating",
-						"description": "NDX Tech provides a security rating to each of the add-ons, which indicates the risks involved when using this add-on. The more access an add-on requires on your system, the lower the score, thus raising the possible security risks.\n\nA score is on a scale from 1 to 8. Where 1 is the lowest score (considered the most insecure and highest risk) and a score of 8 is the highest score (considered the most secure and lowest risk)."
+						"description": "NDX IoT Platform provides a security rating to each of the add-ons, which indicates the risks involved when using this add-on. The more access an add-on requires on your system, the lower the score, thus raising the possible security risks.\n\nA score is on a scale from 1 to 8. Where 1 is the lowest score (considered the most insecure and highest risk) and a score of 8 is the highest score (considered the most secure and lowest risk)."
 					},
 					"host_network": {
 						"title": "Host network",
@@ -6597,7 +6598,7 @@
 					},
 					"homeassistant_api": {
 						"title": "Home Assistant API aðgangur",
-						"description": "This add-on is allowed to access your running NDX Tech instance directly via the NDX Tech API. This mode handles authentication for the add-on as well, which enables an add-on to interact with NDX Tech without the need for additional authentication tokens."
+						"description": "This add-on is allowed to access your running NDX IoT Platform instance directly via the NDX IoT Platform API. This mode handles authentication for the add-on as well, which enables an add-on to interact with NDX IoT Platform without the need for additional authentication tokens."
 					},
 					"full_access": {
 						"title": "Fullur aðgangur að vélbúnaði",
@@ -6605,15 +6606,15 @@
 					},
 					"hassio_api": {
 						"title": "Supervisor API aðgangur",
-						"description": "The add-on was given access to the Supervisor API, by request of the add-on author. By default, the add-on can access general version information of your system. When the add-on requests 'manager' or 'admin' level access to the API, it will gain access to control multiple parts of your NDX Tech system. This permission is indicated by this badge and will impact the security score of the add-on negatively."
+						"description": "The add-on was given access to the Supervisor API, by request of the add-on author. By default, the add-on can access general version information of your system. When the add-on requests 'manager' or 'admin' level access to the API, it will gain access to control multiple parts of your NDX IoT Platform system. This permission is indicated by this badge and will impact the security score of the add-on negatively."
 					},
 					"docker_api": {
 						"title": "Fullur aðgangur að Docker",
-						"description": "The add-on author has requested the add-on to have management access to the Docker instance running on your system. This mode gives the add-on full access and control to your entire NDX Tech system, which adds security risks, and could damage your system when misused. Therefore, this feature impacts the add-on security score negatively.\n\nThis level of access is not granted automatically and needs to be confirmed by you. To do this, you need to disable the protection mode on the add-on manually. Only disable the protection mode if you know, need AND trust the source of this add-on."
+						"description": "The add-on author has requested the add-on to have management access to the Docker instance running on your system. This mode gives the add-on full access and control to your entire NDX IoT Platform system, which adds security risks, and could damage your system when misused. Therefore, this feature impacts the add-on security score negatively.\n\nThis level of access is not granted automatically and needs to be confirmed by you. To do this, you need to disable the protection mode on the add-on manually. Only disable the protection mode if you know, need AND trust the source of this add-on."
 					},
 					"host_pid": {
 						"title": "Host processes namespace",
-						"description": "Usually, the processes the add-on runs, are isolated from all other system processes. The add-on author has requested the add-on to have access to the system processes running on the host system instance, and allow the add-on to spawn processes on the host system as well. This mode gives the add-on full access and control to your entire NDX Tech system, which adds security risks, and could damage your system when misused. Therefore, this feature impacts the add-on security score negatively.\n\nThis level of access is not granted automatically and needs to be confirmed by you. To do this, you need to disable the protection mode on the add-on manually. Only disable the protection mode if you know, need AND trust the source of this add-on."
+						"description": "Usually, the processes the add-on runs, are isolated from all other system processes. The add-on author has requested the add-on to have access to the system processes running on the host system instance, and allow the add-on to spawn processes on the host system as well. This mode gives the add-on full access and control to your entire NDX IoT Platform system, which adds security risks, and could damage your system when misused. Therefore, this feature impacts the add-on security score negatively.\n\nThis level of access is not granted automatically and needs to be confirmed by you. To do this, you need to disable the protection mode on the add-on manually. Only disable the protection mode if you know, need AND trust the source of this add-on."
 					},
 					"apparmor": {
 						"title": "AppArmor",
@@ -6621,11 +6622,11 @@
 					},
 					"auth_api": {
 						"title": "Home Assistant auðkenning",
-						"description": "An add-on can authenticate users against NDX Tech, allowing add-ons to give users the possibility to log into applications running inside add-ons, using their NDX Tech username/password. This badge indicates if the add-on author requests this capability."
+						"description": "An add-on can authenticate users against NDX IoT Platform, allowing add-ons to give users the possibility to log into applications running inside add-ons, using their NDX IoT Platform username/password. This badge indicates if the add-on author requests this capability."
 					},
 					"ingress": {
 						"title": "Ingress",
-						"description": "This add-on is using Ingress to embed its interface securely into NDX Tech."
+						"description": "This add-on is using Ingress to embed its interface securely into NDX IoT Platform."
 					},
 					"signed": {
 						"title": "Vottað",
@@ -6771,8 +6772,8 @@
 			"system": "Kerfi"
 		},
 		"my": {
-			"not_supported": "This redirect is not supported by your NDX Tech instance. Check the {link} for the supported redirects and the version they where introduced.",
-			"faq_link": "My NDX Tech FAQ",
+			"not_supported": "This redirect is not supported by your NDX IoT Platform instance. Check the {link} for the supported redirects and the version they where introduced.",
+			"faq_link": "My NDX IoT Platform FAQ",
 			"add_addon_repository_title": "Missing add-on repository",
 			"add_addon_repository_description": "The addon ''{addon}'' is a part of the add-on repository ''{repository}'', this repository is missing on your system, do you want to add that now?",
 			"error": "An unknown error occurred",
@@ -6811,16 +6812,16 @@
 				"update_supervisor": "Uppfæra Supervisor",
 				"channel": "Rás",
 				"leave_beta_action": "Leave beta channel",
-				"leave_beta_description": "Get stable updates for NDX Tech, Supervisor and host",
+				"leave_beta_description": "Get stable updates for NDX IoT Platform, Supervisor and host",
 				"join_beta_action": "Join beta channel",
-				"join_beta_description": "Get beta updates for NDX Tech (RCs), Supervisor and host",
+				"join_beta_description": "Get beta updates for NDX IoT Platform (RCs), Supervisor and host",
 				"share_diagnostics": "Share diagnostics",
 				"share_diagnostics_description": "Share crash reports and diagnostic information.",
 				"reload_supervisor": "Endurhlaða Supervisor",
 				"warning": "VIÐVÖRUN",
 				"search": "Leita",
 				"share_diagonstics_title": "Hjálpa til við að bæta Home Assistant",
-				"share_diagonstics_description": "Would you want to automatically share crash reports and diagnostic information when the Supervisor encounters unexpected errors? {line_break} This will allow us to fix the problems, the information is only accessible to the NDX Tech Core team and will not be shared with others.{line_break} The data does not include any private/sensitive information and you can disable this in settings at any time you want.",
+				"share_diagonstics_description": "Would you want to automatically share crash reports and diagnostic information when the Supervisor encounters unexpected errors? {line_break} This will allow us to fix the problems, the information is only accessible to the NDX IoT Platform Core team and will not be shared with others.{line_break} The data does not include any private/sensitive information and you can disable this in settings at any time you want.",
 				"unsupported_reason": {
 					"apparmor": "AppArmor is not enabled on the host",
 					"content_trust": "Content-trust validation is disabled",
@@ -6923,7 +6924,7 @@
 			"download": "Download",
 			"more_actions": "More actions",
 			"remote_download_title": "Potentially slow download",
-			"remote_download_text": "You are accessing NDX Tech via remote access. Downloading backups over the Nabu Casa URL will take some time. If you are at home, cancel this dialog and enter your local URL, such as 'http://homeassistant.local:8123'"
+			"remote_download_text": "You are accessing NDX IoT Platform via remote access. Downloading backups over the Nabu Casa URL will take some time. If you are at home, cancel this dialog and enter your local URL, such as 'http://homeassistant.local:8123'"
 		},
 		"dialog": {
 			"network": {
@@ -6994,7 +6995,7 @@
 			},
 			"datadisk_move": {
 				"title": "Flytja gagnadisk",
-				"description": "You are currently using ''{current_path}'' as data disk. Moving data disks will reboot your device and it's estimated to take {time} minutes. Your NDX Tech installation will not be accessible during this period. Do not disconnect the power during the move!",
+				"description": "You are currently using ''{current_path}'' as data disk. Moving data disks will reboot your device and it's estimated to take {time} minutes. Your NDX IoT Platform installation will not be accessible during this period. Do not disconnect the power during the move!",
 				"select_device": "Veldu nýjan gagnadisk",
 				"no_devices": "No suitable attached devices found",
 				"moving_desc": "Rebooting and moving data disk. Please have patience",

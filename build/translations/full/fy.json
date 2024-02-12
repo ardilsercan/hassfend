@@ -1316,7 +1316,7 @@
 					"failed": "Probleem optreden by it ôfsluten fan it systeem"
 				},
 				"restart-safe-mode": {
-					"title": "Restart NDX Tech in safe mode",
+					"title": "Restart NDX IoT Platform in safe mode",
 					"description": "Begjin Home Assistant opnij op sûnder oanpaste yntegraasjes en frontend modules te laden.",
 					"confirm_title": "Home Assistant werstarte yn feilige moadus?",
 					"confirm_description": "Hjirtroch wurdt Home Assistant opnij opstart sûnder dat der oanpaste yntegraasjes en frontend modules laden wurd",
@@ -4679,8 +4679,9 @@
 						"start_commissioning": "Share device",
 						"in_progress": "We're communicating with the device. This may take some time.",
 						"failed": "The command failed. Additional information may be available in the logs.",
-						"success": "Your device can now be added to another Matter controller, scan the QR code below or enter the sharing code in the app of the controller you want to add your device to.",
-						"sharing_code": "Sharing code"
+						"success": "Your device is ready to be added to another Matter platform.",
+						"scan_code": "With their app, scan the QR code or enter the sharing code below to finish set up.",
+						"copy_code": "Copy code"
 					}
 				},
 				"tips": {
@@ -5987,7 +5988,7 @@
 				"information": "Information",
 				"delete_confirm_title": "{name} ferwiderje?",
 				"delete_confirm_text": "Bist der wis fan datst de hiele list ynklusyf items ferwiderje wolst?",
-				"restart_confirm": "Restart NDX Tech to finish removing this to-do list"
+				"restart_confirm": "Restart NDX IoT Platform to finish removing this to-do list"
 			},
 			"page-authorize": {
 				"initializing": "Oan it inisjalisearjen",

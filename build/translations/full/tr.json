@@ -2575,7 +2575,7 @@
 									"any_state_ignore_attributes": "Herhangi bir durum (öznitelik değişiklikleri yoksayılır)",
 									"description": {
 										"picker": "Bir varlığın (veya niteliğin) durumu değiştiğinde.",
-										"full": "When{hasAttribute, select, \n true { {attribute} of} \n other {}\n} {hasEntity, select, \n true {{entity}} \n other {something}\n} changes{fromChoice, select, \n fromUsed { from {fromString}}\n null { from any state} \n other {}\n}{toChoice, select, \n toUsed { to {toString}} \n null { to any state} \n special { state or any attributes} \n other {}\n}{hasDuration, select, \n true { for {duration}} \n other {}\n}"
+										"full": "İken{hasAttribute, select, \n true { {attribute} için} \n other {}\n} {hasEntity, select, \n true {{entity}} \n other {bir şey}\n} değişiklikler{fromChoice, select, \n fromUsed { bundan {fromString}}\n null { herhangi bir durumdan} \n other {}\n}{toChoice, select, \n toUsed { buna {toString}} \n null { herhangi bir duruma} \n special { duruma veya herhangi bir niteliğe} \n other {}\n}{hasDuration, select, \n true { için {duration}} \n other {}\n}"
 									}
 								},
 								"homeassistant": {
@@ -2609,9 +2609,9 @@
 									"type_input": "Başka bir varlığın sayısal değeri",
 									"description": {
 										"picker": "Bir varlığın durumunun (veya özniteliğin değerinin) sayısal değeri belirli bir eşiği geçtiğinde.",
-										"above": "Zaman {attribute, select, \n undefined {} \n other {{attribute} den }\n }{entity} {numberOfEntities, plural,\n one {is}\n other {are}\n} üstünde {above}{duration, select, \n undefined {} \n other { için {duration}}\n }",
-										"below": "Zaman {attribute, select, \n undefined {} \n other {{attribute} den }\n }{entity} {numberOfEntities, plural,\n one {is}\n other {are}\n} altında {below}{duration, select, \n undefined {} \n other { için {duration}}\n }",
-										"above-below": "Zaman {attribute, select, \n undefined {} \n other {{attribute} den }\n }{entity} {numberOfEntities, plural,\n one {is}\n other {are}\n} üstünde {above} ve altında {below}{duration, select, \n undefined {} \n other { için {duration}}\n }"
+										"above": "İken {attribute, select, \n undefined {} \n other {{attribute} den }\n }{entity} {numberOfEntities, plural,\n one {is}\n other {are}\n} üstünde {above}{duration, select, \n undefined {} \n other { için {duration}}\n }",
+										"below": "İken {attribute, select, \n undefined {} \n other {{attribute} den }\n }{entity} {numberOfEntities, plural,\n one {is}\n other {are}\n} altında {below}{duration, select, \n undefined {} \n other { için {duration}}\n }",
+										"above-below": "İken {attribute, select, \n undefined {} \n other {{attribute} den }\n }{entity} {numberOfEntities, plural,\n one {is}\n other {are}\n} üstünde {above} ve altında {below}{duration, select, \n undefined {} \n other { için {duration}}\n }"
 									}
 								},
 								"persistent_notification": {
@@ -2701,7 +2701,7 @@
 									"webhook_id_helper": "Bu kimliğe bir şifre gibi davranın: onu gizli tutun ve tahmin edilmesini zorlaştırın.",
 									"webhook_settings": "Webhook Ayarları",
 									"description": {
-										"picker": "Ev Asistanı webhook uç noktasına bir web isteği aldığında.",
+										"picker": "Home Assistant webhook uç noktasına bir web isteği aldığında.",
 										"full": "Bir Webhook verisi alındığında"
 									}
 								},
@@ -2806,9 +2806,9 @@
 									"value_template": "Değer taslak",
 									"description": {
 										"picker": "Bir varlığın durumunun (veya özniteliğin değerinin) sayısal değeri belirli bir eşiğin üstünde veya altındaysa.",
-										"above": "When {attribute, select, \n undefined {} \n other {{attribute} from }\n }{entity} is above {above}",
-										"below": "When {attribute, select, \n undefined {} \n other {{attribute} from }\n }{entity} is below {below}",
-										"above-below": "When {attribute, select, \n undefined {} \n other {{attribute} from }\n }{entity} is above {above} and below {below}"
+										"above": "İken {attribute, select, \n undefined {} \n other {{attribute} bundan }\n }{entity} üstünde {above}",
+										"below": "İken {attribute, select, \n undefined {} \n other {{attribute} bundan }\n }{entity} altında {below}",
+										"above-below": "İken {attribute, select, \n undefined {} \n other {{attribute} bundan }\n }{entity} üstünde {above} ve altında {below}"
 									}
 								},
 								"or": {
@@ -2825,7 +2825,7 @@
 									"description": {
 										"picker": "Bir varlığın (veya niteliğin) belirli bir durumda olup olmadığı.",
 										"no_entity": "Durumu onayla",
-										"full": "Onayla{hasAttribute, select, \n true { {attribute} of}\n other {}\n} {numberOfEntities, plural,\n zero {varlık}\n one {{entities} is}\n other {{entities} are}\n} {numberOfStates, plural,\n zero {durum}\n other {{states}}\n}{hasDuration, select, \n true { için {duration}} \n other {}\n }"
+										"full": "Onayla{hasAttribute, select, \n true { {attribute} için}\n other {}\n} {numberOfEntities, plural,\n zero {varlık}\n one {{entities} is}\n other {{entities} are}\n} {numberOfStates, plural,\n zero {durum}\n other {{states}}\n}{hasDuration, select, \n true { için {duration}} \n other {}\n }"
 									}
 								},
 								"sun": {
@@ -2838,7 +2838,7 @@
 									"sunset": "Gün Batımı",
 									"description": {
 										"picker": "Güneş ufkun üstünde veya altındaysa.",
-										"full": "Confirm sun{afterChoice, select, \n sunrise { gün doğumundan sonra}\n sunset { gün batımından sonra}\n other {}\n}{afterOffsetChoice, select, \n offset { offset by {afterOffset}}\n other {}\n}{beforeChoice, select, \n sunrise { gün doğumundan önce}\n sunset { gün batımından önce}\n other {}\n}{beforeOffsetChoice, select, \n offset { offset by {beforeOffset}}\n other {}\n}"
+										"full": "Güneşi onayla{afterChoice, select, \n sunrise { gün doğumundan sonra}\n sunset { gün batımından sonra}\n other {}\n}{afterOffsetChoice, select, \n offset { tarafından {afterOffset}}\n other {}\n}{beforeChoice, select, \n sunrise { gün doğumundan önce}\n sunset { gün batımından önce}\n other {}\n}{beforeOffsetChoice, select, \n offset { tarafından {beforeOffset}}\n other {}\n}"
 									}
 								},
 								"template": {
@@ -2894,7 +2894,7 @@
 						},
 						"actions": {
 							"name": "Eylemler",
-							"header": "Bunu yap",
+							"header": "Şunu yap",
 							"description": "Bu eylemler listesi, otomasyon çalıştırıldığında sırayla gerçekleştirilecektir. Bir eylem genellikle alanlarınızdan, cihazlarınızdan veya varlıklarınızdan birini kontrol eder; örneğin: 'Işıkları aç'. Daha karmaşık eylem dizileri oluşturmak için yapı taşlarını kullanabilirsiniz.",
 							"learn_more": "İşlemler hakkında daha fazla bilgi edinin",
 							"add": "İşlem ekle",
@@ -3071,7 +3071,7 @@
 									"change_alias": "Seçeneği yeniden adlandır",
 									"alias": "Seçenek adı",
 									"delete_confirm_title": "Seçenek kaldırılsın mı?",
-									"option_description_additional": " {numberOfAdditionalConditions, plural,\n one {ve 1  daha koşul}\n other {ve {numberOfAdditionalConditions} daha fazla koşul}}",
+									"option_description_additional": "{numberOfAdditionalConditions, plural,\n one {ve 1  daha koşul}\n other {ve {numberOfAdditionalConditions} daha fazla koşul}}",
 									"conditions": "Koşullar",
 									"no_conditions": "Koşul yok",
 									"sequence": "Aksiyonlar",
@@ -4638,7 +4638,7 @@
 						"network_name": "Ağ adı",
 						"ip_adresses": "IP Adres(ler)i",
 						"mac_address": "MAC adresi",
-						"available": "Mevcut?"
+						"available": "Erişelebilir?"
 					},
 					"device_actions": {
 						"reinterview_device": "Yeniden görüşme cihazı",
@@ -4681,9 +4681,9 @@
 						"in_progress": "Cihazla iletişim kuruyoruz. Bu biraz zaman alabilir.",
 						"failed": "Komut başarısız oldu. Günlüklerde ek bilgiler bulunabilir.",
 						"success": "Cihazınız başka bir Matter platformuna eklenmeye hazır.",
-						"sharing_code": "Kod paylaşımı",
+						"scan_code": "Kurulumu tamamlamak için uygulamayı kullanarak QR kodunu tarayın veya aşağıdaki paylaşım kodunu girin.",
 						"copy_code": "Kodu kopyala",
-						"scan_code": "Kurulumu tamamlamak için uygulamayı kullanarak QR kodunu tarayın veya aşağıdaki paylaşım kodunu girin."
+						"sharing_code": "Kod paylaşımı"
 					}
 				},
 				"tips": {

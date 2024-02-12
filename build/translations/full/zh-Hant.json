@@ -4681,9 +4681,9 @@
 						"in_progress": "正在與裝置進行通訊、可能會需要一點時間。",
 						"failed": "命令失敗。日誌中可能包含其他相關資訊。",
 						"success": "裝置已就緒新增至其他 Matter 平台。",
-						"sharing_code": "分享代碼",
+						"scan_code": "使用其 App、掃描 QR 碼或輸入下方的分享碼以完成設定。",
 						"copy_code": "複製代碼",
-						"scan_code": "使用其 App、掃描 QR 碼或輸入下方的分享碼以完成設定。"
+						"sharing_code": "分享代碼"
 					}
 				},
 				"tips": {

@@ -896,7 +896,7 @@
 		"dialogs": {
 			"safe_mode": {
 				"title": "Safe mode",
-				"text": "NDX Tech is running in safe mode, custom integrations and frontend modules are not available. Restart NDX Tech to exit safe mode."
+				"text": "NDX IoT Platform is running in safe mode, custom integrations and frontend modules are not available. Restart NDX IoT Platform to exit safe mode."
 			},
 			"quick-bar": {
 				"commands": {
@@ -995,7 +995,7 @@
 				"send_text": "Send text",
 				"start_listening": "Start listening",
 				"manage_assistants": "Administrer assistentar",
-				"not_supported_microphone_browser": "Your connection to NDX Tech is not secured using HTTPS. This causes browsers to block NDX Tech from accessing the microphone.",
+				"not_supported_microphone_browser": "Your connection to NDX IoT Platform is not secured using HTTPS. This causes browsers to block NDX IoT Platform from accessing the microphone.",
 				"not_supported_microphone_documentation": "Besøk {documentation_link} for å lære meir om korleis ein bruker ein sikker URL",
 				"not_supported_microphone_documentation_link": "dokumentasjonen"
 			},
@@ -1261,7 +1261,7 @@
 					"service_heading": "Service",
 					"service": "service"
 				},
-				"enabled_description": "Disabled devices will not be shown and entities belonging to the device will be disabled and not added to NDX Tech.",
+				"enabled_description": "Disabled devices will not be shown and entities belonging to the device will be disabled and not added to NDX IoT Platform.",
 				"update": "Update",
 				"unknown_error": "Ukjent feil"
 			},
@@ -1293,35 +1293,35 @@
 					"failed": "Kunne ikkje starte Home Assistant på nytt"
 				},
 				"stop": {
-					"confirm_title": "Stop NDX Tech?",
+					"confirm_title": "Stop NDX IoT Platform?",
 					"confirm_description": "This will interrupt all running automations and scripts.",
 					"confirm_action": "Stop"
 				},
 				"reboot": {
 					"title": "Restart system",
-					"description": "Restarts the system running NDX Tech and all add-ons.",
+					"description": "Restarts the system running NDX IoT Platform and all add-ons.",
 					"confirm_title": "Restart system?",
-					"confirm_description": "This will reboot the complete system which includes NDX Tech and all the add-ons.",
+					"confirm_description": "This will reboot the complete system which includes NDX IoT Platform and all the add-ons.",
 					"confirm_action": "Restart",
 					"rebooting": "Startar på nytt",
 					"failed": "Failed to reboot system"
 				},
 				"shutdown": {
 					"title": "Shut down system",
-					"description": "Shuts down the system running NDX Tech and all add-ons.",
+					"description": "Shuts down the system running NDX IoT Platform and all add-ons.",
 					"confirm_title": "Shut down system?",
-					"confirm_description": "This will shut down the complete system which includes NDX Tech and all add-ons.",
+					"confirm_description": "This will shut down the complete system which includes NDX IoT Platform and all add-ons.",
 					"confirm_action": "Slå av",
 					"shutting_down": "Shutting down system",
 					"failed": "Failed to shut down system"
 				},
 				"restart-safe-mode": {
-					"title": "Restart NDX Tech in safe mode",
-					"description": "Restarts NDX Tech without loading any custom integrations and frontend modules.",
-					"confirm_title": "Restart NDX Tech in safe mode?",
-					"confirm_description": "This will restart NDX Tech without loading any custom integrations and frontend modules.",
+					"title": "Restart NDX IoT Platform in safe mode",
+					"description": "Restarts NDX IoT Platform without loading any custom integrations and frontend modules.",
+					"confirm_title": "Restart NDX IoT Platform in safe mode?",
+					"confirm_description": "This will restart NDX IoT Platform without loading any custom integrations and frontend modules.",
 					"confirm_action": "Restart",
-					"failed": "Failed to restart NDX Tech"
+					"failed": "Failed to restart NDX IoT Platform"
 				}
 			},
 			"aliases": {
@@ -1633,7 +1633,7 @@
 				"not_supported": "Denne viderekoplinga er ikkje støtta av Home Assistant-førekomsten. Sjå {link} for dei støtta vidarekoplingane og ved kva versjon dei vart introdusert.",
 				"component_not_loaded": "Denne viderekoplinga er ikkje støtta av Home Assistant-førekomsten. Du treng {integration}-integrasjonen å bruke denne viderekoplinga.",
 				"no_supervisor": "Denne viderekoplinga er ikkje støtta av Home Assistant-installasjonen. Det trengs anten installasjonsmetoden Home Assistant eller Home Assistant Supervised. For meir informasjon, sjå {docs_link} .",
-				"not_app": "This redirect only works from a mobile device that has the NDX Tech Companion app installed. {link}.",
+				"not_app": "This redirect only works from a mobile device that has the NDX IoT Platform Companion app installed. {link}.",
 				"documentation": "dokumentasjon",
 				"download_app": "Click here to download the app",
 				"faq_link": "Min Home Assistant-FAQ",
@@ -1727,7 +1727,7 @@
 				},
 				"repairs": {
 					"caption": "Repairs",
-					"description": "Find and fix issues with your NDX Tech instance",
+					"description": "Find and fix issues with your NDX IoT Platform instance",
 					"title": "{count} {count, plural,\n  one {repair}\n  other {repairs}\n}",
 					"no_repairs": "There are currently no repairs available",
 					"more_repairs": "Show all repairs",
@@ -1977,7 +1977,7 @@
 							"header": "Configure water consumption",
 							"paragraph": "Water consumption is the volume of water that flows to your home.",
 							"entity_para": "Vel ein sensor som måler vassforbruk i ein av {unit}",
-							"cost_para": "Select how NDX Tech should keep track of the costs of the consumed water.",
+							"cost_para": "Select how NDX IoT Platform should keep track of the costs of the consumed water.",
 							"no_cost": "Do not track costs",
 							"cost_stat": "Use an entity tracking the total costs",
 							"cost_stat_input": "Entity with the total costs",
@@ -2116,7 +2116,7 @@
 					"copy_raw": "Rå tekst",
 					"copy_github": "For GitHub",
 					"description": "Versjon, innlasta integrasjonar og lenkjer til dokumentasjon",
-					"home_assistant_logo": "NDX Tech logo",
+					"home_assistant_logo": "NDX IoT Platform logo",
 					"developed_by": "Utvikla av ein haug med fantastiske folk.",
 					"license": "Publisert under Apache 2.0-lisensen",
 					"source": "Kjelder:",
@@ -2334,7 +2334,7 @@
 							"features": {
 								"assistants": {
 									"title": "Google Assistant and Amazon Alexa",
-									"text": "Control all your NDX Tech devices via any Google Assistant-enabled or Alexa-enabled device."
+									"text": "Control all your NDX IoT Platform devices via any Google Assistant-enabled or Alexa-enabled device."
 								},
 								"speech": {
 									"title": "Amazing speech options for Assist",
@@ -2550,7 +2550,7 @@
 									"context_user_picked": "Bruk utløysarhending",
 									"context_user_pick": "Vel brukar",
 									"description": {
-										"picker": "When an event is being received (event is an advanced concept in NDX Tech).",
+										"picker": "When an event is being received (event is an advanced concept in NDX IoT Platform).",
 										"full": "When {eventTypes} event is fired"
 									}
 								},
@@ -2585,8 +2585,8 @@
 									"shutdown": "Slå av",
 									"description": {
 										"picker": "Når Home Assistant startar opp eller slår seg av.",
-										"started": "When NDX Tech is started",
-										"shutdown": "When NDX Tech is shutdown"
+										"started": "When NDX IoT Platform is started",
+										"shutdown": "When NDX IoT Platform is shutdown"
 									}
 								},
 								"mqtt": {
@@ -2701,7 +2701,7 @@
 									"webhook_id_helper": "Behandl denne ID-en som eit passord – hald den hemmeleg, og gjer den vanskaleg å gjette.",
 									"webhook_settings": "Webhook-innstillingar",
 									"description": {
-										"picker": "When NDX Tech receives a web request to the webhook endpoint.",
+										"picker": "When NDX IoT Platform receives a web request to the webhook endpoint.",
 										"full": "When a Webhook payload has been received"
 									}
 								},
@@ -3273,7 +3273,7 @@
 							"author": "By {author}",
 							"local": "By you",
 							"community": "By the community",
-							"homeassistant": "By NDX Tech"
+							"homeassistant": "By NDX IoT Platform"
 						},
 						"discover_blueprint_tip": "Discover more community blueprints"
 					},
@@ -3413,7 +3413,7 @@
 						"alert_password_change_required": "Du må endre passordet før du loggar inn.",
 						"alert_email_confirm_necessary": "Du må bekrefte e-posten din før du loggar inn.",
 						"cloud_pipeline_title": "Vil du bruke Home Asssitant Cloud for stemmeassistenten din?",
-						"cloud_pipeline_text": "We created a new assistant for you, using the superior text-to-speech and speech-to-text engines from NDX Tech Cloud. Would you like to set this assistant as the preferred assistant?"
+						"cloud_pipeline_text": "We created a new assistant for you, using the superior text-to-speech and speech-to-text engines from NDX IoT Platform Cloud. Would you like to set this assistant as the preferred assistant?"
 					},
 					"forgot_password": {
 						"title": "Gløymt passord",
@@ -3990,7 +3990,7 @@
 						"missing_zwave_zigbee_title": "{integration} is not setup",
 						"missing_zwave_zigbee": "To add a {brand} device, you first need {supported_hardware_link} and the {integration} integration set up. If you already have the hardware then you can proceed with the setup of {integration}.",
 						"missing_matter": "To add a {brand} device, you first need the {integration} integration and {supported_hardware_link}. Do you want to proceed with the setup of {integration}?",
-						"matter_mobile_app": "You need to use the NDX Tech Companion app on your mobile phone to commission Matter devices.",
+						"matter_mobile_app": "You need to use the NDX IoT Platform Companion app on your mobile phone to commission Matter devices.",
 						"supported_hardware": "supported hardware",
 						"proceed": "Proceed"
 					}
@@ -4060,7 +4060,7 @@
 					"description": "Administrer OAuth applikasjonslegitimasjon brukt av integrasjonane",
 					"editor": {
 						"caption": "Legg til applikasjonslegitimasjon",
-						"description": "OAuth is used to grant NDX Tech access to information on other websites without giving a passwords. This mechanism is used by companies such as Spotify, Google, Withings, Microsoft, and Twitter.",
+						"description": "OAuth is used to grant NDX IoT Platform access to information on other websites without giving a passwords. This mechanism is used by companies such as Spotify, Google, Withings, Microsoft, and Twitter.",
 						"missing_credentials": "Setting up {integration} requires configuring application credentials.",
 						"missing_credentials_domain_link": "View {integration} documentation",
 						"view_documentation": "View application credentials documentation",
@@ -4124,15 +4124,15 @@
 					"add_dataset_label": "Operational dataset TLV",
 					"add_dataset_button": "Legg til datasett",
 					"confirm_reset_border_router": "Reset border router?",
-					"confirm_reset_border_router_text": "NDX Tech will create a new Thread network. Any devices that are currently joined on this NDX Tech Thread network will need to be re-joined.",
+					"confirm_reset_border_router_text": "NDX IoT Platform will create a new Thread network. Any devices that are currently joined on this NDX IoT Platform Thread network will need to be re-joined.",
 					"confirm_set_dataset_border_router": "Reconfigure border router?",
-					"confirm_set_dataset_border_router_text": "NDX Tech will join an existing Thread network. Any devices that are currently joined on this NDX Tech Thread network will need to be re-joined.",
+					"confirm_set_dataset_border_router_text": "NDX IoT Platform will join an existing Thread network. Any devices that are currently joined on this NDX IoT Platform Thread network will need to be re-joined.",
 					"otbr_config_failed": "Failed to configure the border router",
 					"confirm_delete_dataset": "Slett {name}-datasettet?",
 					"confirm_delete_dataset_text": "Dette nettverket vil bli fjerna frå Home Assistant.",
 					"no_border_routers": "No border routers found",
 					"border_routers": "{count} border {count, plural,\n  one {router}\n  other {routers}\n}",
-					"managed_by_home_assistant": "Managed by NDX Tech",
+					"managed_by_home_assistant": "Managed by NDX IoT Platform",
 					"operational_dataset": "Operational dataset",
 					"change_channel": "Change channel",
 					"change_channel_initiated_title": "Channel change in progress",
@@ -4142,7 +4142,7 @@
 					"change_channel_multiprotocol_enabled_title": "The Thread radio has multiprotocol enabled",
 					"change_channel_multiprotocol_enabled_text": "To change channel when the Thread radio has multiprotocol enabled, please use the hardware settings menu.",
 					"change_channel_range": "Channel must be in the range 11 to 26",
-					"change_channel_text": "Initiating a channel change for your NDX Tech Thread network should be performed with caution. Some Thread devices may not migrate to the new channel automatically and, if the new channel is congested, your Thread devices may become intermittently unavailable. Some devices may need to be manually re-joined to your Thread network before they show in NDX Tech again. This action cannot be reversed (without performing another channel change)."
+					"change_channel_text": "Initiating a channel change for your NDX IoT Platform Thread network should be performed with caution. Some Thread devices may not migrate to the new channel automatically and, if the new channel is congested, your Thread devices may become intermittently unavailable. Some devices may need to be manually re-joined to your Thread network before they show in NDX IoT Platform again. This action cannot be reversed (without performing another channel change)."
 				},
 				"zha": {
 					"common": {
@@ -4354,7 +4354,7 @@
 					"hard_reset_controller": {
 						"NotStarted": {
 							"title": "Reset Controller to Factory Settings",
-							"body": "If you decide to move forward, you will reset your controller to factory settings. As a result, the controller will forget all devices it is paired with and all Z-Wave devices for this network will be removed from NDX Tech. If there are any devices still paired with the controller when it is reset, they will have to go through the exclusion process before they can be re-paired. Would you like to continue?"
+							"body": "If you decide to move forward, you will reset your controller to factory settings. As a result, the controller will forget all devices it is paired with and all Z-Wave devices for this network will be removed from NDX IoT Platform. If there are any devices still paired with the controller when it is reset, they will have to go through the exclusion process before they can be re-paired. Would you like to continue?"
 						},
 						"InProgress": {
 							"title": "Resetting Controller",
@@ -4564,7 +4564,7 @@
 					},
 					"update_firmware": {
 						"title": "Update device firmware",
-						"warning": "WARNING: Firmware updates can brick your device if you do not correctly follow the manufacturer's guidance. The NDX Tech and Z-Wave JS teams do not take any responsibility for any damages to your device as a result of the firmware update and will not be able to help you if you brick your device. Would you still like to continue?",
+						"warning": "WARNING: Firmware updates can brick your device if you do not correctly follow the manufacturer's guidance. The NDX IoT Platform and Z-Wave JS teams do not take any responsibility for any damages to your device as a result of the firmware update and will not be able to help you if you brick your device. Would you still like to continue?",
 						"warning_controller": "ÅTVARING: Programvareoppdateringar kan låse kontrollaren din om du ikkje bruker den rikige programvarefila, eller om du forsøker å stoppe programvareoppdateringa før ho er fullført. Home Assistant- og Z-Wave JS-teamet tek ikkje ansvar for ev. skader på kontrollaren som eit resultat av programvareoppdateringa og kjem ikkje til å kunne hjelpe deg om du låser fast kontrolalren. Vil du likevel halde fram?",
 						"introduction": "Select the firmware file you would like to use to update {device}.",
 						"introduction_controller": "Vel programvarefila du har lyst å oppdatere {device} med. Merk deg at når du startar programvareoppdateringa, så MÅ du vente på at oppdateringa skal fullføre,",
@@ -4678,8 +4678,9 @@
 						"start_commissioning": "Share device",
 						"in_progress": "We're communicating with the device. This may take some time.",
 						"failed": "The command failed. Additional information may be available in the logs.",
-						"success": "Your device can now be added to another Matter controller, scan the QR code below or enter the sharing code in the app of the controller you want to add your device to.",
-						"sharing_code": "Sharing code"
+						"success": "Your device is ready to be added to another Matter platform.",
+						"scan_code": "With their app, scan the QR code or enter the sharing code below to finish set up.",
+						"copy_code": "Copy code"
 					}
 				},
 				"tips": {
@@ -4697,7 +4698,7 @@
 						},
 						"usage": {
 							"title": "Usage",
-							"description": "Details of what you use with NDX Tech"
+							"description": "Details of what you use with NDX IoT Platform"
 						},
 						"statistics": {
 							"title": "Statistical data",
@@ -4710,7 +4711,7 @@
 					},
 					"need_base_enabled": "You need to enable basic analytics for this option to be available",
 					"learn_more": "How we process your data",
-					"intro": "Share anonymized information from your installation to help make NDX Tech better and help us convince manufacturers to add local control and privacy-focused features."
+					"intro": "Share anonymized information from your installation to help make NDX IoT Platform better and help us convince manufacturers to add local control and privacy-focused features."
 				},
 				"network": {
 					"caption": "Nettverk",
@@ -4910,7 +4911,7 @@
 					},
 					"recovery-mode": {
 						"header": "Recovery mode activated",
-						"description": "NDX Tech ran into trouble while loading your configuration and is now running in recovery mode. Take a look at the error log to see what went wrong."
+						"description": "NDX IoT Platform ran into trouble while loading your configuration and is now running in recovery mode. Take a look at the error log to see what went wrong."
 					},
 					"starting": {
 						"description": "Home Assistant held på å starte. Ver vennleg og vent."
@@ -5985,12 +5986,12 @@
 				"information": "Information",
 				"delete_confirm_title": "Remove {name}?",
 				"delete_confirm_text": "Are you sure you want to remove this list and all of its items?",
-				"restart_confirm": "Restart NDX Tech to finish removing this to-do list"
+				"restart_confirm": "Restart NDX IoT Platform to finish removing this to-do list"
 			},
 			"page-authorize": {
 				"initializing": "Set i gang",
-				"authorizing": "Log in to your NDX Tech instance",
-				"authorizing_app": "You're about to give the NDX Tech Companion app for {app} access to your NDX Tech instance.",
+				"authorizing": "Log in to your NDX IoT Platform instance",
+				"authorizing_app": "You're about to give the NDX IoT Platform Companion app for {app} access to your NDX IoT Platform instance.",
 				"authorizing_client": "Du held på å gi {clientId} tilgang til Home Assistant-instansen din.",
 				"pick_auth_provider": "Eller logg inn med",
 				"abort_intro": "Innlogging avbrote",
@@ -6146,7 +6147,7 @@
 				"tabs": {
 					"assist": {
 						"title": "Sentences parser",
-						"description": "Enter sentences and see how they will be parsed by NDX Tech. Each line will be processed as an individual sentence. Intents will not be executed on your instance.",
+						"description": "Enter sentences and see how they will be parsed by NDX IoT Platform. Each line will be processed as an individual sentence. Intents will not be executed on your instance.",
 						"parse_sentences": "Parse sentences",
 						"sentences": "Sentences",
 						"download_results": "Download results",
@@ -6400,7 +6401,7 @@
 					"vision": "Read our vision",
 					"community": "Join our community",
 					"download_app": "Download our app",
-					"forums": "NDX Tech forums",
+					"forums": "NDX IoT Platform forums",
 					"open_home_newsletter": "Building the Open Home newsletter",
 					"discord": "Discord chat",
 					"twitter": "Twitter"
@@ -6453,7 +6454,7 @@
 						},
 						"usage": {
 							"title": "Usage",
-							"description": "Details of what you use with NDX Tech"
+							"description": "Details of what you use with NDX IoT Platform"
 						},
 						"statistics": {
 							"title": "Statistical data",
@@ -6466,7 +6467,7 @@
 					},
 					"need_base_enabled": "You need to enable basic analytics for this option to be available",
 					"learn_more": "How we process your data",
-					"intro": "Share anonymized information from your installation to help make NDX Tech better and help us convince manufacturers to add local control and privacy-focused features."
+					"intro": "Share anonymized information from your installation to help make NDX IoT Platform better and help us convince manufacturers to add local control and privacy-focused features."
 				},
 				"restore": {
 					"header": "Restore a backup",
@@ -6941,7 +6942,7 @@
 			"download": "Download",
 			"more_actions": "More actions",
 			"remote_download_title": "Potentially slow download",
-			"remote_download_text": "You are accessing NDX Tech via remote access. Downloading backups over the Nabu Casa URL will take some time. If you are at home, cancel this dialog and enter your local URL, such as 'http://homeassistant.local:8123'"
+			"remote_download_text": "You are accessing NDX IoT Platform via remote access. Downloading backups over the Nabu Casa URL will take some time. If you are at home, cancel this dialog and enter your local URL, such as 'http://homeassistant.local:8123'"
 		},
 		"dialog": {
 			"network": {

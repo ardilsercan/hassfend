@@ -759,17 +759,17 @@
 			},
 			"todo": {
 				"item": {
-					"summary": "Task name",
-					"description": "Description",
-					"add": "Add item",
-					"delete": "Delete item",
-					"edit": "Edit item",
-					"save": "Save item",
-					"due": "Due date",
-					"not_all_required_fields": "Not all required fields are filled in",
+					"summary": "Ονομα υποχρέωσης",
+					"description": "Περιγραφή",
+					"add": "Προσθήκη υποχρέωσης",
+					"delete": "Διαγραφή υποχρέωσης",
+					"edit": "Επεξεργασία υποχρέωσης",
+					"save": "Αποθήκευση υποχρέωσης",
+					"due": "Ημερομηνία λήξης",
+					"not_all_required_fields": "Δεν έχουν συμπληρωθεί όλα τα απαιτούμενα πεδία",
 					"confirm_delete": {
-						"delete": "Delete item",
-						"prompt": "Do you want to delete this item?"
+						"delete": "Διαγραφή υποχρέωσης",
+						"prompt": "Θέλετε να διαγράψετε αυτή την υποχρέωση;"
 					}
 				}
 			},
@@ -1074,7 +1074,7 @@
 					}
 				},
 				"zone": {
-					"graph_unit": "Άνθρωποι στη ζώνη"
+					"graph_unit": "Ανθρωποι στη ζώνη"
 				},
 				"light": {
 					"edit_mode": "Επεξεργασία αγαπημένων χρωμάτων",
@@ -2408,7 +2408,7 @@
 							"state": "Κατάσταση"
 						},
 						"empty_header": "Start automating",
-						"empty_text_1": "Automations make NDX Tech automatically respond to things happening in and around your home.",
+						"empty_text_1": "Automations make NDX IoT Platform automatically respond to things happening in and around your home.",
 						"empty_text_2": "Οι αυτοματισμοί συνδέουν τα εναύσματα με τις ενέργειες με τη λογική ''όταν πυροδοτηθεί τότε ενέργεια'' με προαιρετικές συνθήκες. Για παράδειγμα: ''Οταν δύσει ο ήλιος και αν ο/η {user} είναι στο σπίτι, τότε άναψε τα φώτα''."
 					},
 					"dialog_new": {
@@ -2550,7 +2550,7 @@
 									"context_user_picked": "Συμβάν πυροδότησης χρήστη",
 									"context_user_pick": "Επιλογή χρήστη",
 									"description": {
-										"picker": "When an event is being received (event is an advanced concept in NDX Tech).",
+										"picker": "When an event is being received (event is an advanced concept in NDX IoT Platform).",
 										"full": "Οταν πυροδοτείται το συμβάν {eventTypes}"
 									}
 								},
@@ -2563,7 +2563,7 @@
 									"leave": "Αποχώρηση",
 									"description": {
 										"picker": "When an entity created by a geolocation platform appears in or disappears from a zone.",
-										"full": "Οταν {source} {event, select, \n enter {μπαίνε σει}\n leave {βγαίνει από} other {} \n} {zone} {numberOfZones, plural,\n one {ζώνη}\n other {ζώνες}\n}"
+										"full": "Οταν {source} {event, select, \n enter {μπαίνε σε}\n leave {βγαίνει από} other {} \n} {numberOfZones, plural,\n one {ζώνη}\n other {ζώνες}\n} {zone}"
 									}
 								},
 								"state": {
@@ -2584,7 +2584,7 @@
 									"start": "Εναρξη",
 									"shutdown": "Τερματισμός λειτουργίας",
 									"description": {
-										"picker": "When NDX Tech starts up or shuts down.",
+										"picker": "When NDX IoT Platform starts up or shuts down.",
 										"started": "Οταν ξεκινάει το Home Assistant",
 										"shutdown": "Οταν το Home Assistant τερματίζεται"
 									}
@@ -2714,7 +2714,7 @@
 									"leave": "Αποχώρηση",
 									"description": {
 										"picker": "Οταν κάποιος (ή κάτι) μπαίνει ή βγαίνει από μια ζώνη",
-										"full": "Οταν {entity} {event, select, \n enter {μπαίνει σε}\n leave {βγαίνει από} other {} \n} {zone} {numberOfZones, plural,\n one {ζώνη} \n other {ζώνες}\n}"
+										"full": "Οταν το {entity} {event, select, \n enter {μπαίνει σε}\n leave {βγαίνει από} other {} \n} {numberOfZones, plural,\n one {ζώνη} \n other {ζώνες}\n} {zone}"
 									}
 								}
 							}
@@ -2868,8 +2868,8 @@
 										"sun": "Κυριακή"
 									},
 									"description": {
-										"picker": "If the current time is before or after a specified time.",
-										"full": "Επιβεβαιώστε το {hasTime, επιλέξτε, \n after {η ώρα είναι μετά από {time_after}}\n before {η ώρα είναι πριν από {time_before}}\n after_before {η ώρα είναι μετά από {time_after} και πριν από {time_before}} \n other {}\n }{hasTimeAndDay, select, \n true { και η }\n other {}\n}{hasDay, select, \n true { ημέρα είναι {day}}\n other {}\n}"
+										"picker": "Εάν η τρέχουσα ώρα είναι πριν ή μετά από μια καθορισμένη ώρα.",
+										"full": "Επιβεβαίωση ότι {hasTime, select, \n after {η ώρα είναι μετά από {time_after}}\n before {η ώρα είναι πριν από {time_before}}\n after_before {η ώρα είναι μετά από {time_after} και πριν από {time_before}} \n other {}\n }{hasTimeAndDay, select, \n true { και η }\n other {}\n}{hasDay, select, \n true { ημέρα είναι {day}}\n other {}\n}"
 									}
 								},
 								"trigger": {
@@ -2887,7 +2887,7 @@
 									"zone": "Ζώνη",
 									"description": {
 										"picker": "Αν κάποιος (ή κάτι) βρίσκεται σε μια ζώνη",
-										"full": "Επιβεβαίωση {entity} {numberOfEntities, plural, one { είναι } other { είναι } } σε {zone} {numberOfZones, plural, one { ζώνη } other { ζώνες } }"
+										"full": "Επιβεβαίωση ότι {entity} {numberOfEntities, plural,\n one {είναι}\n other {είναι}\n} μέσα {numberOfZones, plural,\n one {στη ζώνη} \n other {στις ζώνες}\n} {zone} "
 									}
 								}
 							}
@@ -2999,7 +2999,7 @@
 									"event": "Τύπος συμβάντος",
 									"event_data": "Δεδομένα συμβάντος",
 									"description": {
-										"picker": "Fire an event manually (event is an advanced concept in NDX Tech).",
+										"picker": "Fire an event manually (event is an advanced concept in NDX IoT Platform).",
 										"full": "Πυροδότηση συμβάντος {name}",
 										"template": "με βάση ένα template"
 									}
@@ -3107,7 +3107,7 @@
 									"label": "Παράλληλη εκτέλεση",
 									"description": {
 										"picker": "εκτελέστε μια ακολουθία ενεργειών παράλληλα.",
-										"full": "Εκτέλεση {number} {number, plural, one { ενέργεια } other { ενέργειες } } παράλληλα"
+										"full": "Εκτέλεση {number} {number, plural,\n one {ενέργειας}\n other {ενεργειών}\n} παράλληλα"
 									}
 								},
 								"variables": {
@@ -3783,7 +3783,7 @@
 				"zone": {
 					"caption": "Ζώνες",
 					"description": "Διαχειριστείτε τις ζώνες στις οποίες θέλετε να παρακολουθείτε άτομα",
-					"introduction": "Οι Ζώνες σας επιτρέπουν να καθορίσετε ορισμένες περιοχές στη Γη. Όταν ένα άτομο βρίσκεται μέσα σε μια ζώνη, η κατάσταση του θα πάρει το όνομα της ζώνης. Οι ζώνες μπορούν επίσης να χρησιμοποιηθούν ως έναυσμα ή συνθήκη μέσα σε αυτοματισμούς.",
+					"introduction": "Οι Ζώνες σας επιτρέπουν να καθορίσετε ορισμένες περιοχές στη Γη. Οταν ένα άτομο βρίσκεται μέσα σε μια ζώνη, η κατάσταση του θα πάρει το όνομα της ζώνης. Οι ζώνες μπορούν επίσης να χρησιμοποιηθούν ως έναυσμα ή συνθήκη μέσα σε αυτοματισμούς.",
 					"no_zones_created_yet": "Φαίνεται ότι δεν έχετε προσθέσει ακόμη ζώνες.",
 					"create_zone": "Προσθήκη ζώνης",
 					"add_zone": "Προσθήκη ζώνης",
@@ -4679,8 +4679,9 @@
 						"in_progress": "We're communicating with the device. This may take some time.",
 						"failed": "The command failed. Additional information may be available in the logs.",
 						"success": "Η συσκευή σας είναι έτοιμη να προστεθεί σε άλλη Matter πλατφόρμα",
-						"sharing_code": "Κώδικας κοινής πρόσβασης",
-						"copy_code": "Αντιγραφή κώδικα"
+						"scan_code": "Με την εφαρμογή τους, σαρώστε τον κωδικό QR ή πληκτρολογήστε τον παρακάτω κωδικό κοινής χρήσης για να ολοκληρώσετε τη ρύθμιση.",
+						"copy_code": "Αντιγραφή κώδικα",
+						"sharing_code": "Κώδικας κοινής πρόσβασης"
 					}
 				},
 				"tips": {
@@ -4884,18 +4885,18 @@
 						"never_triggered": "Δεν πυροδοτήθηκε ποτέ"
 					},
 					"todo-list": {
-						"unchecked_items": "Active",
-						"no_unchecked_items": "Δεν έχετε αντικείμενα υποχρεώσεων!",
-						"checked_items": "Επιλεγμένα στοιχεία",
-						"clear_items": "Εκκαθάριση επιλεγμένων στοιχείων",
-						"add_item": "Προσθήκη στοιχείου",
+						"unchecked_items": "Ενεργό",
+						"no_unchecked_items": "Δεν υπάρχουν στοιχεία στις λίστες υποχρεώσεων!",
+						"checked_items": "Ολοκληρωμένα",
+						"clear_items": "Αφαίρεση ολοκληρωμένων υποχρεώσεων",
+						"add_item": "Προσθήκη υποχρεώσεων",
 						"today": "Σήμερα",
-						"reorder_items": "Αναδιάταξη στοιχείων",
-						"exit_reorder_items": "Έξοδος από τη λειτουργία αναδιάταξης",
+						"reorder_items": "Αναδιάταξη υποχρεώσεων",
+						"exit_reorder_items": "Εξοδος από τη λειτουργία αναδιάταξης",
 						"drag_and_drop": "Μεταφορά και απόθεση",
 						"delete_item": "Διαγραφή στοιχείου",
-						"delete_confirm_title": "Εκκαθάριση των ελεγχόμενων στοιχείων;",
-						"delete_confirm_text": "{number} {number, plural,\n  one {item}\n  other {items}\n} will be permanently removed from the to-do list."
+						"delete_confirm_title": "Αφαίρεση ολοκληρωμένων στοιχείων;",
+						"delete_confirm_text": "{number} {number, plural,\n  one {υποχρέωση θα αφαιρεθεί}\n  other {υποχρεώσεις θα αφαιρεθούν}\n} οριστικά από τη λίστα."
 					},
 					"picture-elements": {
 						"hold": "Αναστολή:",
@@ -5493,8 +5494,8 @@
 							"description": "Η Κάρτα Αισθητήρα σας παρέχει μια γρήγορη επισκόπηση της κατάστασης των αισθητήρων σας με ένα προαιρετικό γράφημα για να απεικονίσετε την αλλαγή με την πάροδο του χρόνου."
 						},
 						"todo-list": {
-							"name": "Λίστα εργασιών",
-							"description": "Η κάρτα λίστας εργασιών σας επιτρέπει να προσθέτετε, να επεξεργάζεστε, να τσεκάρετε και να διαγράφετε στοιχεία από τη λίστα εργασιών σας.",
+							"name": "Λίστα υποχρεώσεων",
+							"description": "Η κάρτα Λίστα Υποχρεώσεων σας επιτρέπει να προσθέτετε, να επεξεργάζεστε, να τσεκάρετε και να διαγράφετε υποχρεώσεις από τη λίστα υποχρεώσεών σας.",
 							"integration_not_loaded": "Αυτή η κάρτα απαιτεί τη ρύθμιση της ενσωμάτωσης `todo`."
 						},
 						"thermostat": {
@@ -5980,12 +5981,12 @@
 				}
 			},
 			"todo": {
-				"assist": "Assist",
+				"assist": "Βοηθός",
 				"create_list": "Δημιουργία λίστας",
 				"delete_list": "Διαγραφή λίστας",
-				"add_item": "Προσθήκη αντικειμένου",
+				"add_item": "Προσθήκη υποχρέωσης",
 				"information": "Πληροφορίες",
-				"delete_confirm_title": "Αφαίρεση {name}?",
+				"delete_confirm_title": "Αφαίρεση του {name};",
 				"delete_confirm_text": "Είστε βέβαιοι ότι θέλετε να καταργήσετε αυτήν τη λίστα και όλα τα στοιχεία της;",
 				"restart_confirm": "Επανεκκινήστε το Home Assistant για να ολοκληρώσετε την κατάργηση αυτής της λίστας υποχρεώσεων"
 			},

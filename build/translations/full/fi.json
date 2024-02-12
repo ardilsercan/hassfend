@@ -4681,9 +4681,9 @@
 						"in_progress": "Kommunikoimme laitteen kanssa. Tämä voi kestää jonkin aikaa.",
 						"failed": "Komento epäonnistui. Lokitiedoissa voi olla lisätietoja.",
 						"success": "Laitteesi voidaan nyt lisätä toiseen Matter-ohjaimeen skannaamalla alla oleva QR-koodi tai kirjoittamalla jakokoodi sen ohjaimen sovellukseen, johon haluat lisätä laitteesi.",
-						"sharing_code": "Jakokoodi",
+						"scan_code": "Skannaa heidän sovelluksellaan QR-koodi tai syötä alla oleva jakokoodi, niin saat asetukset valmiiksi.",
 						"copy_code": "Kopioi koodi",
-						"scan_code": "Skannaa heidän sovelluksellaan QR-koodi tai syötä alla oleva jakokoodi, niin saat asetukset valmiiksi."
+						"sharing_code": "Jakokoodi"
 					}
 				},
 				"tips": {

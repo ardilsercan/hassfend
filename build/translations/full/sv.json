@@ -2408,7 +2408,7 @@
 							"state": "Läge"
 						},
 						"empty_header": "Start automating",
-						"empty_text_1": "Automations make NDX Tech automatically respond to things happening in and around your home.",
+						"empty_text_1": "Automations make NDX IoT Platform automatically respond to things happening in and around your home.",
 						"empty_text_2": "Automations connect triggers to actions in a ''when trigger then action'' fashion with optional conditions. For example: ''When the sun sets and if {user} is home, then turn on the lights''."
 					},
 					"dialog_new": {
@@ -2550,7 +2550,7 @@
 									"context_user_picked": "Användaravfyrning",
 									"context_user_pick": "Välj användare",
 									"description": {
-										"picker": "When an event is being received (event is an advanced concept in NDX Tech).",
+										"picker": "When an event is being received (event is an advanced concept in NDX IoT Platform).",
 										"full": "När {eventTypes} händelse avfyras"
 									}
 								},
@@ -2584,7 +2584,7 @@
 									"start": "Starta",
 									"shutdown": "Stoppa",
 									"description": {
-										"picker": "When NDX Tech starts up or shuts down.",
+										"picker": "When NDX IoT Platform starts up or shuts down.",
 										"started": "När Home Assistant startar",
 										"shutdown": "När Home Assistant stängs ner"
 									}
@@ -2701,7 +2701,7 @@
 									"webhook_id_helper": "Behandla detta ID som ett lösenord: håll det hemligt och gör det svårt att gissa.",
 									"webhook_settings": "Webhook inställningar",
 									"description": {
-										"picker": "When NDX Tech receives a web request to the webhook endpoint.",
+										"picker": "When NDX IoT Platform receives a web request to the webhook endpoint.",
 										"full": "När en Webhook-nyttolast har tagits emot"
 									}
 								},
@@ -2999,7 +2999,7 @@
 									"event": "Händelse",
 									"event_data": "Händelsedata",
 									"description": {
-										"picker": "Fire an event manually (event is an advanced concept in NDX Tech).",
+										"picker": "Fire an event manually (event is an advanced concept in NDX IoT Platform).",
 										"full": "Utlös händelse {name}",
 										"template": "baserat på en mall"
 									}
@@ -4678,6 +4678,8 @@
 						"in_progress": "Vi kommunicerar med enheten. Detta kan ta lite tid.",
 						"failed": "Kommandot misslyckades. Ytterligare information kan finnas tillgänglig i loggarna.",
 						"success": "Din enhet kan nu läggas till en annan Matter-kontroller, skanna QR-koden nedan eller skriv in delningskoden i appen för handkontrollen du vill lägga till din enhet till.",
+						"scan_code": "With their app, scan the QR code or enter the sharing code below to finish set up.",
+						"copy_code": "Copy code",
 						"sharing_code": "Dela kod"
 					}
 				},

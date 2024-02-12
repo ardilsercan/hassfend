@@ -4681,9 +4681,9 @@
 						"in_progress": "Kami sedang berkomunikasi dengan perangkat. Ini mungkin memerlukan waktu.",
 						"failed": "Perintah gagal. Informasi tambahan mungkin tersedia di log.",
 						"success": "Perangkat Anda siap ditambahkan ke platform Matter lainnya.",
-						"sharing_code": "Kode berbagi",
+						"scan_code": "Dengan aplikasi mereka, pindai kode QR atau masukkan kode berbagi di bawah ini untuk menyelesaikan pengaturan.",
 						"copy_code": "Salin kode",
-						"scan_code": "Dengan aplikasi mereka, pindai kode QR atau masukkan kode berbagi di bawah ini untuk menyelesaikan pengaturan."
+						"sharing_code": "Kode berbagi"
 					}
 				},
 				"tips": {

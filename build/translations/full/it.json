@@ -1775,7 +1775,7 @@
 						"update_area": "Aggiorna area",
 						"delete": "Elimina",
 						"name": "Nome",
-						"icon": "Icon",
+						"icon": "Icona",
 						"name_required": "Il nome è obbligatorio",
 						"area_id": "ID area",
 						"unknown_error": "Errore sconosciuto",
@@ -4643,45 +4643,47 @@
 					"device_actions": {
 						"reinterview_device": "Re-interview device",
 						"ping_device": "Ping device",
-						"open_commissioning_window": "Share device",
-						"manage_fabrics": "Manage fabrics",
-						"view_thread_network": "View Thread network"
+						"open_commissioning_window": "Condividi dispositivo",
+						"manage_fabrics": "Gestisci le infrastrutture",
+						"view_thread_network": "Visualizza la rete Thread"
 					},
 					"manage_fabrics": {
-						"title": "Connected fabrics",
-						"fabrics": "Manage the fabrics that have access to this device.",
-						"remove_fabric_confirm_header": "Remove {fabric} fabric from device",
-						"remove_fabric_confirm_text": "Are you sure you want to remove the {fabric} from the device? You will not be able to control/access the device from that ecosystem/fabric after this action!",
-						"remove_fabric_failed_header": "Remove {fabric} fabric failed",
-						"remove_fabric_failed_text": "The action did not succeed, check the logs for more information."
+						"title": "Infrastrutture connesse",
+						"fabrics": "Gestisci le infrastrutture che hanno accesso a questo dispositivo.",
+						"remove_fabric_confirm_header": "Rimuovi {fabric} dal dispositivo",
+						"remove_fabric_confirm_text": "Sei sicuro di voler rimuovere {fabric} dal dispositivo? Non sarai in grado di controllare/accedere al dispositivo da quell'ecosistema/infrastruttura dopo questa azione!",
+						"remove_fabric_failed_header": "Rimozione dell'infrastruttura {fabric} non riuscita",
+						"remove_fabric_failed_text": "L'azione non è riuscita, controllare i registri per ulteriori informazioni."
 					},
 					"reinterview_node": {
-						"title": "Re-interview a Matter device",
-						"introduction": "Perform a full re-interview of a Matter device. Use this feature only if your device has missing or incorrect functionality.",
-						"battery_device_warning": "You will need to wake battery powered devices before starting the re-interview. Refer to your device's manual for instructions on how to wake the device.",
-						"run_in_background": "You can close this dialog and the interview will continue in the background.",
-						"start_reinterview": "Start re-interview",
-						"in_progress": "The device is being interviewed. This may take some time.",
-						"interview_failed": "The device interview failed. Additional information may be available in the logs.",
-						"interview_complete": "Device interview complete."
+						"title": "Interrogare nuovamente un dispositivo Matter",
+						"introduction": "Esegui una nuova intervista completa di un dispositivo Matter. Utilizzare questa funzione solo se il dispositivo presenta funzionalità mancanti o errate.",
+						"battery_device_warning": "Dovrai riattivare i dispositivi alimentati a batteria prima di iniziare il nuovo colloquio. Fare riferimento al manuale del dispositivo per istruzioni su come riattivare il dispositivo.",
+						"run_in_background": "È possibile chiudere questa finestra di dialogo e il colloquio continuerà in background.",
+						"start_reinterview": "Inizia un nuovo colloquio",
+						"in_progress": "Il dispositivo è in fase di colloquio. Questa operazione potrebbe richiedere del tempo.",
+						"interview_failed": "Il colloquio con il dispositivo non è riuscito. Ulteriori informazioni possono essere disponibili nei registri.",
+						"interview_complete": "Interrogazione del dispositivo completata."
 					},
 					"ping_node": {
-						"title": "Ping a Matter device",
-						"introduction": "Perform a (server-side) ping on your Matter device on all its (known) IP-addresses.",
-						"battery_device_warning": "Note that especially for battery powered devices this can take a a while. You may need to up powered devices before starting the pinging to speed up the process. Refer to your device's manual for instructions on how to wake the device.",
-						"start_ping": "Start ping",
-						"in_progress": "The device is being pinged. This may take some time.",
-						"ping_failed": "The device ping failed. Additional information may be available in the logs.",
-						"ping_complete": "Ping device complete."
+						"title": "Ping di un dispositivo Matter",
+						"introduction": "Esegui un ping (lato server) sul tuo dispositivo Matter su tutti i suoi indirizzi IP (noti).",
+						"battery_device_warning": "Tieni presente che, soprattutto per i dispositivi alimentati a batteria, l'operazione può richiedere del tempo. Potrebbe essere necessario accendere i dispositivi prima di avviare il ping per accelerare il processo. Fare riferimento al manuale del dispositivo per istruzioni su come riattivare il dispositivo.",
+						"start_ping": "Avvia ping",
+						"in_progress": "È in corso il ping del dispositivo. L'operazione potrebbe richiedere del tempo.",
+						"ping_failed": "Il ping del dispositivo non è riuscito. Ulteriori informazioni potrebbero essere disponibili nei registri.",
+						"ping_complete": "Ping dispositivo completato."
 					},
 					"open_commissioning_window": {
-						"title": "Share device",
-						"introduction": "Enable commissioning mode on the device to pair it to another Matter controller.",
-						"start_commissioning": "Share device",
-						"in_progress": "We're communicating with the device. This may take some time.",
-						"failed": "The command failed. Additional information may be available in the logs.",
-						"success": "Your device can now be added to another Matter controller, scan the QR code below or enter the sharing code in the app of the controller you want to add your device to.",
-						"sharing_code": "Sharing code"
+						"title": "Condividi dispositivo",
+						"introduction": "Abilita la modalità di messa in servizio sul dispositivo per associarlo a un altro controller Matter.",
+						"start_commissioning": "Condividi dispositivo",
+						"in_progress": "Stiamo comunicando con il dispositivo. L'operazione potrebbe richiedere del tempo.",
+						"failed": "Il comando non è riuscito. Ulteriori informazioni potrebbero essere disponibili nei registri.",
+						"success": "Il tuo dispositivo è pronto per essere aggiunto a un'altra piattaforma Matter.",
+						"scan_code": "Con la loro app, scansiona il codice QR o inserisci il codice di condivisione di seguito per completare la configurazione.",
+						"copy_code": "Copia il codice",
+						"sharing_code": "Codice di condivisione"
 					}
 				},
 				"tips": {
@@ -4761,7 +4763,7 @@
 						"select_device": "Selezionare il nuovo disco dati",
 						"no_devices_title": "Nessuno spazio di archiviazione adatto trovato",
 						"no_devices_text": "Non è stato trovato alcun dispositivo esterno adatto. La capacità di archiviazione del disco dati esterno deve essere maggiore della capacità di archiviazione del disco esistente.",
-						"moving_desc": "Riavvio e spostamento del disco dati. Attendere con pazienza",
+						"moving_desc": "Riavvio e spostamento del disco dati. Si prega di avere pazienza.",
 						"moving": "Spostamento del disco dati",
 						"loading_devices": "Caricamento dispositivi",
 						"cancel": "Annulla",
@@ -6535,8 +6537,8 @@
 				"add_all": "Aggiungi tutte le entità",
 				"remove_all": "Rimuovi tutte le selezioni",
 				"download_data": "Scarica i dati",
-				"download_data_error": "Unable to download data",
-				"error_no_data": "You need to select data first."
+				"download_data_error": "Impossibile scaricare i dati",
+				"error_no_data": "È necessario prima selezionare i dati."
 			}
 		},
 		"tips": {

@@ -4681,9 +4681,9 @@
 						"in_progress": "Kommunikálunk az eszközzel. Ez eltarthat egy ideig.",
 						"failed": "A parancs nem sikerült. További információk érhetők el a naplókban.",
 						"success": "Az eszköz készen áll arra, hogy hozzáadja egy másik Matter platformhoz.",
-						"sharing_code": "Megosztási kód",
+						"scan_code": "Az alkalmazással olvassa be a QR-kódot, vagy írja be az alábbi megosztási kódot a beállítás befejezéséhez.",
 						"copy_code": "Kód másolása",
-						"scan_code": "Az alkalmazással olvassa be a QR-kódot, vagy írja be az alábbi megosztási kódot a beállítás befejezéséhez."
+						"sharing_code": "Megosztási kód"
 					}
 				},
 				"tips": {

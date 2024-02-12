@@ -560,7 +560,7 @@
 			"statistic-picker": {
 				"statistic": "Статистика",
 				"no_statistics": "Не разполагате със статистически данни",
-				"no_match": "No matching statistics found",
+				"no_match": "Няма намерени съвпадащи статистически данни",
 				"missing_entity": "Why is my entity not listed?",
 				"learn_more": "Научете повече за статистиката"
 			},
@@ -1975,8 +1975,8 @@
 						"add_water_source": "Добавяне на източник на вода",
 						"dialog": {
 							"header": "Конфигуриране на консумацията на вода",
-							"paragraph": "Water consumption is the volume of water that flows to your home.",
-							"entity_para": "Pick a sensor which measures water consumption in either of {unit}.",
+							"paragraph": "Консумацията на вода е количеството вода, който тече към вашия дом.",
+							"entity_para": "Изберете сензор, който измерва потреблението на вода в една от следните мерни единици {unit}.",
 							"cost_para": "Изберете как Home Assistant да следи разходите за консумирана вода.",
 							"no_cost": "Да не се следят разходите",
 							"cost_stat": "Използване на обект, проследяващ общите разходи",
@@ -4144,7 +4144,7 @@
 					"change_channel_multiprotocol_enabled_title": "Радиото на Thread има активирана мултипротоколна поддръжка",
 					"change_channel_multiprotocol_enabled_text": "За да промените канала, когато радиото на Thread има активирана мултипротоколна поддръжка, моля, използвайте менюто с хардуерни настройки.",
 					"change_channel_range": "Каналът трябва да е в диапазона от 11 до 26",
-					"change_channel_text": "Initiating a channel change for your NDX Tech Thread network should be performed with caution. Some Thread devices may not migrate to the new channel automatically and, if the new channel is congested, your Thread devices may become intermittently unavailable. Some devices may need to be manually re-joined to your Thread network before they show in NDX Tech again. This action cannot be reversed (without performing another channel change)."
+					"change_channel_text": "Initiating a channel change for your NDX IoT Platform Thread network should be performed with caution. Some Thread devices may not migrate to the new channel automatically and, if the new channel is congested, your Thread devices may become intermittently unavailable. Some devices may need to be manually re-joined to your Thread network before they show in NDX IoT Platform again. This action cannot be reversed (without performing another channel change)."
 				},
 				"zha": {
 					"common": {
@@ -4680,8 +4680,8 @@
 						"start_commissioning": "Share device",
 						"in_progress": "We're communicating with the device. This may take some time.",
 						"failed": "The command failed. Additional information may be available in the logs.",
-						"success": "Your device can now be added to another Matter controller, scan the QR code below or enter the sharing code in the app of the controller you want to add your device to.",
-						"sharing_code": "Sharing code",
+						"success": "Your device is ready to be added to another Matter platform.",
+						"scan_code": "With their app, scan the QR code or enter the sharing code below to finish set up.",
 						"copy_code": "Копиране на кода"
 					}
 				},
@@ -6627,7 +6627,7 @@
 					},
 					"hassio_api": {
 						"title": "Supervisor API access",
-						"description": "The add-on was given access to the Supervisor API, by request of the add-on author. By default, the add-on can access general version information of your system. When the add-on requests 'manager' or 'admin' level access to the API, it will gain access to control multiple parts of your NDX Tech system. This permission is indicated by this badge and will impact the security score of the add-on negatively."
+						"description": "The add-on was given access to the Supervisor API, by request of the add-on author. By default, the add-on can access general version information of your system. When the add-on requests 'manager' or 'admin' level access to the API, it will gain access to control multiple parts of your NDX IoT Platform system. This permission is indicated by this badge and will impact the security score of the add-on negatively."
 					},
 					"docker_api": {
 						"title": "Пълен достъп до Docker",

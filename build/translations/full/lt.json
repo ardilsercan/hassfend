@@ -4681,9 +4681,9 @@
 						"in_progress": "Mes bendraujame su įrenginiu. Tai gali užtrukti šiek tiek laiko.",
 						"failed": "Komanda nepavyko. Papildoma informacija gali būti pateikta žurnaluose.",
 						"success": "Jūsų įrenginys paruoštas pridėti prie kitos „Matter“ platformos.",
-						"sharing_code": "Bendrinimo kodas",
+						"scan_code": "Naudodami jų programą nuskaitykite QR kodą arba įveskite toliau pateiktą bendrinimo kodą, kad užbaigtumėte sąranką.",
 						"copy_code": "Nukopijuokite kodą",
-						"scan_code": "Naudodami jų programą nuskaitykite QR kodą arba įveskite toliau pateiktą bendrinimo kodą, kad užbaigtumėte sąranką."
+						"sharing_code": "Bendrinimo kodas"
 					}
 				},
 				"tips": {
